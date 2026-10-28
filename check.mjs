@@ -118,6 +118,25 @@ async function saveState(state) {
   await fs.writeFile(STATE_FILE, JSON.stringify(state, null, 2) + "\n");
 }
 
+// Once a day (after 08:00 London time) tells the admin(s) the bot is alive. If this message ever
+// stops arriving, the schedule has stopped. Admins come from TELEGRAM_ADMIN_IDS (a repo variable).
+async function heartbeat(state) {
+  const admins = (process.env.TELEGRAM_ADMIN_IDS || "").split(",").map((s) => s.trim()).filter(Boolean);
+  if (!process.env.TELEGRAM_BOT_TOKEN || !admins.length || DRY_RUN) return;
+  const parts = new Intl.DateTimeFormat("en-GB", {
+    timeZone: "Europe/London", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", hourCycle: "h23",
+  }).formatToParts(new Date());
+  const get = (t) => parts.find((p) => p.type === t).value;
+  const day = `${get("year")}-${get("month")}-${get("day")}`;
+  if (Number(get("hour")) < 8 || state.lastHeartbeat === day) return;
+  const subs = state.telegram?.subscribers?.length ?? 0;
+  const text =
+    `✅ Trackr bot is running.\n${Object.keys(state.open).length} programmes tracked as open, ${subs} subscriber(s).\n` +
+    `Last check: ${new Date().toISOString().slice(0, 16).replace("T", " ")} UTC.`;
+  const res = await Promise.allSettled(admins.map((id) => tg("sendMessage", { chat_id: id, text })));
+  if (res.some((r) => r.status === "fulfilled")) state.lastHeartbeat = day;
+}
+
 const state = await loadState();
 await syncTelegramSubscribers(state);
 await saveState(state); // keep the Telegram offset even if the site check fails below
@@ -155,4 +174,5 @@ if (state.initialised && newlyOpen.length) {
 }
 
 state.initialised = true;
+await heartbeat(state);
 await saveState(state);
