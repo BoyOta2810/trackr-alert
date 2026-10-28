@@ -1,46 +1,35 @@
-# Trackr → WhatsApp / Telegram alert
+# Trackr → Telegram alert
 
 Every 5 minutes, checks the Trackr UK Finance tracker (app.the-trackr.com/uk-finance)
-and messages you on **WhatsApp and/or Telegram** when a programme opens. Any number of people
-can receive the alerts.
+and sends a **Telegram** message when a programme opens.
 
-Runs free on GitHub Actions. State lives in `state/seen.json`, and the workflow commits it back
-to the repo after each run. No secrets are stored in the repo: phone numbers, API keys and bot
-tokens go in GitHub Actions secrets.
+The bot is **public**: anyone who opens it and presses **Start** gets the alerts, and `/stop`
+unsubscribes. Nobody has to look up chat IDs. Runs free on GitHub Actions.
 
-## Setup (about 10 minutes)
+## For users
+Open the bot in Telegram and press **Start**. You'll get a confirmation within about 5-15 minutes
+(the bot checks for new subscribers on each run), then a message whenever a new programme opens.
+Send `/stop` to unsubscribe.
 
-### 1. Fork or clone this repo
-Public repos get unlimited free Actions minutes. A private repo would use roughly 9,000 of its
-2,000 free minutes a month at this schedule, so keep it public.
+## Set up your own copy (about 5 minutes)
 
-### 2. Pick a channel (or both)
+### 1. Fork this repo
+Keep it **public**: public repos get unlimited free Actions minutes. A private repo would use
+roughly 9,000 of its 2,000 free minutes a month at this schedule.
 
-**Telegram (easiest, most reliable)**
-1. In Telegram, message **@BotFather** → `/newbot` → copy the bot **token**.
-2. Everyone who wants alerts opens the new bot and presses **Start**.
-3. Get each person's chat ID: message **@userinfobot** (it replies with your numeric ID), or open
-   `https://api.telegram.org/bot<TOKEN>/getUpdates` after pressing Start and read `chat.id`.
+### 2. Create the bot
+In Telegram, message **@BotFather** → `/newbot` → choose a name → copy the **token**.
 
-**WhatsApp (CallMeBot, free)**
-Each person does this for their own number:
-1. Save **+34 644 51 95 23** in your contacts (check
-   https://www.callmebot.com/blog/free-api-whatsapp-messages/ in case it has changed).
-2. Send it this WhatsApp message: `I allow callmebot to send me messages`
-3. It replies with your **apikey**.
-
-### 3. Add secrets
+### 3. Add the token as a secret
 Repo → Settings → Secrets and variables → Actions → **New repository secret**:
 
-| Kind     | Name                  | Value                                                                   |
-|----------|-----------------------|-------------------------------------------------------------------------|
-| Secret   | `TELEGRAM_BOT_TOKEN`  | token from @BotFather                                                   |
-| Secret   | `TELEGRAM_CHAT_IDS`   | comma-separated chat IDs, e.g. `111111111,222222222`                    |
-| Secret   | `WHATSAPP_RECIPIENTS` | comma-separated `number:apikey` pairs, e.g. `+447700900123:111111,+998901234567:222222` |
-| Variable | `TRACKR_TYPES`        | optional, see below                                                     |
+| Kind     | Name                 | Value                                              |
+|----------|----------------------|----------------------------------------------------|
+| Secret   | `TELEGRAM_BOT_TOKEN` | the token from @BotFather                          |
+| Secret   | `TELEGRAM_CHAT_IDS`  | optional: always-on extras, e.g. a channel or group ID |
+| Variable | `TRACKR_TYPES`       | optional, see below                                |
 
-You only need the Telegram secrets or the WhatsApp secret, not both. Numbers include the country
-code. (The older `CALLMEBOT_PHONE` / `CALLMEBOT_APIKEY` pair still works for one number.)
+Never commit the token. Anyone with it can control the bot.
 
 ### 4. Run it once
 Actions tab → **Trackr check** → **Run workflow**. The first run only records what's already
@@ -56,8 +45,14 @@ Example: `summer-internships,off-cycle-internships`
 
 The season defaults to `2027`; override it with the `TRACKR_SEASON` environment variable in the workflow.
 
+## Privacy and limits
+- Subscribers' Telegram **chat IDs** (numbers, no names or phone numbers) are stored in
+  `state/seen.json`, which is **public** in a public repo. Don't use this for anything sensitive.
+- The list is capped at 200 subscribers (`MAX_SUBSCRIBERS`). People who block the bot are removed
+  automatically.
+
 ## Notes
-- **Timing:** GitHub sometimes runs scheduled jobs 5–15 minutes late when it's busy. For exact
+- **Timing:** GitHub sometimes runs scheduled jobs 5-15 minutes late when it's busy. For exact
   5-minute timing, use a free cron-job.org job that calls GitHub's
   `workflow_dispatch` API every 5 minutes.
 - **Keeps itself alive:** GitHub pauses scheduled workflows in repos with no activity for 60 days.

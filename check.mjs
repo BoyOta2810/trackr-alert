@@ -1,4 +1,4 @@
-// Checks Trackr's UK Finance tracker and sends a WhatsApp and/or Telegram
+// Checks Trackr's UK Finance tracker and sends a Telegram
 // message when a programme opens. Loads the page in a real headless browser and reads the
 // programme list the page itself fetches.
 import { chromium } from "playwright";
@@ -32,63 +32,95 @@ function isOpen(p, now) {
   return !p.closingDate || new Date(p.closingDate) >= now;
 }
 
-// Recipients are read from environment variables (GitHub secrets), never from the repo.
-//   WHATSAPP_RECIPIENTS = "+447700900123:apikey1,+447700900456:apikey2"   (CallMeBot)
-//   TELEGRAM_BOT_TOKEN  = token from @BotFather
-//   TELEGRAM_CHAT_IDS   = "111111111,222222222"                           (everyone who pressed Start)
-// The older CALLMEBOT_PHONE / CALLMEBOT_APIKEY pair still works for a single WhatsApp number.
-function whatsappRecipients() {
-  const list = (process.env.WHATSAPP_RECIPIENTS || "")
-    .split(",")
-    .map((s) => s.trim())
-    .filter(Boolean)
-    .map((s) => {
-      const i = s.lastIndexOf(":");
-      return { phone: s.slice(0, i), apikey: s.slice(i + 1) };
-    });
-  const { CALLMEBOT_PHONE, CALLMEBOT_APIKEY } = process.env;
-  if (CALLMEBOT_PHONE && CALLMEBOT_APIKEY) list.push({ phone: CALLMEBOT_PHONE, apikey: CALLMEBOT_APIKEY });
-  return list;
-}
+// ---- Telegram ------------------------------------------------------------
+// The bot is public: anyone who opens it and presses Start is subscribed, /stop unsubscribes.
+// Subscribers are remembered in state/seen.json. TELEGRAM_CHAT_IDS (optional) are always-on extras,
+// e.g. a channel or group. Each 5-minute run reads new Start/Stop messages, so a new subscriber is
+// confirmed within about 5-15 minutes.
+const MAX_SUBSCRIBERS = Number(process.env.MAX_SUBSCRIBERS || 200);
 
-function telegramRecipients() {
-  const token = process.env.TELEGRAM_BOT_TOKEN;
-  const ids = (process.env.TELEGRAM_CHAT_IDS || "").split(",").map((s) => s.trim()).filter(Boolean);
-  return token ? ids.map((chatId) => ({ token, chatId })) : [];
-}
-
-async function sendWhatsApp({ phone, apikey }, text) {
-  const url = "https://api.callmebot.com/whatsapp.php?" + new URLSearchParams({ phone, text, apikey });
-  const r = await fetch(url);
-  if (!r.ok) throw new Error(`CallMeBot ${r.status}: ${await r.text()}`);
-}
-
-async function sendTelegram({ token, chatId }, text) {
-  const r = await fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
+async function tg(method, body) {
+  const r = await fetch(`https://api.telegram.org/bot${process.env.TELEGRAM_BOT_TOKEN}/${method}`, {
     method: "POST",
     headers: { "content-type": "application/json" },
-    body: JSON.stringify({ chat_id: chatId, text, disable_web_page_preview: true }),
+    body: JSON.stringify(body),
   });
-  if (!r.ok) throw new Error(`Telegram ${r.status}: ${await r.text()}`);
+  const j = await r.json().catch(() => ({}));
+  if (!r.ok || j.ok === false) {
+    const err = new Error(`Telegram ${method} ${r.status}: ${j.description ?? ""}`);
+    err.status = r.status;
+    throw err;
+  }
+  return j.result;
+}
+
+async function syncTelegramSubscribers(state) {
+  if (!process.env.TELEGRAM_BOT_TOKEN || DRY_RUN) return;
+  state.telegram ??= { offset: 0, subscribers: [] };
+  const subs = new Set(state.telegram.subscribers);
+  const updates = await tg("getUpdates", { offset: state.telegram.offset, timeout: 0, allowed_updates: ["message"] });
+  for (const u of updates) {
+    state.telegram.offset = u.update_id + 1;
+    const m = u.message;
+    if (!m?.text || m.chat?.type !== "private") continue;
+    const cmd = m.text.trim().split(/[\s@]/)[0].toLowerCase();
+    const id = String(m.chat.id);
+    let reply;
+    if (cmd === "/start") {
+      if (!subs.has(id) && subs.size >= MAX_SUBSCRIBERS) reply = "Sorry, this bot is full right now.";
+      else {
+        subs.add(id);
+        reply = "✅ You're subscribed. I'll message you when a new UK Finance programme opens on Trackr. Send /stop to unsubscribe.";
+      }
+    } else if (cmd === "/stop") {
+      subs.delete(id);
+      reply = "You're unsubscribed. Send /start any time to subscribe again.";
+    } else continue;
+    await tg("sendMessage", { chat_id: m.chat.id, text: reply }).catch(() => {});
+  }
+  state.telegram.subscribers = [...subs];
+}
+
+function telegramRecipients(state) {
+  if (!process.env.TELEGRAM_BOT_TOKEN) return [];
+  const fixed = (process.env.TELEGRAM_CHAT_IDS || "").split(",").map((s) => s.trim()).filter(Boolean);
+  const subs = state.telegram?.subscribers ?? [];
+  return [...new Set([...fixed, ...subs])].map((chatId) => ({ chatId, subscriber: subs.includes(chatId) && !fixed.includes(chatId) }));
 }
 
 // Sends to every configured recipient. One failing recipient doesn't stop the others.
 // Throws only if nothing was delivered, so the programmes stay "unseen" and are retried next run.
-async function notify(text) {
+async function notify(text, state) {
   if (DRY_RUN) return console.log("[dry run] would send:\n" + text);
   const jobs = [
-    ...whatsappRecipients().map((r) => ({ name: "whatsapp " + r.phone.slice(0, 4) + "…", run: () => sendWhatsApp(r, text) })),
-    ...telegramRecipients().map((r) => ({ name: "telegram " + r.chatId, run: () => sendTelegram(r, text) })),
+    ...telegramRecipients(state).map((r) => ({
+      name: "telegram " + r.chatId,
+      run: () => tg("sendMessage", { chat_id: r.chatId, text, disable_web_page_preview: true }),
+      subscriber: r.subscriber,
+      chatId: r.chatId,
+    })),
   ];
-  if (!jobs.length) throw new Error("No recipients configured (see README)");
+  if (!jobs.length) return console.warn("No recipients yet: nobody has pressed Start on the bot.");
   const results = await Promise.allSettled(jobs.map((j) => j.run()));
   results.forEach((res, i) => {
-    if (res.status === "rejected") console.error(`failed -> ${jobs[i].name}: ${res.reason.message}`);
+    if (res.status !== "rejected") return;
+    console.error(`failed -> ${jobs[i].name}: ${res.reason.message}`);
+    // Someone who blocked the bot or deleted the chat is dropped from the list.
+    if (jobs[i].subscriber && [400, 403].includes(res.reason.status)) {
+      state.telegram.subscribers = state.telegram.subscribers.filter((id) => id !== jobs[i].chatId);
+    }
   });
   if (results.every((r) => r.status === "rejected")) throw new Error("Every notification failed");
 }
 
+async function saveState(state) {
+  await fs.mkdir(new URL("./state/", import.meta.url), { recursive: true });
+  await fs.writeFile(STATE_FILE, JSON.stringify(state, null, 2) + "\n");
+}
+
 const state = await loadState();
+await syncTelegramSubscribers(state);
+await saveState(state); // keep the Telegram offset even if the site check fails below
 const now = new Date();
 const browser = await chromium.launch();
 const page = await browser.newPage();
@@ -110,7 +142,7 @@ console.log(`${newlyOpen.length} newly open programme(s)`);
 
 // First run only records what's already open, so you don't get 100 messages.
 if (state.initialised && newlyOpen.length) {
-  // CallMeBot messages are best kept short, so send in chunks.
+  // Keep messages short: send in chunks of 5.
   for (let i = 0; i < newlyOpen.length; i += 5) {
     const lines = newlyOpen.slice(i, i + 5).map(
       (p) =>
@@ -118,10 +150,9 @@ if (state.initialised && newlyOpen.length) {
         (p.closingDate ? `Closes ${p.closingDate.slice(0, 10)}\n` : "") +
         (p.url ?? `https://app.the-trackr.com/uk-finance/${p.type}`),
     );
-    await notify(`New on Trackr UK Finance:\n\n${lines.join("\n\n")}`);
+    await notify(`New on Trackr UK Finance:\n\n${lines.join("\n\n")}`, state);
   }
 }
 
 state.initialised = true;
-await fs.mkdir(new URL("./state/", import.meta.url), { recursive: true });
-await fs.writeFile(STATE_FILE, JSON.stringify(state, null, 2) + "\n");
+await saveState(state);
