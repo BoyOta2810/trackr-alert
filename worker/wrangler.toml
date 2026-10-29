@@ -1,0 +1,12 @@
+name = "trackr-trigger"
+main = "index.js"
+compatibility_date = "2026-10-01"
+
+[vars]
+REPO = "BoyOta2810/trackr-alert"
+
+[triggers]
+crons = ["*/5 * * * *"]
+
+[observability]
+enabled = true

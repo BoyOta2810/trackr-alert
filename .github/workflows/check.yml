@@ -1,38 +1,91 @@
 name: Trackr check
 
+# The main trigger is a Cloudflare Worker (worker/) that calls workflow_dispatch every 5 minutes,
+# because GitHub's own schedule can lag by hours. The schedule below is only a fallback; a
+# scheduled run skips itself if a check already succeeded in the last 4 minutes.
 on:
   schedule:
-    - cron: "1-59/5 * * * *"
+    - cron: "2-59/15 * * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
+  actions: read # run count in the heartbeat, skip check for the fallback schedule
 
+# One run at a time; a run triggered while another is going waits, so state/seen.json is never
+# written by two runs at once.
 concurrency:
   group: trackr-check
   cancel-in-progress: false
 
 jobs:
   check:
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    env:
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_ADMIN_IDS: ${{ vars.TELEGRAM_ADMIN_IDS }}
+      GITHUB_TOKEN: ${{ github.token }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Skip if a check just ran
+        id: gate
+        if: github.event_name == 'schedule'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          last=$(gh api "repos/$GITHUB_REPOSITORY/actions/workflows/check.yml/runs?status=success&per_page=1" -q '.workflow_runs[0].updated_at // empty' || true)
+          if [ -n "$last" ] && [ $(( $(date +%s) - $(date -d "$last" +%s) )) -lt 240 ]; then
+            echo "Last successful check at $last, skipping."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        if: steps.gate.outputs.skip != 'true'
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        if: steps.gate.outputs.skip != 'true'
         with:
-          node-version: 20
-      - run: npm install
-      - run: npx playwright install --with-deps chromium
-      - run: npm run check
+          node-version: 24
+          cache: npm
+      - if: steps.gate.outputs.skip != 'true'
+        run: npm ci --no-audit --no-fund
+
+      - name: Cache Playwright browser
+        id: pw-cache
+        if: steps.gate.outputs.skip != 'true'
+        uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: ~/.cache/ms-playwright
+          key: pw-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+      # The runner image already has Chromium's system libraries, so a cache hit needs no install.
+      - if: steps.gate.outputs.skip != 'true' && steps.pw-cache.outputs.cache-hit != 'true'
+        run: npx playwright install --with-deps --only-shell chromium
+
+      - name: Check Trackr
+        if: steps.gate.outputs.skip != 'true'
+        timeout-minutes: 4
+        run: node check.mjs
         env:
           TRACKR_TYPES: ${{ vars.TRACKR_TYPES || 'summer-internships' }}
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_IDS: ${{ secrets.TELEGRAM_CHAT_IDS }}
-          TELEGRAM_ADMIN_IDS: ${{ vars.TELEGRAM_ADMIN_IDS }}
+
+      # Covers failures check.mjs can't report itself (npm ci, browser install, timeouts).
+      # Rate-limited through the state file, so a run that already alerted won't alert again.
+      - name: Alert admin on failure
+        if: failure() && steps.gate.outputs.skip != 'true'
+        run: node check.mjs --failed
+
       - name: Save state
-        if: always()
+        if: always() && steps.gate.outputs.skip != 'true'
         run: |
           git config user.name "trackr-bot"
           git config user.email "trackr-bot@users.noreply.github.com"
           git add state/seen.json
-          git diff --cached --quiet || (git commit -m "Update seen programmes" && git push)
+          git diff --cached --quiet && exit 0
+          git commit -m "Update seen programmes"
+          # Only this workflow writes state and runs never overlap, but rebase in case someone
+          # pushed code meanwhile.
+          for i in 1 2 3; do
+            git pull --rebase origin "$GITHUB_REF_NAME" && git push origin "HEAD:$GITHUB_REF_NAME" && exit 0
+            sleep $((i * 5))
+          done
+          exit 1
