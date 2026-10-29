@@ -183,10 +183,5 @@
     "offset": 909628732,
     "sealed": "9x6YIqRsOpVR5dCDqQRwLtipsa6/OCqEhwS89lboLf7EJlyZlJDbQqJg"
   },
-  "lastHeartbeat": "2026-10-29",
-  "failure": {
-    "since": "2026-10-29T15:16:48.783Z",
-    "lastAlert": 1793287008783,
-    "reason": "page.waitForResponse: Timeout 45000ms exceeded while waiting for event \"response\""
-  }
+  "lastHeartbeat": "2026-10-29"
 }
