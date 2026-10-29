@@ -10,3 +10,4 @@ crons = ["*/5 * * * *"]
 
 [observability]
 enabled = true
+workers_dev = false
