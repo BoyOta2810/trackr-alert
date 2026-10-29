@@ -65,7 +65,7 @@ jobs:
         timeout-minutes: 4
         run: node check.mjs
         env:
-          TRACKR_TYPES: summer-internships # TEMP: revert once the failure-test TRACKR_TYPES variable is deleted
+          TRACKR_TYPES: ${{ vars.TRACKR_TYPES || 'summer-internships' }}
           TELEGRAM_CHAT_IDS: ${{ secrets.TELEGRAM_CHAT_IDS }}
 
       # Covers failures check.mjs can't report itself (npm ci, browser install, timeouts).
