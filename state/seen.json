@@ -181,9 +181,7 @@
   },
   "telegram": {
     "offset": 909628732,
-    "subscribers": [
-      "8061643794"
-    ]
+    "sealed": "9x6YIqRsOpVR5dCDqQRwLtipsa6/OCqEhwS89lboLf7EJlyZlJDbQqJg"
   },
   "lastHeartbeat": "2026-10-29"
 }
