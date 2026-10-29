@@ -1,6 +1,7 @@
 name = "trackr-trigger"
 main = "index.js"
 compatibility_date = "2026-10-01"
+workers_dev = false
 
 [vars]
 REPO = "BoyOta2810/trackr-alert"
@@ -10,4 +11,3 @@ crons = ["*/5 * * * *"]
 
 [observability]
 enabled = true
-workers_dev = false
