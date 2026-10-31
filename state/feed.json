@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-10-31T19:10:47.886Z",
+  "updated_at": "2026-10-31T19:15:48.691Z",
   "items": [
+    {
+      "id": "ofmie1scpz",
+      "company": "Textron",
+      "name": "Design Engineer Graduate",
+      "tracker": "uk-engineering",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://careers.textron.com/ipswich-gbr/design-engineer-graduate/FFB7B2015E8749049D3AB0B4DAC723C4/job/?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
+      "opening_date": "2026-10-30T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-10-31T19:15:48.691Z"
+    },
+    {
+      "id": "4l06egnb0n",
+      "company": "Stemtech",
+      "name": "Associate Validation Engineer – High-Speed Validation & Signal Integrity",
+      "tracker": "uk-engineering",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://semtech.wd1.myworkdayjobs.com/en-US/SemtechCareers/job/GBR---Bristol/Associate-Validation-Engineer_REQ3508?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
+      "opening_date": "2026-10-28T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-10-31T19:15:48.691Z"
+    },
     {
       "id": "tsap7lk8c4",
       "company": "SAAB",
