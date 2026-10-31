@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-10-31T19:05:44.761Z",
+  "updated_at": "2026-10-31T19:10:47.886Z",
   "items": [
+    {
+      "id": "tsap7lk8c4",
+      "company": "SAAB",
+      "name": "",
+      "tracker": "uk-engineering",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://saabgroup.wd116.myworkdayjobs.com/en-GB/Saab_careers/?q=graduate&locationCountry=29247e57dbaf46fb855b224e03170bc7&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
+      "opening_date": "2026-10-13T00:00:00.000Z",
+      "closing_date": "2026-11-30T00:00:00.000Z",
+      "opened_at": "2026-10-31T19:10:47.886Z"
+    },
+    {
+      "id": "0e43ewem08",
+      "company": "Octopus Energy",
+      "name": "Graduate Hardware Engineer 2027",
+      "tracker": "uk-engineering",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": null,
+      "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
+      "opening_date": "2026-10-20T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-10-31T19:10:47.886Z"
+    },
     {
       "id": "bj8tmx4f8p",
       "company": "NCR Atleos",
