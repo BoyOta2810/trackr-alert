@@ -23,6 +23,10 @@ opens. Send `/stop` to unsubscribe.
 - **Delivery:** a programme only counts as seen once its message reached at least one person.
   If nobody got it, it's retried on the next run. Telegram rate limits (429) are retried; people
   who block the bot are removed.
+- **Feed:** every alerted programme is also added to `state/feed.json`, newest first, at most 300
+  entries: id, company, name, type, season, url, trackr_url, opening/closing date, opened_at. It
+  holds nothing the alerts don't already say, and no subscriber data. JobPilot reads it from
+  `raw.githubusercontent.com` to draft applications automatically.
 
 ## Admin messages (`TELEGRAM_ADMIN_IDS`)
 - **Daily heartbeat** after 08:00 London time: programmes seen, subscriber count, and how many runs

@@ -10,6 +10,8 @@ import crypto from "node:crypto";
 const TYPES = (process.env.TRACKR_TYPES || "summer-internships").split(",").map((s) => s.trim());
 const SEASON = process.env.TRACKR_SEASON || "2027";
 const STATE_FILE = new URL("./state/seen.json", import.meta.url);
+const FEED_FILE = new URL("./state/feed.json", import.meta.url);
+const FEED_MAX = 300;
 const DRY_RUN = process.env.DRY_RUN === "1";
 const TOKEN = process.env.TELEGRAM_BOT_TOKEN;
 const ADMINS = (process.env.TELEGRAM_ADMIN_IDS || "").split(",").map((s) => s.trim()).filter(Boolean);
@@ -63,6 +65,35 @@ async function saveState(state) {
   } else if (subscribers) tgState.subscribers = subscribers;
   await fs.mkdir(new URL("./state/", import.meta.url), { recursive: true });
   await fs.writeFile(STATE_FILE, JSON.stringify({ ...state, telegram: tgState }, null, 2) + "\n");
+}
+
+// state/feed.json: the newest opened programmes, newest first, for apps that act on them (JobPilot
+// drafts applications from it). It holds only what the public alerts already say; no subscriber data.
+async function appendFeed(programmes, at) {
+  if (DRY_RUN || !programmes.length) return;
+  let feed = { items: [] };
+  try {
+    feed = JSON.parse(await fs.readFile(FEED_FILE, "utf8"));
+  } catch (e) {
+    if (e.code !== "ENOENT") throw e;
+  }
+  const known = new Set(feed.items.map((i) => i.id));
+  const fresh = programmes
+    .filter((p) => !known.has(p.id))
+    .map((p) => ({
+      id: p.id,
+      company: p.company?.name ?? p.companyId ?? "",
+      name: p.name,
+      type: p.type,
+      season: p.season ?? SEASON,
+      url: p.url ?? null,
+      trackr_url: `https://app.the-trackr.com/uk-finance/${p.type}`,
+      opening_date: p.openingDate ?? null,
+      closing_date: p.closingDate ?? null,
+      opened_at: at,
+    }));
+  const items = [...fresh.reverse(), ...feed.items].slice(0, FEED_MAX);
+  await fs.writeFile(FEED_FILE, JSON.stringify({ updated_at: at, items }, null, 2) + "\n");
 }
 
 function subscribersOrThrow(state) {
@@ -275,6 +306,7 @@ async function check(state) {
           (p.url ?? `https://app.the-trackr.com/uk-finance/${p.type}`),
       );
       await notify(`New on Trackr UK Finance:\n\n${lines.join("\n\n")}`, state);
+      await appendFeed(chunk, now.toISOString());
     }
     for (const p of chunk) state.open[p.id] = now.toISOString();
     await saveState(state);

@@ -79,7 +79,7 @@ jobs:
         run: |
           git config user.name "trackr-bot"
           git config user.email "trackr-bot@users.noreply.github.com"
-          git add state/seen.json
+          git add state/seen.json state/feed.json 2>/dev/null || git add state/seen.json
           git diff --cached --quiet && exit 0
           git commit -m "Update seen programmes"
           # Only this workflow writes state and runs never overlap, but rebase in case someone

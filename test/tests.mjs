@@ -48,7 +48,7 @@ function newDir(state) {
   const d = fs.mkdtempSync(path.join(os.tmpdir(), "trk-"));
   fs.copyFileSync(SRC, path.join(d, "check.mjs"));
   fs.copyFileSync(new URL("./preload.mjs", import.meta.url), path.join(d, "preload.mjs"));
-  fs.symlinkSync(path.join(REPO, "node_modules"), path.join(d, "node_modules"));
+  fs.symlinkSync(path.join(REPO, "node_modules"), path.join(d, "node_modules"), "junction"); // junction: no admin rights needed on Windows
   fs.mkdirSync(path.join(d, "state"));
   if (state) fs.writeFileSync(path.join(d, "state/seen.json"), JSON.stringify(state));
   return d;
@@ -238,6 +238,28 @@ await test("changed bot token: run fails and alerts, sealed list kept", async ()
   const r = await run(d, { trackrBody: trackr(prog("a"), prog("n")), env: { ...EARLY, TELEGRAM_BOT_TOKEN: "456:OTHER" } });
   assert(r.code !== 0 && r.tg.delivered.some((m) => m.id === "999" && /decrypt/.test(m.text)), "no alert");
   assert(readState(d).telegram.sealed === sealed && !readState(d).open.n, "state changed");
+});
+
+const readFeed = (d) => (fs.existsSync(path.join(d, "state/feed.json")) ? JSON.parse(fs.readFileSync(path.join(d, "state/feed.json"), "utf8")) : null);
+
+await test("feed: first run adds nothing; alerted programmes are added newest first, once", async () => {
+  const d = newDir();
+  await run(d, { trackrBody: trackr(prog("a")), env: EARLY });
+  assert(readFeed(d) === null, "first run wrote a feed");
+  fs.writeFileSync(path.join(d, "state/seen.json"), JSON.stringify({ ...readState(d), telegram: { offset: 0, subscribers: ["111"] } }));
+  await run(d, { trackrBody: trackr(prog("a"), prog("n")), env: EARLY });
+  await run(d, { trackrBody: trackr(prog("a"), prog("n"), prog("m")), env: EARLY });
+  const f = readFeed(d);
+  assert(f && f.items.map((i) => i.id).join() === "m,n", "feed " + JSON.stringify(f?.items?.map((i) => i.id)));
+  const n = f.items[1];
+  assert(n.company === "Co n" && n.name === "Prog n" && n.url === "https://x/n" && n.type === "summer-internships" && n.opened_at, "item " + JSON.stringify(n));
+  assert(!JSON.stringify(f).includes("111"), "subscriber id leaked into the feed");
+});
+
+await test("feed: nothing added when no alert was delivered", async () => {
+  const d = newDir(base(["111"]));
+  await run(d, { trackrBody: trackr(prog("a"), prog("n")), env: EARLY, cfg: { fail: { 111: 500 } } });
+  assert(readFeed(d) === null, "feed written although nobody got the alert");
 });
 
 server.close();
