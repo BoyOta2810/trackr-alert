@@ -60,7 +60,7 @@ function run(d, { trackrBody, env = {}, args = [], cfg = {} } = {}) {
   return new Promise((resolve) => {
     const p = spawn(process.execPath, ["--import", "./preload.mjs", "check.mjs", ...args], {
       cwd: d,
-      env: { PATH: process.env.PATH, HOME: process.env.HOME, MOCK_TG, MOCK_TRACKR: trackrBody, TELEGRAM_BOT_TOKEN: TOKEN, TELEGRAM_ADMIN_IDS: "999", ...env },
+      env: { PATH: process.env.PATH, HOME: process.env.HOME, MOCK_TG, MOCK_TRACKR: trackrBody, TELEGRAM_BOT_TOKEN: TOKEN, TELEGRAM_ADMIN_IDS: "999", TRACKR_TRACKERS: "uk-finance", ...env },
     });
     let out = "";
     p.stdout.on("data", (c) => (out += c));
@@ -114,10 +114,10 @@ await test("/stop unsubscribes", async () => {
   assert(r.tg.delivered.some((m) => m.id === "222"), "222 not alerted");
 });
 
-await test("200-subscriber cap", async () => {
+await test("subscriber cap (MAX_SUBSCRIBERS)", async () => {
   const subs = Array.from({ length: 200 }, (_, i) => String(1000 + i));
   const d = newDir(base(subs));
-  const r = await run(d, { trackrBody: trackr(prog("a")), env: EARLY, cfg: { updates: [msg(1, 777, "/start"), msg(2, 1000, "/start")] } });
+  const r = await run(d, { trackrBody: trackr(prog("a")), env: { ...EARLY, MAX_SUBSCRIBERS: "200" }, cfg: { updates: [msg(1, 777, "/start"), msg(2, 1000, "/start")] } });
   assert(r.tg.delivered.some((m) => m.id === "777" && /full/.test(m.text)), "777 not told full");
   assert(r.tg.delivered.some((m) => m.id === "1000" && /subscribed/.test(m.text)), "existing sub not re-confirmed");
   const r2 = await run(d, { trackrBody: trackr(prog("a"), prog("n")), env: EARLY });
@@ -162,10 +162,14 @@ await test("nothing delivered => programme NOT marked seen", async () => {
   assert(r.code !== 0, "exit 0");
 });
 
-await test("no recipients => programme NOT marked seen", async () => {
+await test("nobody follows the tracker => programme recorded and fed, no alert", async () => {
   const d = newDir(base([]));
-  await run(d, { trackrBody: trackr(prog("a"), prog("n")), env: EARLY });
-  assert(!readState(d).open.n, "marked seen with no recipients");
+  const r = await run(d, { trackrBody: trackr(prog("a"), prog("n")), env: EARLY });
+  assert(r.code === 0, "exit " + r.code + r.out);
+  assert(readState(d).open.n, "not marked seen");
+  assert(!r.tg.delivered.some((m) => /Prog n/.test(m.text)), "alert sent to nobody?");
+  const feed = JSON.parse(fs.readFileSync(path.join(d, "state/feed.json"), "utf8"));
+  assert(feed.items.some((i) => i.id === "n"), "not in feed");
 });
 
 await test("heartbeat: not before 08:00 London, once per day after", async () => {
@@ -260,6 +264,36 @@ await test("feed: nothing added when no alert was delivered", async () => {
   const d = newDir(base(["111"]));
   await run(d, { trackrBody: trackr(prog("a"), prog("n")), env: EARLY, cfg: { fail: { 111: 500 } } });
   assert(readFeed(d) === null, "feed written although nobody got the alert");
+});
+
+await test("trackers: each subscriber gets only the trackers they follow; new tabs start silently", async () => {
+  const d = newDir(base(["111", "222"]));
+  const env = { ...EARLY, TRACKR_TRACKERS: "uk-finance,uk-law" };
+  const byType = (m) => JSON.stringify(Object.fromEntries(Object.entries(m).map(([t, ps]) => [t, trackr(...ps)])));
+  const tc = (id) => prog(id, true, { type: "training-contracts", company: { name: "Law " + id } });
+  // First run: 222 follows UK Law too; the UK Law tabs are new, so what is open there is recorded silently.
+  const r1 = await run(d, { trackrBody: trackr(prog("a")), env: { ...env, MOCK_TRACKR_BY_TYPE: byType({ "training-contracts": [tc("old")] }) },
+    cfg: { updates: [msg(1, 222, "/uk_law")] } });
+  assert(r1.code === 0, "exit " + r1.code + r1.out);
+  assert(r1.tg.delivered.some((m) => m.id === "222" && /✅ UK Law/.test(m.text)), "no tracker menu reply");
+  assert(!r1.tg.delivered.some((m) => /Law old/.test(m.text)), "new tab was not silent");
+  const r2 = await run(d, { trackrBody: trackr(prog("a"), prog("F")), env: { ...env, MOCK_TRACKR_BY_TYPE: byType({ "training-contracts": [tc("old"), tc("L")] }) } });
+  const got = (id, re) => r2.tg.delivered.some((m) => m.id === id && re.test(m.text));
+  assert(got("111", /Prog F/) && got("222", /Prog F/), "UK Finance alert missing");
+  assert(got("222", /Law L[\s\S]*UK Law · training contracts/), "UK Law alert missing for 222");
+  assert(!got("111", /Law L/), "111 got UK Law although they don't follow it");
+  const feed = JSON.parse(fs.readFileSync(path.join(d, "state/feed.json"), "utf8"));
+  const L = feed.items.find((i) => i.id === "L");
+  assert(L && L.tracker === "uk-law" && L.trackr_url.endsWith("/uk-law/training-contracts"), "feed item " + JSON.stringify(L));
+});
+
+await test("/all and /trackers; /stop removes every tracker", async () => {
+  const d = newDir(base([]));
+  const r = await run(d, { trackrBody: trackr(prog("a")), env: EARLY, cfg: { updates: [msg(1, 333, "/all"), msg(2, 444, "/trackers"), msg(3, 444, "/stop")] } });
+  assert(r.tg.delivered.some((m) => m.id === "333" && /✅ Hong Kong Finance/.test(m.text)), "/all");
+  assert(r.tg.delivered.some((m) => m.id === "444" && /✅ UK Finance[\s\S]*▫️ UK Law/.test(m.text)), "/trackers");
+  const r2 = await run(d, { trackrBody: trackr(prog("a"), prog("n")), env: EARLY });
+  assert(r2.tg.delivered.some((m) => m.id === "333") && !r2.tg.delivered.some((m) => m.id === "444"), "after /stop");
 });
 
 server.close();

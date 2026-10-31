@@ -21,7 +21,7 @@ concurrency:
 jobs:
   check:
     runs-on: ubuntu-24.04
-    timeout-minutes: 10
+    timeout-minutes: 15
     env:
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_ADMIN_IDS: ${{ vars.TELEGRAM_ADMIN_IDS }}
@@ -62,10 +62,11 @@ jobs:
 
       - name: Check Trackr
         if: steps.gate.outputs.skip != 'true'
-        timeout-minutes: 4
+        timeout-minutes: 8
         run: node check.mjs
         env:
-          TRACKR_TYPES: ${{ vars.TRACKR_TYPES || 'summer-internships' }}
+          TRACKR_TRACKERS: ${{ vars.TRACKR_TRACKERS }}
+          TRACKR_TYPES: ${{ vars.TRACKR_TYPES || 'summer-internships' }} # only to migrate old state
           TELEGRAM_CHAT_IDS: ${{ secrets.TELEGRAM_CHAT_IDS }}
 
       # Covers failures check.mjs can't report itself (npm ci, browser install, timeouts).

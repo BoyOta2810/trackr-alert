@@ -1,14 +1,39 @@
-// Checks Trackr's UK Finance tracker and sends a Telegram
-// message when a programme opens. Loads the page in a real headless browser and reads the
-// programme list the page itself fetches.
+// Checks every Trackr tracker (UK Finance, UK Tech, UK Law, US Finance, ...) and sends a Telegram
+// message when a programme opens, to the subscribers who follow that tracker. Loads each tab in a
+// real headless browser and reads the programme list the page itself fetches. Every newly opened
+// programme also goes into state/feed.json for JobPilot.
 //
 // `node check.mjs --failed` only sends the (rate-limited) failure alert; the workflow runs it when
 // an earlier step failed, so it must not need Playwright.
 import fs from "node:fs/promises";
 import crypto from "node:crypto";
 
-const TYPES = (process.env.TRACKR_TYPES || "summer-internships").split(",").map((s) => s.trim());
-const SEASON = process.env.TRACKR_SEASON || "2027";
+// Every tracker and its tabs, as the page paths Trackr itself uses. Events tabs are left out: they
+// are not applications. A tab added here later is recorded silently on its first check.
+const TRACKERS = {
+  "uk-finance": { name: "UK Finance", pages: ["summer-internships", "spring-weeks", "off-cycle-internships",
+    "industrial-placements", "graduate-programmes", "pre-university"].map((t) => "uk-finance/" + t) },
+  "uk-tech": { name: "UK Tech", pages: ["summer-internships", "industrial-placements", "graduate-programmes",
+    "spring-weeks", "pre-university"].map((t) => "uk-tech/" + t) },
+  "uk-law": { name: "UK Law", pages: ["training-contracts", "vacation-schemes", "non-law-internships",
+    "first-year-schemes"].map((t) => "uk-law/" + t) },
+  "uk-engineering": { name: "UK Engineering", pages: ["graduate-programmes", "industrial-placements",
+    "summer-internships", "apprenticeships"].map((t) => "uk-engineering/" + t) },
+  "us-finance": { name: "US Finance", pages: ["us-finance-2027/summer-internships", "us-finance-2027/full-time-programmes",
+    "us-finance-2028/summer-internships", "us-finance-2028/full-time-programmes", "us-finance-2028/insight-programs"] },
+  "us-tech": { name: "US Tech", pages: ["summer-internships", "full-time-programmes", "off-cycle-internships"]
+    .map((t) => "us-tech/" + t) },
+  "france-finance": { name: "France Finance", pages: ["summer-internships", "off-cycle-internships",
+    "graduate-programmes"].map((t) => "france-finance/" + t) },
+  "germany-finance": { name: "Germany Finance", pages: ["summer-internships", "off-cycle-internships",
+    "graduate-programmes"].map((t) => "germany-finance/" + t) },
+  "hong-kong-finance": { name: "Hong Kong Finance", pages: ["summer-internships", "off-cycle-internships"]
+    .map((t) => "hong-kong-finance/" + t) },
+};
+const WATCH = (process.env.TRACKR_TRACKERS || Object.keys(TRACKERS).join(","))
+  .split(",").map((s) => s.trim()).filter((s) => TRACKERS[s]);
+const DEFAULT_FOLLOW = ["uk-finance"]; // what /start gives: the bot began as UK Finance only
+const SEASON = process.env.TRACKR_SEASON || "2027"; // only when a page's request names no season
 const STATE_FILE = new URL("./state/seen.json", import.meta.url);
 const FEED_FILE = new URL("./state/feed.json", import.meta.url);
 const FEED_MAX = 300;
@@ -36,6 +61,10 @@ function unseal(s) {
   return JSON.parse(Buffer.concat([d.update(b.subarray(28)), d.final()]).toString());
 }
 
+// Subscribers are { chatId: [trackers they follow] }. Lists from before trackers existed are plain
+// arrays of chat ids; those people followed UK Finance.
+const followers = (subs) => (Array.isArray(subs) ? Object.fromEntries(subs.map((id) => [id, [...DEFAULT_FOLLOW]])) : subs);
+
 let loadedSubs; // JSON of the list as loaded, to avoid re-sealing (and committing) when unchanged
 async function loadState() {
   let s;
@@ -45,15 +74,23 @@ async function loadState() {
     if (e.code !== "ENOENT") throw e; // a corrupt file must not silently reset everything
     s = { initialised: false, open: {} };
   }
-  s.telegram ??= { offset: 0, subscribers: [] };
+  s.telegram ??= { offset: 0, subscribers: {} };
   if (s.telegram.sealed && TOKEN) {
     try {
-      s.telegram.subscribers = unseal(s.telegram.sealed);
-      loadedSubs = JSON.stringify(s.telegram.subscribers);
+      const raw = unseal(s.telegram.sealed);
+      loadedSubs = JSON.stringify(raw);
+      s.telegram.subscribers = followers(raw);
     } catch {
       delete s.telegram.subscribers; // unknown: don't send, don't overwrite
     }
+  } else if (s.telegram.subscribers) s.telegram.subscribers = followers(s.telegram.subscribers);
+  // Before trackers, only UK Finance summer internships (or TRACKR_TYPES) were checked; those
+  // tabs are already initialised, every other tab starts with a silent first check.
+  if (s.initialised && !s.pages) {
+    const old = (process.env.TRACKR_TYPES || "summer-internships").split(",").map((t) => "uk-finance/" + t.trim());
+    s.pages = Object.fromEntries(old.map((p) => [p, true]));
   }
+  s.pages ??= {};
   return s;
 }
 
@@ -84,10 +121,11 @@ async function appendFeed(programmes, at) {
       id: p.id,
       company: p.company?.name ?? p.companyId ?? "",
       name: p.name,
+      tracker: p.tracker,
       type: p.type,
       season: p.season ?? SEASON,
       url: p.url ?? null,
-      trackr_url: `https://app.the-trackr.com/uk-finance/${p.type}`,
+      trackr_url: `https://app.the-trackr.com/${p.page}`,
       opening_date: p.openingDate ?? null,
       closing_date: p.closingDate ?? null,
       opened_at: at,
@@ -104,24 +142,42 @@ function subscribersOrThrow(state) {
 }
 
 // ---- Trackr --------------------------------------------------------------
-async function fetchProgrammes(page, type) {
+async function fetchProgrammes(page, path) {
+  const type = path.split("/").pop();
   const resp = page.waitForResponse(
     (r) => r.url().includes("/programmes?") && r.url().includes(`type=${type}`),
     { timeout: 45_000 },
   );
-  await page.goto(`https://app.the-trackr.com/uk-finance/${type}`, { waitUntil: "domcontentloaded", timeout: 45_000 });
+  await page.goto(`https://app.the-trackr.com/${path}`, { waitUntil: "domcontentloaded", timeout: 45_000 });
   const r = await resp;
-  if (r.status() !== 200) throw new Error(`Trackr /programmes returned HTTP ${r.status()} (blocked?)`);
+  if (r.status() !== 200) throw new Error(`Trackr /programmes for ${path} returned HTTP ${r.status()} (blocked?)`);
   const body = await r.json();
-  // An empty or reshaped answer almost always means the site changed or blocked us, not that
-  // every programme vanished. Fail loudly instead of quietly finding nothing new.
   if (!Array.isArray(body?.programmes)) {
-    throw new Error(`Trackr response has no programmes list (keys: ${Object.keys(body ?? {}).join(", ")})`);
+    throw new Error(`Trackr response for ${path} has no programmes list (got: ${JSON.stringify(body).slice(0, 80)})`);
   }
-  const list = body.programmes.filter((p) => p.season === SEASON);
-  if (!list.length) throw new Error(`Trackr returned 0 ${type} programmes for ${SEASON} (${body.programmes.length} in total)`);
+  const season = new URL(r.url()).searchParams.get("season") || SEASON;
+  const list = body.programmes.filter((p) => !p.season || p.season === season);
   if (list.some((p) => !p.id || !("openingDate" in p))) throw new Error("Trackr programmes no longer have id/openingDate");
   return list;
+}
+
+// Loads every tab of the watched trackers one after another in one page, which keeps Trackr's
+// session check passed once (pages in parallel get empty answers). About 30 tabs take ~30 s.
+// A tab that fails is reported; the others still count.
+async function fetchAll(browser) {
+  const page = await browser.newPage();
+  const results = [];
+  const errors = [];
+  for (const tracker of WATCH) {
+    for (const path of TRACKERS[tracker].pages) {
+      try {
+        results.push({ tracker, path, list: await fetchProgrammes(page, path) });
+      } catch (e) {
+        errors.push(e);
+      }
+    }
+  }
+  return { results, errors };
 }
 
 function isOpen(p, now) {
@@ -130,9 +186,13 @@ function isOpen(p, now) {
 }
 
 // ---- Telegram ------------------------------------------------------------
-// The bot is public: anyone who opens it and presses Start is subscribed, /stop unsubscribes.
-// TELEGRAM_CHAT_IDS (optional) are always-on extras, e.g. a channel or group.
-const MAX_SUBSCRIBERS = Number(process.env.MAX_SUBSCRIBERS || 200);
+// The bot is public: anyone who opens it and presses Start follows UK Finance; commands switch
+// trackers on and off. TELEGRAM_CHAT_IDS (optional) are always-on extras, e.g. a channel, which
+// get TELEGRAM_CHAT_TRACKERS (default UK Finance).
+const MAX_SUBSCRIBERS = Number(process.env.MAX_SUBSCRIBERS || 10000);
+const SENDS_PER_SECOND = 25; // Telegram allows about 30 messages a second per bot
+const command = (tracker) => "/" + tracker.replace(/-/g, "_");
+const TRACKER_COMMANDS = Object.fromEntries(Object.keys(TRACKERS).map((t) => [command(t), t]));
 
 async function tg(method, body) {
   for (let attempt = 0; ; attempt++) {
@@ -144,7 +204,7 @@ async function tg(method, body) {
     });
     const j = await r.json().catch(() => ({}));
     if (r.ok && j.ok !== false) return j.result;
-    // Telegram allows ~30 messages/second; on 429 wait as told and retry.
+    // On 429 wait as told and retry.
     const wait = j.parameters?.retry_after;
     if (r.status === 429 && wait && attempt < 3) {
       await new Promise((ok) => setTimeout(ok, wait * 1000));
@@ -157,9 +217,25 @@ async function tg(method, body) {
   }
 }
 
+// Runs fn over items in batches that stay under Telegram's rate limit. performance.now, not
+// Date, so a faked clock in tests doesn't break the pacing.
+async function paced(items, fn) {
+  for (let i = 0; i < items.length; i += SENDS_PER_SECOND) {
+    const started = performance.now();
+    await Promise.all(items.slice(i, i + SENDS_PER_SECOND).map(fn));
+    const wait = 1000 - (performance.now() - started);
+    if (wait > 0 && i + SENDS_PER_SECOND < items.length) await new Promise((ok) => setTimeout(ok, wait));
+  }
+}
+
+function trackerMenu(follows) {
+  const lines = Object.entries(TRACKERS).map(([t, { name }]) => `${follows.includes(t) ? "✅" : "▫️"} ${name}  ${command(t)}`);
+  return `Your trackers:\n${lines.join("\n")}\n\nSend a command to switch a tracker on or off, /all for every tracker, /stop to unsubscribe.`;
+}
+
 async function syncTelegramSubscribers(state) {
   if (!TOKEN || DRY_RUN) return;
-  const subs = new Set(subscribersOrThrow(state));
+  const subs = subscribersOrThrow(state);
   const updates = await tg("getUpdates", { offset: state.telegram.offset, timeout: 0, allowed_updates: ["message"] });
   for (const u of updates) {
     state.telegram.offset = u.update_id + 1;
@@ -167,48 +243,75 @@ async function syncTelegramSubscribers(state) {
     if (!m?.text || m.chat?.type !== "private") continue;
     const cmd = m.text.trim().split(/[\s@]/)[0].toLowerCase();
     const id = String(m.chat.id);
+    const known = cmd === "/start" || cmd === "/all" || cmd === "/trackers" || TRACKER_COMMANDS[cmd];
     let reply;
-    if (cmd === "/start") {
-      if (!subs.has(id) && subs.size >= MAX_SUBSCRIBERS) reply = "Sorry, this bot is full right now.";
-      else {
-        subs.add(id);
-        reply = "✅ You're subscribed. I'll message you when a new UK Finance programme opens on Trackr. Send /stop to unsubscribe.";
-      }
-    } else if (cmd === "/stop") {
-      subs.delete(id);
+    if (cmd === "/stop") {
+      delete subs[id];
       reply = "You're unsubscribed. Send /start any time to subscribe again.";
+    } else if (known && !subs[id] && Object.keys(subs).length >= MAX_SUBSCRIBERS) {
+      reply = "Sorry, this bot is full right now.";
+    } else if (cmd === "/start") {
+      subs[id] ??= [...DEFAULT_FOLLOW];
+      reply = "✅ You're subscribed. I'll message you when a new programme opens on the trackers you follow.\n\n"
+        + trackerMenu(subs[id]);
+    } else if (cmd === "/trackers") {
+      subs[id] ??= [...DEFAULT_FOLLOW];
+      reply = trackerMenu(subs[id]);
+    } else if (cmd === "/all") {
+      subs[id] = Object.keys(TRACKERS);
+      reply = trackerMenu(subs[id]);
+    } else if (TRACKER_COMMANDS[cmd]) {
+      const t = TRACKER_COMMANDS[cmd];
+      const mine = subs[id] ?? [];
+      subs[id] = mine.includes(t) ? mine.filter((x) => x !== t) : [...mine, t];
+      reply = trackerMenu(subs[id]);
     } else continue;
     await tg("sendMessage", { chat_id: m.chat.id, text: reply }).catch(() => {});
   }
-  state.telegram.subscribers = [...subs];
 }
 
-// Sends to every recipient, one at a time (Telegram rate limits bursts). One failing recipient
-// doesn't stop the others. Throws if nobody got it, so the programmes stay "unseen" and are
-// retried next run.
-async function notify(text, state) {
-  if (DRY_RUN) return console.log("[dry run] would send:\n" + text);
+const programmeLine = (p) =>
+  `🟢 ${p.company?.name ?? p.companyId} — ${p.name}\n${TRACKERS[p.tracker].name} · ${p.type.replace(/-/g, " ")}\n` +
+  (p.closingDate ? `Closes ${p.closingDate.slice(0, 10)}\n` : "") +
+  (p.url ?? `https://app.the-trackr.com/${p.page}`);
+
+// Sends each recipient the new programmes from the trackers they follow, at most 5 per message.
+// One failing recipient doesn't stop the others. Returns the ids of programmes that reached at
+// least one person, plus those nobody follows (nothing to deliver; they still go into the feed).
+async function notify(fresh, state) {
+  if (DRY_RUN) {
+    console.log("[dry run] would send:\n" + fresh.map(programmeLine).join("\n\n"));
+    return new Set(fresh.map((p) => p.id));
+  }
   if (!TOKEN) throw new Error("TELEGRAM_BOT_TOKEN is not set");
   const fixed = (process.env.TELEGRAM_CHAT_IDS || "").split(",").map((s) => s.trim()).filter(Boolean);
+  const fixedFollow = (process.env.TELEGRAM_CHAT_TRACKERS || DEFAULT_FOLLOW.join(",")).split(",").map((s) => s.trim());
   const subs = subscribersOrThrow(state);
-  const recipients = [...new Set([...fixed, ...subs])];
-  if (!recipients.length) throw new Error("No recipients yet: nobody has pressed Start on the bot");
-  let delivered = 0;
-  for (const chatId of recipients) {
+  const recipients = new Map(Object.entries(subs));
+  for (const id of fixed) recipients.set(id, fixedFollow);
+  const delivered = new Set();
+  const followed = new Set();
+  const outbox = [];
+  for (const [chatId, follows] of recipients) {
+    const mine = fresh.filter((p) => follows.includes(p.tracker));
+    mine.forEach((p) => followed.add(p.id));
+    for (let i = 0; i < mine.length; i += 5) outbox.push({ chatId, programmes: mine.slice(i, i + 5) });
+  }
+  await paced(outbox, async ({ chatId, programmes }) => {
     try {
+      const text = `New on Trackr:\n\n${programmes.map(programmeLine).join("\n\n")}`;
       await tg("sendMessage", { chat_id: chatId, text, disable_web_page_preview: true });
-      delivered++;
+      programmes.forEach((p) => delivered.add(p.id));
     } catch (e) {
       console.error(`failed -> telegram ${chatId}: ${e.message}`);
       // Someone who blocked the bot or deleted the chat is dropped. Other errors (e.g. a bad
       // message) are not their fault, so they stay subscribed.
       const gone = e.status === 403 || (e.status === 400 && /chat not found|user is deactivated/i.test(e.description));
-      if (gone && !fixed.includes(chatId)) {
-        state.telegram.subscribers = state.telegram.subscribers.filter((id) => id !== chatId);
-      }
+      if (gone && !fixed.includes(chatId)) delete state.telegram.subscribers[chatId];
     }
-  }
-  if (!delivered) throw new Error("Every notification failed");
+  });
+  for (const p of fresh) if (!followed.has(p.id)) delivered.add(p.id);
+  return delivered;
 }
 
 async function tellAdmins(text) {
@@ -244,9 +347,10 @@ async function heartbeat(state) {
   const { day, hour } = londonParts(new Date());
   if (hour < 8 || state.lastHeartbeat === day) return;
   const runs = await runsLast24h();
+  const subs = state.telegram.subscribers;
   const text =
     `✅ Trackr bot is running.\n${Object.keys(state.open).length} programmes seen open so far, ` +
-    `${state.telegram.subscribers?.length ?? "?"} subscriber(s).\n` +
+    `${subs ? Object.keys(subs).length : "?"} subscriber(s), ${WATCH.length} trackers watched.\n` +
     (runs === null ? "" : `${runs} runs from the 5-minute trigger in the last 24h (about 288 expected).\n`) +
     `Last check: ${new Date().toISOString().slice(0, 16).replace("T", " ")} UTC.`;
   if (await tellAdmins(text)) state.lastHeartbeat = day;
@@ -281,37 +385,47 @@ async function check(state) {
   const now = new Date();
   const { chromium } = await import("playwright");
   const browser = await chromium.launch();
-  const fresh = [];
+  let fetched;
   try {
-    const page = await browser.newPage();
-    for (const type of TYPES) {
-      for (const p of await fetchProgrammes(page, type)) {
-        if (isOpen(p, now) && !state.open[p.id] && !fresh.some((f) => f.id === p.id)) fresh.push({ ...p, type });
-      }
-    }
+    fetched = await fetchAll(browser);
   } finally {
     await browser.close();
   }
-  console.log(`${fresh.length} newly open programme(s)`);
+  const { results, errors } = fetched;
+  const total = results.reduce((n, r) => n + r.list.length, 0);
+  // Zero programmes across every tab almost always means the site changed or blocked us, not
+  // that everything vanished. Fail loudly instead of quietly finding nothing new.
+  if (!errors.length && !total) throw new Error(`Trackr returned 0 programmes across ${results.length} tabs`);
+  if (!results.length) throw errors[0];
 
-  // First run only records what's already open, so you don't get 100 messages.
-  // After that a programme only counts as seen once its message reached at least one person.
-  for (let i = 0; i < fresh.length; i += 5) {
-    const chunk = fresh.slice(i, i + 5); // keep messages short
-    if (state.initialised) {
-      const lines = chunk.map(
-        (p) =>
-          `🟢 ${p.company?.name ?? p.companyId} — ${p.name}\n` +
-          (p.closingDate ? `Closes ${p.closingDate.slice(0, 10)}\n` : "") +
-          (p.url ?? `https://app.the-trackr.com/uk-finance/${p.type}`),
-      );
-      await notify(`New on Trackr UK Finance:\n\n${lines.join("\n\n")}`, state);
-      await appendFeed(chunk, now.toISOString());
+  // A tab's first check only records what's already open, so nobody gets 100 messages. After that
+  // a programme only counts as seen once its message reached someone who follows its tracker.
+  const fresh = new Map();
+  const quiet = new Set();
+  for (const { tracker, path, list } of results) {
+    const first = !state.initialised || !state.pages[path];
+    for (const p of list) {
+      if (!isOpen(p, now) || state.open[p.id] || fresh.has(p.id)) continue;
+      if (first) quiet.add(p.id);
+      else fresh.set(p.id, { ...p, tracker, page: path, type: path.split("/").pop() });
     }
-    for (const p of chunk) state.open[p.id] = now.toISOString();
-    await saveState(state);
   }
+  for (const id of quiet) if (!fresh.has(id)) state.open[id] = now.toISOString();
+  for (const { path } of results) state.pages[path] = true;
   state.initialised = true;
+  console.log(`${fresh.size} newly open programme(s), ${quiet.size} recorded silently`);
+
+  if (fresh.size) {
+    const list = [...fresh.values()];
+    const delivered = await notify(list, state);
+    const sent = list.filter((p) => delivered.has(p.id));
+    for (const p of sent) state.open[p.id] = now.toISOString();
+    await appendFeed(sent, now.toISOString());
+    await saveState(state);
+    if (sent.length < list.length) throw new Error(`Every notification failed for ${list.length - sent.length} programme(s)`);
+  }
+  await saveState(state);
+  if (errors.length) throw new Error(`${errors.length} Trackr tab(s) failed: ${errors.map((e) => e.message).join("; ")}`);
 }
 
 const state = await loadState();

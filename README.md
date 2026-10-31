@@ -1,15 +1,23 @@
 # Trackr → Telegram alert
 
-Checks the Trackr UK Finance tracker (app.the-trackr.com/uk-finance) about every 5 minutes and
-sends a **Telegram** message when a programme opens.
+Checks every Trackr tracker (UK Finance, UK Tech, UK Law, UK Engineering, US Finance, US Tech,
+France, Germany and Hong Kong Finance; about 30 tabs) every 5 minutes and sends a **Telegram**
+message when a programme opens, to the people who follow that tracker.
 
 The bot is **public**: anyone who opens it and presses **Start** gets the alerts, and `/stop`
 unsubscribes. Runs free on GitHub Actions.
 
 ## For users
-Open the bot in Telegram and press **Start**. You'll get a confirmation within about 5-10 minutes
-(the bot reads new Start/Stop messages on each check), then a message whenever a new programme
-opens. Send `/stop` to unsubscribe.
+Open the bot in Telegram and press **Start**. You follow UK Finance to begin with. You'll get a
+confirmation within about 5-10 minutes (the bot reads new messages on each check), then a message
+whenever a new programme opens on a tracker you follow.
+
+| Command | |
+| --- | --- |
+| `/trackers` | your trackers, with a command to switch each on or off |
+| `/uk_finance`, `/uk_tech`, `/uk_law`, `/uk_engineering`, `/us_finance`, `/us_tech`, `/france_finance`, `/germany_finance`, `/hong_kong_finance` | follow or unfollow that tracker |
+| `/all` | follow every tracker |
+| `/stop` | unsubscribe |
 
 ## How it runs
 - **Trigger:** a free Cloudflare Worker (`worker/`) calls GitHub's `workflow_dispatch` API every
@@ -57,10 +65,15 @@ Keep the repo **public**: public repos get unlimited free Actions minutes.
 3. When the token expires, create a new one and repeat `wrangler secret put`. Until then the
    15-minute fallback keeps running, and the heartbeat's run count drops to about 0.
 
-### Which tabs to watch
-`TRACKR_TYPES` is a comma-separated list. The default is `summer-internships`. Options:
-`summer-internships`, `spring-weeks`, `off-cycle-internships`, `industrial-placements`,
-`graduate-programmes`. The season defaults to `2027` (`TRACKR_SEASON`).
+### Which trackers to watch
+All trackers and their tabs are listed in `TRACKERS` at the top of `check.mjs` (Events tabs are
+left out: they aren't applications). `TRACKR_TRACKERS` (optional variable, comma-separated, e.g.
+`uk-finance,uk-law`) limits which are checked. Each tab is loaded in turn in one page, about 30 s
+for all of them; parallel pages get empty answers from Trackr's session check.
+
+A tab checked for the first time only records what is already open, so adding a tracker never
+floods anyone. `TRACKR_TYPES` is now read only once, to carry over which UK Finance tabs an older
+deployment already watched.
 
 ## Privacy
 `state/seen.json` is public. The subscriber list in it is **encrypted** (AES-GCM, key derived from
@@ -69,7 +82,9 @@ the bot token), so chat IDs aren't readable. Two caveats:
 - If you replace the bot token, the old list can't be decrypted. Runs then fail with an admin
   alert and the list is kept untouched, so restoring the old token fixes it.
 
-Capped at 200 subscribers (`MAX_SUBSCRIBERS`).
+Capped at 10,000 subscribers (`MAX_SUBSCRIBERS`). Alerts go out in batches of 25 a second, under
+Telegram's limit of about 30 a second; 10,000 people take roughly 7 minutes per alert, within the
+step's 8-minute timeout. Past that size, move the bot to a webhook on a server.
 
 ## Local test
 ```

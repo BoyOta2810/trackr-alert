@@ -18,6 +18,8 @@ if (process.env.FAKE_NOW) {
 
 // MOCK_TRACKR is a JSON body for /programmes, or "TIMEOUT" to never answer.
 const body = process.env.MOCK_TRACKR;
+// MOCK_TRACKR_BY_TYPE (optional): {"training-contracts": body, ...} for tabs that need their own list.
+const byType = JSON.parse(process.env.MOCK_TRACKR_BY_TYPE || "{}");
 const launch = chromium.launch.bind(chromium);
 chromium.launch = async (o) => {
   const b = await launch(o);
@@ -28,7 +30,9 @@ chromium.launch = async (o) => {
       const u = new URL(route.request().url());
       if (u.pathname.startsWith("/programmes")) {
         if (body === "TIMEOUT") return; // hang
-        return route.fulfill({ status: 200, contentType: "application/json", body });
+        const own = byType[u.searchParams.get("type")];
+        const empty = Object.keys(byType).length && !own && u.searchParams.get("type") !== "summer-internships";
+        return route.fulfill({ status: 200, contentType: "application/json", body: own ?? (empty ? '{"programmes":[]}' : body) });
       }
       const type = u.pathname.split("/").pop();
       return route.fulfill({
