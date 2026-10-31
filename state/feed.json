@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-10-31T19:00:51.178Z",
+  "updated_at": "2026-10-31T19:05:44.761Z",
   "items": [
+    {
+      "id": "bj8tmx4f8p",
+      "company": "NCR Atleos",
+      "name": "Graduate Mechanical Design Engineer",
+      "tracker": "uk-engineering",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://ncratleos.wd1.myworkdayjobs.com/en-US/ext_non_usalteos/job/DUNDEE-GBR/Graduate-Mechanical-Design-Engineer_R1154670-3?Location_Country=29247e57dbaf46fb855b224e03170bc7&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
+      "opening_date": "2026-10-31T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-10-31T19:05:44.761Z"
+    },
     {
       "id": "x2cirh9g5p",
       "company": "KLA Corporation",
