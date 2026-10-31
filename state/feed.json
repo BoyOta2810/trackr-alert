@@ -1,6 +1,71 @@
 {
-  "updated_at": "2026-10-31T18:35:47.378Z",
+  "updated_at": "2026-10-31T18:55:47.880Z",
   "items": [
+    {
+      "id": "xh6genycq9",
+      "company": "Worley Consulting",
+      "name": "2027 Graduate Position - Process Engineer",
+      "tracker": "uk-engineering",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://jobs.worley.com/careers/job/1133916338270?microsite=graduates&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
+      "opening_date": "2026-10-14T00:00:00.000Z",
+      "closing_date": "2026-11-30T00:00:00.000Z",
+      "opened_at": "2026-10-31T18:55:47.880Z"
+    },
+    {
+      "id": "l8az0f5kp1",
+      "company": "Worley Consulting",
+      "name": "2027 Graduate Position - Mechanical & Piping (M&P) Engineer",
+      "tracker": "uk-engineering",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://jobs.worley.com/careers/job/1133916335025?microsite=graduates&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
+      "opening_date": "2026-10-14T00:00:00.000Z",
+      "closing_date": "2026-11-30T00:00:00.000Z",
+      "opened_at": "2026-10-31T18:55:47.880Z"
+    },
+    {
+      "id": "it947d8mwf",
+      "company": "Worley Consulting",
+      "name": "2027 Graduate Position - Construction Engineer",
+      "tracker": "uk-engineering",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://jobs.worley.com/careers/job/1133916625746?microsite=graduates&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
+      "opening_date": "2026-10-14T00:00:00.000Z",
+      "closing_date": "2026-11-30T00:00:00.000Z",
+      "opened_at": "2026-10-31T18:55:47.880Z"
+    },
+    {
+      "id": "bfqcqodb5a",
+      "company": "Worley Consulting",
+      "name": "2027 Graduate Position - Electrical, Controls & Instrumentation (E,C&I) Engineer",
+      "tracker": "uk-engineering",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://jobs.worley.com/careers/job/1133916334075?microsite=graduates&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
+      "opening_date": "2026-10-14T00:00:00.000Z",
+      "closing_date": "2026-11-30T00:00:00.000Z",
+      "opened_at": "2026-10-31T18:55:47.880Z"
+    },
+    {
+      "id": "6tem38ujcj",
+      "company": "Worley Consulting",
+      "name": "2027 Graduate Position - Civil, Structural & Architectural (CSA) Engineer",
+      "tracker": "uk-engineering",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://jobs.worley.com/careers/job/1133916341342?microsite=graduates&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
+      "opening_date": "2026-10-14T00:00:00.000Z",
+      "closing_date": "2026-11-30T00:00:00.000Z",
+      "opened_at": "2026-10-31T18:55:47.880Z"
+    },
     {
       "id": "gzyyryr5b9",
       "company": "Parker Meggitt",
