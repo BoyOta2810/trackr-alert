@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-01T22:20:45.515Z",
+  "updated_at": "2026-11-01T22:30:45.137Z",
   "items": [
+    {
+      "id": "wzcfzki9yb",
+      "company": "Jefferies",
+      "name": "2028 Summer Analyst - Private Credit",
+      "tracker": "us-finance",
+      "type": "summer-internships",
+      "season": "2028",
+      "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/2/adv/?f_Item_Opportunity_84825_lk=749&f_Item_Opportunity_60426_lk=520145&f_Item_Opportunity_59801_lk=523744&utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2028",
+      "trackr_url": "https://app.the-trackr.com/us-finance-2028/summer-internships",
+      "opening_date": "2026-11-01T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-01T22:30:45.137Z"
+    },
+    {
+      "id": "q8zj7apvkt",
+      "company": "Jefferies",
+      "name": "2028 Investment Banking Summer Analyst",
+      "tracker": "us-finance",
+      "type": "summer-internships",
+      "season": "2028",
+      "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/2/adv/?f_Item_Opportunity_59801_lk=519869&f_Item_Opportunity_60426_lk=520145&f_Item_Opportunity_84825_lk=749&ftq=&utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2028",
+      "trackr_url": "https://app.the-trackr.com/us-finance-2028/summer-internships",
+      "opening_date": "2026-11-01T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-01T22:30:45.137Z"
+    },
     {
       "id": "kuc1n2wzgy",
       "company": "Peel Hunt",
