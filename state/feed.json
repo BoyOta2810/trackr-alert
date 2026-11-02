@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-02T12:35:45.323Z",
+  "updated_at": "2026-11-02T12:40:49.895Z",
   "items": [
+    {
+      "id": "kn6k5di9jq",
+      "company": "BDA Partners",
+      "name": "M&A Intern",
+      "tracker": "uk-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://bdaway.co/careers?job=9f259d6d-233e-4bbb-80a0-03787c76d500&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/off-cycle-internships",
+      "opening_date": "2026-11-02T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-02T12:40:49.895Z"
+    },
     {
       "id": "waunbgjkpo",
       "company": "Bank of England",
