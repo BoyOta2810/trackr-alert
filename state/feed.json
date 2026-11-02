@@ -1,6 +1,45 @@
 {
-  "updated_at": "2026-11-02T17:45:49.908Z",
+  "updated_at": "2026-11-02T18:20:51.060Z",
   "items": [
+    {
+      "id": "qox3o1p0un",
+      "company": "Nestlé",
+      "name": "Technical Leadership Graduate",
+      "tracker": "uk-engineering",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://jobdetails.nestle.com/job/York-Technical-Leadership-Graduate-YN-YO91-1XY/1450210233/?feedId=256801&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
+      "opening_date": "2026-11-02T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-02T18:20:51.060Z"
+    },
+    {
+      "id": "ps0im7s0n4",
+      "company": "Nestlé",
+      "name": "Nestlé Research & Development Digital & Automation Engineering Graduate",
+      "tracker": "uk-engineering",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://jobdetails.nestle.com/job/York-Nestl%C3%A9-Research-&-Development-Digital-&-Automation-Engineering-Graduate-YN-YO91-1XY/1450145433/?feedId=256801&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
+      "opening_date": "2026-11-02T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-02T18:20:51.060Z"
+    },
+    {
+      "id": "i05f51rhtg",
+      "company": "Nestlé",
+      "name": "Engineering Graduate",
+      "tracker": "uk-engineering",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://jobdetails.nestle.com/job/York-Engineering-Graduate-YN-YO91-1XY/1450206733/?feedId=256801&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
+      "opening_date": "2026-11-02T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-02T18:20:51.060Z"
+    },
     {
       "id": "zvptmxkpfr",
       "company": "Ashtons Legal",
