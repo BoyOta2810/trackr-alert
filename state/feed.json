@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-02T15:50:53.576Z",
+  "updated_at": "2026-11-02T16:15:53.391Z",
   "items": [
+    {
+      "id": "klmtevu768",
+      "company": "Nestlé",
+      "name": "IT Apprentice",
+      "tracker": "uk-tech",
+      "type": "pre-university",
+      "season": "2027",
+      "url": "https://jobdetails.nestle.com/job/York-IT-Apprentice-YN-YO31-8TA/1450238833/?feedId=256801&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/pre-university",
+      "opening_date": "2026-11-02T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-02T16:15:53.391Z"
+    },
     {
       "id": "kaw2kgfh4l",
       "company": "Volcore",
