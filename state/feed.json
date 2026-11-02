@@ -1,6 +1,58 @@
 {
-  "updated_at": "2026-11-02T09:25:55.359Z",
+  "updated_at": "2026-11-02T10:40:46.866Z",
   "items": [
+    {
+      "id": "mm0ug8qojo",
+      "company": "Accenture",
+      "name": "Technology Degree Apprenticeship 2027",
+      "tracker": "uk-tech",
+      "type": "pre-university",
+      "season": "2027",
+      "url": "https://accenture.pinpointhq.com/en/united-kingdom?search=technology+degree+apprenticeship&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/pre-university",
+      "opening_date": "2026-11-02T00:00:00.000Z",
+      "closing_date": "2026-11-30T00:00:00.000Z",
+      "opened_at": "2026-11-02T10:40:46.866Z"
+    },
+    {
+      "id": "f5whbx9a9b",
+      "company": "Accenture",
+      "name": "Unlocking Potential: Social Impact Week 2027",
+      "tracker": "uk-tech",
+      "type": "pre-university",
+      "season": "2027",
+      "url": "https://accenture.pinpointhq.com/en/postings/36e7b14b-37e6-4f81-bd2c-37ff530ff084?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/pre-university",
+      "opening_date": "2026-11-02T00:00:00.000Z",
+      "closing_date": "2026-11-30T00:00:00.000Z",
+      "opened_at": "2026-11-02T10:40:46.866Z"
+    },
+    {
+      "id": "v6hhmht9op",
+      "company": "Accenture",
+      "name": "Unlocking Potential: Social Impact Week 2027",
+      "tracker": "uk-finance",
+      "type": "pre-university",
+      "season": "2027",
+      "url": "https://accenture.pinpointhq.com/en/postings/2aacb162-1e05-455e-b96b-287f4881eacc?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/pre-university",
+      "opening_date": "2026-11-02T00:00:00.000Z",
+      "closing_date": "2026-11-22T00:00:00.000Z",
+      "opened_at": "2026-11-02T10:40:46.866Z"
+    },
+    {
+      "id": "tf774jnm4j",
+      "company": "Accenture",
+      "name": "Consulting Degree Apprenticeship 2027",
+      "tracker": "uk-finance",
+      "type": "pre-university",
+      "season": "2027",
+      "url": "https://accenture.pinpointhq.com/en/united-kingdom?search=consulting+degree+apprenticeship&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/pre-university",
+      "opening_date": "2026-11-02T00:00:00.000Z",
+      "closing_date": "2026-11-30T00:00:00.000Z",
+      "opened_at": "2026-11-02T10:40:46.866Z"
+    },
     {
       "id": "k4og1fiyi9",
       "company": "Carlsquare",
