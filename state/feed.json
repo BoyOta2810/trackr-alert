@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-02T18:25:49.401Z",
+  "updated_at": "2026-11-02T21:00:48.032Z",
   "items": [
+    {
+      "id": "0ao4f5lh5g",
+      "company": "Jane Street",
+      "name": "Hardware Engineer (FPGA/ASIC) Internship, June-September",
+      "tracker": "uk-engineering",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://www.janestreet.com/join-jane-street/position/8651323002/?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-engineering/summer-internships",
+      "opening_date": "2026-11-02T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-02T21:00:48.032Z"
+    },
+    {
+      "id": "05xf1ykx92",
+      "company": "Jane Street",
+      "name": "Hardware Engineer (FPGA/ASIC)",
+      "tracker": "uk-engineering",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://www.janestreet.com/join-jane-street/position/8651405002/?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
+      "opening_date": "2026-11-02T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-02T21:00:48.032Z"
+    },
     {
       "id": "vs4aa9d5y3",
       "company": "Nestlé",
