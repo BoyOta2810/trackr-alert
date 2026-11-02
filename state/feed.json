@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-02T12:40:49.895Z",
+  "updated_at": "2026-11-02T14:40:50.364Z",
   "items": [
+    {
+      "id": "t086lbw081",
+      "company": "Capula Investment Management",
+      "name": "2027 Technology Graduate Analyst",
+      "tracker": "uk-tech",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://apply.workable.com/capula-investment-management-ltd/j/F315E7E4CB/?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/graduate-programmes",
+      "opening_date": "2026-11-02T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-02T14:40:50.364Z"
+    },
     {
       "id": "kn6k5di9jq",
       "company": "BDA Partners",
