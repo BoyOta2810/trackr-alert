@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-02T21:00:48.032Z",
+  "updated_at": "2026-11-02T23:10:48.862Z",
   "items": [
+    {
+      "id": "vxpyvti54l",
+      "company": "BNP Paribas",
+      "name": "Intern Private Equity",
+      "tracker": "germany-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://bwelcome.hr.bnpparibas/en_US/externalcareers/JobDetails?jobId=89682&source=Trackr&site=group.bnpparibas&campaignReal=0&src=Trackr&offerID=AXAIMGER_ALTS_S00110&domainID=140&entityID=96&utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
+      "opening_date": "2026-11-02T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-02T23:10:48.862Z"
+    },
     {
       "id": "0ao4f5lh5g",
       "company": "Jane Street",
