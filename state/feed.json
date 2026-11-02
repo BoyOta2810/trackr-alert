@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-02T17:15:52.403Z",
+  "updated_at": "2026-11-02T17:45:49.908Z",
   "items": [
+    {
+      "id": "zvptmxkpfr",
+      "company": "Ashtons Legal",
+      "name": "Training Contract - 2028 & 2029",
+      "tracker": "uk-law",
+      "type": "training-contracts",
+      "season": "2027",
+      "url": "https://www.ashtonslegal.co.uk/careers/current-vacancies/?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Law_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-law/training-contracts",
+      "opening_date": "2026-11-01T00:00:00.000Z",
+      "closing_date": "2027-01-01T00:00:00.000Z",
+      "opened_at": "2026-11-02T17:45:49.908Z"
+    },
     {
       "id": "ujk4tl44wr",
       "company": "Deutsche Bank",
