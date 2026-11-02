@@ -1,6 +1,45 @@
 {
-  "updated_at": "2026-11-02T16:51:09.970Z",
+  "updated_at": "2026-11-02T17:15:52.403Z",
   "items": [
+    {
+      "id": "ujk4tl44wr",
+      "company": "Deutsche Bank",
+      "name": "Spring into Technology, Data & Innovation 2027",
+      "tracker": "uk-tech",
+      "type": "spring-weeks",
+      "season": "2027",
+      "url": "https://careers.db.com/students-graduates/Search-Programmes/?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027#/graduate/results/?location=71&division=165",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/spring-weeks",
+      "opening_date": "2026-11-02T00:00:00.000Z",
+      "closing_date": "2026-11-29T00:00:00.000Z",
+      "opened_at": "2026-11-02T17:15:52.403Z"
+    },
+    {
+      "id": "mcvvxyc2c7",
+      "company": "Deutsche Bank",
+      "name": "Spring Into Banking Programme 2027",
+      "tracker": "uk-finance",
+      "type": "spring-weeks",
+      "season": "2027",
+      "url": "https://careers.db.com/students-graduates/Search-Programmes/?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027#/graduate/results/?location=71&division=152",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/spring-weeks",
+      "opening_date": "2026-11-02T00:00:00.000Z",
+      "closing_date": "2026-11-29T00:00:00.000Z",
+      "opened_at": "2026-11-02T17:15:52.403Z"
+    },
+    {
+      "id": "hnck3ezgua",
+      "company": "Deutsche Bank",
+      "name": "Spring into Fixed Income & Currencies",
+      "tracker": "uk-finance",
+      "type": "spring-weeks",
+      "season": "2027",
+      "url": "https://careers.db.com/students-graduates/Search-Programmes/?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027#/graduate/results/?location=71&division=168",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/spring-weeks",
+      "opening_date": "2026-11-02T00:00:00.000Z",
+      "closing_date": "2026-11-29T00:00:00.000Z",
+      "opened_at": "2026-11-02T17:15:52.403Z"
+    },
     {
       "id": "2c8v8yfrb3",
       "company": "Moelis & Co",
