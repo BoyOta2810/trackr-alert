@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-02T00:00:44.530Z",
+  "updated_at": "2026-11-02T08:50:46.094Z",
   "items": [
+    {
+      "id": "taq7udqe79",
+      "company": "Morgan Stanley",
+      "name": "2027 Technology Degree Apprenticeship",
+      "tracker": "uk-tech",
+      "type": "pre-university",
+      "season": "2027",
+      "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/candidate/jobboard/vacancy/1/adv/?f_Item_Opportunity_17058_lk=133794&f_Item_Opportunity_17048_lk=582386&f_Item_Opportunity_17048_lk=582387&f_Item_Opportunity_17051_lk=1038&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/pre-university",
+      "opening_date": "2026-11-02T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-02T08:50:46.094Z"
+    },
+    {
+      "id": "tdxggqxso3",
+      "company": "Morgan Stanley",
+      "name": "2027 Apprenticeship Program",
+      "tracker": "uk-finance",
+      "type": "pre-university",
+      "season": "2027",
+      "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/candidate/jobboard/vacancy/1/adv/?f_Item_Opportunity_17058_lk=133794&f_Item_Opportunity_17048_lk=582386&f_Item_Opportunity_17048_lk=582387&f_Item_Opportunity_17051_lk=1014&f_Item_Opportunity_17051_lk=1031&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/pre-university",
+      "opening_date": "2026-11-02T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-02T08:50:46.094Z"
+    },
     {
       "id": "y1b5t33hih",
       "company": "Vinson & Elkins",
