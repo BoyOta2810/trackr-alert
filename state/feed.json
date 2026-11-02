@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-02T10:40:46.866Z",
+  "updated_at": "2026-11-02T10:50:57.944Z",
   "items": [
+    {
+      "id": "l1miz8z9jh",
+      "company": "AWE",
+      "name": "Graduate - Finance",
+      "tracker": "uk-finance",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://awepeople.wd3.myworkdayjobs.com/en-US/Grad_Careers/job/Graduate--Finance_R32519?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/graduate-programmes",
+      "opening_date": "2026-11-02T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-02T10:50:57.944Z"
+    },
+    {
+      "id": "d1o0u5r970",
+      "company": "AWE",
+      "name": "Graduate - Commercial",
+      "tracker": "uk-finance",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://awepeople.wd3.myworkdayjobs.com/en-US/Grad_Careers/job/Graduate--Commercial_R32524?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/graduate-programmes",
+      "opening_date": "2026-11-02T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-02T10:50:57.944Z"
+    },
     {
       "id": "mm0ug8qojo",
       "company": "Accenture",
