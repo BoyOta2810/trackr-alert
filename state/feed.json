@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-02T14:40:50.364Z",
+  "updated_at": "2026-11-02T15:50:53.576Z",
   "items": [
+    {
+      "id": "kaw2kgfh4l",
+      "company": "Volcore",
+      "name": "Graduate Trader - 2026 Q4 / 2027 Q1 start",
+      "tracker": "uk-finance",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://www.volcore.co.uk/graduate-trader-trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/graduate-programmes",
+      "opening_date": "2026-11-02T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-02T15:50:53.576Z"
+    },
     {
       "id": "t086lbw081",
       "company": "Capula Investment Management",
