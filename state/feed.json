@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-02T10:50:57.944Z",
+  "updated_at": "2026-11-02T12:35:45.323Z",
   "items": [
+    {
+      "id": "waunbgjkpo",
+      "company": "Bank of England",
+      "name": "2027 Industrial Placement Programme - Data",
+      "tracker": "uk-tech",
+      "type": "industrial-placements",
+      "season": "2027",
+      "url": "https://eoff.fa.em1.ukg.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/jobs?keyword=%222027+Industrial+Placement+Programme+-+Data%22&mode=location&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027&iis=Trackr&sType=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/industrial-placements",
+      "opening_date": "2026-11-02T00:00:00.000Z",
+      "closing_date": "2026-11-23T00:00:00.000Z",
+      "opened_at": "2026-11-02T12:35:45.323Z"
+    },
+    {
+      "id": "s7zin2g21c",
+      "company": "Bank of England",
+      "name": "2027 Industrial Placement Programme",
+      "tracker": "uk-finance",
+      "type": "industrial-placements",
+      "season": "2027",
+      "url": "https://eoff.fa.em1.ukg.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/jobs?keyword=2027+Industrial+Placement+Programme&mode=location&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027&iis=Trackr&sType=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/industrial-placements",
+      "opening_date": "2026-11-02T00:00:00.000Z",
+      "closing_date": "2026-12-23T00:00:00.000Z",
+      "opened_at": "2026-11-02T12:35:45.323Z"
+    },
     {
       "id": "l1miz8z9jh",
       "company": "AWE",
