@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-03T11:45:48.674Z",
+  "updated_at": "2026-11-03T11:50:47.549Z",
   "items": [
+    {
+      "id": "913qz542n6",
+      "company": "Galaxy",
+      "name": "2027 Investment Banking Intern",
+      "tracker": "us-finance",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/6240963004?utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2027&gh_src=Trackr",
+      "trackr_url": "https://app.the-trackr.com/us-finance-2027/summer-internships",
+      "opening_date": "2026-11-03T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-03T11:50:47.549Z"
+    },
     {
       "id": "ihxwv1nknv",
       "company": "ExodusPoint",
