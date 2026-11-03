@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-03T13:40:47.534Z",
+  "updated_at": "2026-11-03T13:45:51.912Z",
   "items": [
+    {
+      "id": "3sozs8krj8",
+      "company": "SLB",
+      "name": "Placement Engineer 2027",
+      "tracker": "uk-engineering",
+      "type": "industrial-placements",
+      "season": "2027",
+      "url": "https://careers.slb.com/job-listing?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027#f-country-job=United%20Kingdom&f-experiencelevel-job=Intern&cq=%40source%3D%3D%24%22ATS_Jobs_Source%20-%20Prod%22",
+      "trackr_url": "https://app.the-trackr.com/uk-engineering/industrial-placements",
+      "opening_date": "2026-03-02T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-03T13:45:51.912Z"
+    },
     {
       "id": "c0jbk2xpy3",
       "company": "SLB",
