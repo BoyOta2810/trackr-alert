@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-03T17:10:50.285Z",
+  "updated_at": "2026-11-03T18:50:55.222Z",
   "items": [
+    {
+      "id": "my8ncwbg9k",
+      "company": "STJ Advisors",
+      "name": "Summer Internship Program 2027",
+      "tracker": "uk-finance",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://www.stjadvisors.com/careers?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/summer-internships",
+      "opening_date": "2026-11-03T00:00:00.000Z",
+      "closing_date": "2027-01-15T00:00:00.000Z",
+      "opened_at": "2026-11-03T18:50:55.222Z"
+    },
     {
       "id": "n3bc3fymy1",
       "company": "Avara Foods",
