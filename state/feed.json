@@ -1,6 +1,45 @@
 {
-  "updated_at": "2026-11-03T11:15:48.507Z",
+  "updated_at": "2026-11-03T11:35:45.496Z",
   "items": [
+    {
+      "id": "akfuwa1b0n",
+      "company": "Arch Insurance International",
+      "name": "Technology & Change Graduate Programme 2027",
+      "tracker": "uk-tech",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://archgroup.wd1.myworkdayjobs.com/en-US/Careers/job/Technology---Change-Graduate-Programme-2027_R26_1213?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/graduate-programmes",
+      "opening_date": "2026-11-03T00:00:00.000Z",
+      "closing_date": "2026-12-01T00:00:00.000Z",
+      "opened_at": "2026-11-03T11:35:45.496Z"
+    },
+    {
+      "id": "xbi29z1nkr",
+      "company": "Arch Insurance International",
+      "name": "Tax Graduate Programme 2027",
+      "tracker": "uk-finance",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://archgroup.wd1.myworkdayjobs.com/en-US/Careers/job/Tax-Graduate-Programme-2027_R26_1212?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/graduate-programmes",
+      "opening_date": "2026-11-03T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-03T11:35:45.496Z"
+    },
+    {
+      "id": "tjm45wt1ka",
+      "company": "Arch Insurance International",
+      "name": "Actuarial Summer Internship - 2027",
+      "tracker": "uk-finance",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://archgroup.wd1.myworkdayjobs.com/en-US/Careers/job/Actuarial-Summer-Internship---2027_R26_1214?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/summer-internships",
+      "opening_date": "2026-11-03T00:00:00.000Z",
+      "closing_date": "2026-12-01T00:00:00.000Z",
+      "opened_at": "2026-11-03T11:35:45.496Z"
+    },
     {
       "id": "yy44j3ie79",
       "company": "BBC",
