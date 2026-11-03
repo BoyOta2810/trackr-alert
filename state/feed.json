@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-03T11:55:46.495Z",
+  "updated_at": "2026-11-03T12:00:52.554Z",
   "items": [
+    {
+      "id": "h8cpmpd9us",
+      "company": "Marsh McLennan",
+      "name": "Placement Intern (6-Month Full Time Internship)",
+      "tracker": "hong-kong-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://careers.marsh.com/global/en/job/R_371525/Placement-Intern-6-Month-Full-Time-Internship?utm_source=Trackr&utm_medium=tracker&utm_campaign=Hong_Kong_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/hong-kong-finance/off-cycle-internships",
+      "opening_date": "2026-11-03T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-03T12:00:52.554Z"
+    },
+    {
+      "id": "s1ynxz4fye",
+      "company": "PKF Smith Cooper",
+      "name": "Work Experience 2027",
+      "tracker": "uk-finance",
+      "type": "pre-university",
+      "season": "2027",
+      "url": "https://pkfsmithcooper.teamtailor.com/jobs/8571164-work-experience-2027?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/pre-university",
+      "opening_date": "2026-11-03T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-03T12:00:52.554Z"
+    },
     {
       "id": "awtz2needf",
       "company": "Lloyds Banking Group",
