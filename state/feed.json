@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-03T15:20:49.220Z",
+  "updated_at": "2026-11-03T16:15:50.864Z",
   "items": [
+    {
+      "id": "l9dizhs80d",
+      "company": "Boehringer Ingelheim",
+      "name": "University Intern - Finance",
+      "tracker": "uk-finance",
+      "type": "industrial-placements",
+      "season": "2027",
+      "url": "https://jobs.boehringer-ingelheim.com/job/Winnersh-University-Intern-Finance-Unit/1444601333/?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/industrial-placements",
+      "opening_date": "2026-11-03T00:00:00.000Z",
+      "closing_date": "2026-11-06T00:00:00.000Z",
+      "opened_at": "2026-11-03T16:15:50.864Z"
+    },
     {
       "id": "ap5ilx7ksf",
       "company": "Financial Conduct Authority",
