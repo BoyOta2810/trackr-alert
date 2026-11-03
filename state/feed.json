@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-03T14:25:48.635Z",
+  "updated_at": "2026-11-03T14:50:51.446Z",
   "items": [
+    {
+      "id": "38ey91py2x",
+      "company": "Clyde & Co",
+      "name": "Bright Futures Programme 2027",
+      "tracker": "uk-law",
+      "type": "first-year-schemes",
+      "season": "2027",
+      "url": "https://apply.candidats.io/d67964c6-cbe8-4a46-b4d3-b43d6c5fa362?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Law_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-law/first-year-schemes",
+      "opening_date": "2026-11-02T00:00:00.000Z",
+      "closing_date": "2026-12-10T00:00:00.000Z",
+      "opened_at": "2026-11-03T14:50:51.446Z"
+    },
     {
       "id": "vzjx7id1x4",
       "company": "BMO Capital Markets",
