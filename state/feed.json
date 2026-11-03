@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-03T16:40:49.762Z",
+  "updated_at": "2026-11-03T17:10:50.285Z",
   "items": [
+    {
+      "id": "n3bc3fymy1",
+      "company": "Avara Foods",
+      "name": "Engineering Apprenticeship",
+      "tracker": "uk-engineering",
+      "type": "apprenticeships",
+      "season": "2027",
+      "url": "https://careers.avarafoods.co.uk/vacancies/6462/engineering-apprenticeship.html?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-engineering/apprenticeships",
+      "opening_date": "2026-11-02T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-03T17:10:50.285Z"
+    },
     {
       "id": "qnud3zo8ps",
       "company": "NFU Mutual",
