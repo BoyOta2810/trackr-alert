@@ -2356,5 +2356,10 @@
     "germany-finance/graduate-programmes": true,
     "hong-kong-finance/summer-internships": true,
     "hong-kong-finance/off-cycle-internships": true
+  },
+  "failure": {
+    "since": "2026-11-03T21:32:19.195Z",
+    "lastAlert": 1793741539195,
+    "reason": "1 Trackr tab(s) failed: page.waitForResponse: Timeout 45000ms exceeded while waiting for event \"response\""
   }
 }
