@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-03T11:35:45.496Z",
+  "updated_at": "2026-11-03T11:40:47.622Z",
   "items": [
+    {
+      "id": "rh4xokfjyy",
+      "company": "Bessemer Venture Partners",
+      "name": "Summer Analyst 2028",
+      "tracker": "us-finance",
+      "type": "summer-internships",
+      "season": "2028",
+      "url": "https://job-boards.greenhouse.io/bvpanalyst/jobs/4748559005?utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2028&gh_src=Trackr",
+      "trackr_url": "https://app.the-trackr.com/us-finance-2028/summer-internships",
+      "opening_date": "2026-11-03T00:00:00.000Z",
+      "closing_date": "2026-11-30T00:00:00.000Z",
+      "opened_at": "2026-11-03T11:40:47.622Z"
+    },
+    {
+      "id": "livi24d66w",
+      "company": "Barclays",
+      "name": "Banking Analyst Summer Internship Program 2028",
+      "tracker": "us-finance",
+      "type": "summer-internships",
+      "season": "2028",
+      "url": "https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays/job/Houston-609-Main-Street/Banking-Analyst-Summer-Internship-Program-2028-Houston_JR-0000137789?utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2028&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/us-finance-2028/summer-internships",
+      "opening_date": "2026-11-03T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-03T11:40:47.622Z"
+    },
     {
       "id": "akfuwa1b0n",
       "company": "Arch Insurance International",
