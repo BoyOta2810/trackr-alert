@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-03T15:15:55.176Z",
+  "updated_at": "2026-11-03T15:20:49.220Z",
   "items": [
+    {
+      "id": "ap5ilx7ksf",
+      "company": "Financial Conduct Authority",
+      "name": "2027 Cyber Graduate Programme",
+      "tracker": "uk-tech",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://fca.wd3.myworkdayjobs.com/en-US/FCA_earlycareers/job/XMLNAME-2027-Cyber-Graduate-Programme---London_JR0022766?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/graduate-programmes",
+      "opening_date": "2026-11-03T00:00:00.000Z",
+      "closing_date": "2026-11-30T00:00:00.000Z",
+      "opened_at": "2026-11-03T15:20:49.220Z"
+    },
+    {
+      "id": "jp01p6e92w",
+      "company": "BBVA",
+      "name": "Summer Internship – Corporate & Investment Banking",
+      "tracker": "uk-finance",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://bbva.wd3.myworkdayjobs.com/en-US/BBVA/job/BBVA-One-Canada-Square-44th-Floor-Canary-Wharf--London-E14-5AA-UK/Summer-Internship---Corporate---Investment-Banking--Industry-Coverage-_JR00119217?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/summer-internships",
+      "opening_date": "2026-11-03T00:00:00.000Z",
+      "closing_date": "2026-11-08T00:00:00.000Z",
+      "opened_at": "2026-11-03T15:20:49.220Z"
+    },
     {
       "id": "n3yh3oj19u",
       "company": "Lincoln International",
