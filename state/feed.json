@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-03T16:15:50.864Z",
+  "updated_at": "2026-11-03T16:40:49.762Z",
   "items": [
+    {
+      "id": "qnud3zo8ps",
+      "company": "NFU Mutual",
+      "name": "Graduate Scheme",
+      "tracker": "uk-finance",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://careers.nfumutual.co.uk/find-job/search-our-jobs?dept=Graduate&region=&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/graduate-programmes",
+      "opening_date": "2026-11-03T00:00:00.000Z",
+      "closing_date": "2026-11-08T00:00:00.000Z",
+      "opened_at": "2026-11-03T16:40:49.762Z"
+    },
     {
       "id": "l9dizhs80d",
       "company": "Boehringer Ingelheim",
