@@ -1,6 +1,58 @@
 {
-  "updated_at": "2026-11-03T12:00:52.554Z",
+  "updated_at": "2026-11-03T13:40:47.534Z",
   "items": [
+    {
+      "id": "c0jbk2xpy3",
+      "company": "SLB",
+      "name": "Early Carreers - Wellsite Engineer Trainee",
+      "tracker": "uk-engineering",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://careers.slb.com/jobdescription.aspx?id=EF12073-en+7&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
+      "opening_date": "2026-11-02T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-03T13:40:47.534Z"
+    },
+    {
+      "id": "44jcjybaqf",
+      "company": "SLB",
+      "name": "Field Engineer",
+      "tracker": "uk-engineering",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://careers.slb.com/jobdescription.aspx?id=87372&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
+      "opening_date": "2026-11-02T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-03T13:40:47.534Z"
+    },
+    {
+      "id": "1gclt490rt",
+      "company": "SLB",
+      "name": "Field Engineer Trainee (Completions & Well Intervention)",
+      "tracker": "uk-engineering",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://careers.slb.com/jobdescription.aspx?id=87373&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
+      "opening_date": "2026-11-02T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-03T13:40:47.534Z"
+    },
+    {
+      "id": "0ekg8sbm43",
+      "company": "SLB",
+      "name": "Early Careers-Geoscience&Petrotechnical",
+      "tracker": "uk-engineering",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://careers.slb.com/jobdescription.aspx?id=EF12075-en_US+3&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
+      "opening_date": "2026-11-02T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-03T13:40:47.534Z"
+    },
     {
       "id": "h8cpmpd9us",
       "company": "Marsh McLennan",
