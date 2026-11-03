@@ -1,6 +1,58 @@
 {
-  "updated_at": "2026-11-03T14:50:51.446Z",
+  "updated_at": "2026-11-03T15:15:55.176Z",
   "items": [
+    {
+      "id": "n3yh3oj19u",
+      "company": "Lincoln International",
+      "name": "2028 Summer Analyst Intern | PFA",
+      "tracker": "us-finance",
+      "type": "summer-internships",
+      "season": "2028",
+      "url": "https://www.lincolninternational.com/greenhouse/?gh_jid=8348513&utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2028&gh_src=Trackr",
+      "trackr_url": "https://app.the-trackr.com/us-finance-2028/summer-internships",
+      "opening_date": "2026-11-03T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-03T15:15:55.176Z"
+    },
+    {
+      "id": "a80opi79o2",
+      "company": "Lincoln International",
+      "name": "2028 Summer Analyst Intern | M&A",
+      "tracker": "us-finance",
+      "type": "summer-internships",
+      "season": "2028",
+      "url": "https://www.lincolninternational.com/greenhouse/?gh_jid=8348465&utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2028&gh_src=Trackr",
+      "trackr_url": "https://app.the-trackr.com/us-finance-2028/summer-internships",
+      "opening_date": "2026-11-03T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-03T15:15:55.176Z"
+    },
+    {
+      "id": "8p0kza78ut",
+      "company": "Lincoln International",
+      "name": "2028 Summer Analyst Intern | CAG",
+      "tracker": "us-finance",
+      "type": "summer-internships",
+      "season": "2028",
+      "url": "https://www.lincolninternational.com/greenhouse/?gh_jid=8348492&utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2028&gh_src=Trackr",
+      "trackr_url": "https://app.the-trackr.com/us-finance-2028/summer-internships",
+      "opening_date": "2026-11-03T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-03T15:15:55.176Z"
+    },
+    {
+      "id": "tsta2emevr",
+      "company": "Financial Conduct Authority",
+      "name": "2027 Summer Internship",
+      "tracker": "uk-finance",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://fca.wd3.myworkdayjobs.com/en-US/FCA_earlycareers?jobFamily=12d036035e131001aaafffc882ac0000&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/summer-internships",
+      "opening_date": "2026-11-03T00:00:00.000Z",
+      "closing_date": "2027-01-31T00:00:00.000Z",
+      "opened_at": "2026-11-03T15:15:55.176Z"
+    },
     {
       "id": "38ey91py2x",
       "company": "Clyde & Co",
