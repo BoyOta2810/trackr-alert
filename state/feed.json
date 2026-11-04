@@ -1,6 +1,45 @@
 {
-  "updated_at": "2026-11-04T13:55:50.524Z",
+  "updated_at": "2026-11-04T14:00:46.707Z",
   "items": [
+    {
+      "id": "315id9j3gl",
+      "company": "Natixis",
+      "name": "2027 Summer Internship Program",
+      "tracker": "us-finance",
+      "type": "full-time-programmes",
+      "season": "2027",
+      "url": "https://recrutement.natixis.com/en/job/2027-summer-internship-program-investment-banking-financing-2?utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/us-finance-2027/full-time-programmes",
+      "opening_date": "2026-11-04T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-04T14:00:46.707Z"
+    },
+    {
+      "id": "lkg80j1197",
+      "company": "Netcraft",
+      "name": "Software Engineering Intern",
+      "tracker": "uk-tech",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://job-boards.eu.greenhouse.io/netcraft/jobs/4975674101?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027&gh_src=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/summer-internships",
+      "opening_date": "2026-11-04T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-04T14:00:46.707Z"
+    },
+    {
+      "id": "4vf3kxd8tk",
+      "company": "Morgan Stanley",
+      "name": "2027 Spring Insight: Finance, Risk & Business Services (Glasgow)",
+      "tracker": "uk-finance",
+      "type": "spring-weeks",
+      "season": "2027",
+      "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/user-5764832/candidate/so/pm/1/pl/2/opp/22388-2027-Spring-Insight-Careers-Across-Finance-Risk-Business-Services-Glasgow/en-GB?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/spring-weeks",
+      "opening_date": "2026-11-04T00:00:00.000Z",
+      "closing_date": "2027-03-21T00:00:00.000Z",
+      "opened_at": "2026-11-04T14:00:46.707Z"
+    },
     {
       "id": "8wbnrudih8",
       "company": "Waterland Private Equity",
