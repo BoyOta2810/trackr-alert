@@ -1,6 +1,45 @@
 {
-  "updated_at": "2026-11-04T15:50:49.932Z",
+  "updated_at": "2026-11-04T23:15:49.840Z",
   "items": [
+    {
+      "id": "bghjm70w0r",
+      "company": "Evercore",
+      "name": "2027 Off-Cycle Internship - Industrials",
+      "tracker": "france-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://evercore.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-6/candidate/so/pm/1/pl/2/opp/3419-2027-Paris-Off-Cycle-Internship-Industrials-Team-January-2027-start/en-GB?utm_source=Trackr&utm_medium=tracker&utm_campaign=France_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/france-finance/off-cycle-internships",
+      "opening_date": "2026-11-04T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-04T23:15:49.840Z"
+    },
+    {
+      "id": "zyylt1kz8q",
+      "company": "Cantor Fitzgerald",
+      "name": "2028 Internship Program: Investment Banking",
+      "tracker": "us-finance",
+      "type": "summer-internships",
+      "season": "2028",
+      "url": "https://hdow.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/250422?utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2028&iis=Trackr&sType=Trackr",
+      "trackr_url": "https://app.the-trackr.com/us-finance-2028/summer-internships",
+      "opening_date": "2026-11-04T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-04T23:15:49.840Z"
+    },
+    {
+      "id": "wejolky8ln",
+      "company": "Aon",
+      "name": "Aon Summer Internship Programme 2027",
+      "tracker": "uk-finance",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://jobs.aon.com/jobs?keywords=summer+internship&sortBy=relevance&page=1&categories=Interns&location=GB&stretch=10&stretchUnit=MILES&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/summer-internships",
+      "opening_date": "2026-11-04T00:00:00.000Z",
+      "closing_date": "2026-12-07T00:00:00.000Z",
+      "opened_at": "2026-11-04T23:15:49.840Z"
+    },
     {
       "id": "tm7w2us2ou",
       "company": "Shawbrook",
