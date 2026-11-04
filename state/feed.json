@@ -1,6 +1,45 @@
 {
-  "updated_at": "2026-11-04T10:40:48.752Z",
+  "updated_at": "2026-11-04T13:55:50.524Z",
   "items": [
+    {
+      "id": "8wbnrudih8",
+      "company": "Waterland Private Equity",
+      "name": "Praktikant Investment Team | Q2/2027",
+      "tracker": "germany-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://www.waterlandpe.com/career/praktikant-m-w-d-muenchen/?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
+      "opening_date": "2026-11-04T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-04T13:55:50.524Z"
+    },
+    {
+      "id": "vwv4684uxo",
+      "company": "Vodafone",
+      "name": "Graduate Technology Future Leader Programme",
+      "tracker": "uk-tech",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://opportunities.vodafone.com/job/Newbury-VodafoneThree-Graduate-Technology-Future-Leader-Programme/1454102533/?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/graduate-programmes",
+      "opening_date": "2026-11-04T00:00:00.000Z",
+      "closing_date": "2026-12-31T00:00:00.000Z",
+      "opened_at": "2026-11-04T13:55:50.524Z"
+    },
+    {
+      "id": "bn1y0np329",
+      "company": "Vodafone",
+      "name": "Graduate Finance Programme",
+      "tracker": "uk-finance",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://opportunities.vodafone.com/search/?createNewAlert=false&q=%22graduate+finance%22&locationsearch=gb&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/graduate-programmes",
+      "opening_date": "2026-11-04T00:00:00.000Z",
+      "closing_date": "2026-12-31T00:00:00.000Z",
+      "opened_at": "2026-11-04T13:55:50.524Z"
+    },
     {
       "id": "6zgtpdzitd",
       "company": "Partners Group",
