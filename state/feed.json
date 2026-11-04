@@ -1,6 +1,45 @@
 {
-  "updated_at": "2026-11-04T23:15:49.840Z",
+  "updated_at": "2026-11-04T23:20:52.698Z",
   "items": [
+    {
+      "id": "f48nfqocxc",
+      "company": "J.P. Morgan",
+      "name": "2028 Summer Analyst Program",
+      "tracker": "us-finance",
+      "type": "summer-internships",
+      "season": "2028",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210805837?utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2028&iis=Trackr&sType=Trackr",
+      "trackr_url": "https://app.the-trackr.com/us-finance-2028/summer-internships",
+      "opening_date": "2026-11-04T00:00:00.000Z",
+      "closing_date": "2026-11-09T00:00:00.000Z",
+      "opened_at": "2026-11-04T23:20:52.698Z"
+    },
+    {
+      "id": "oms7jd6k39",
+      "company": "Nutanix",
+      "name": "Software Engineering Intern (Summer 2027)",
+      "tracker": "uk-tech",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://careers.nutanix.com/en/jobs/32980/software-engineering-intern-summer-2027/?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/summer-internships",
+      "opening_date": "2026-11-04T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-04T23:20:52.698Z"
+    },
+    {
+      "id": "rn0va6jde6",
+      "company": "Marsh McLennan",
+      "name": "Global Investments 2027 Summer Internship Programme",
+      "tracker": "uk-finance",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://careers.marsh.com/global/en/job/R_371751/Marsh-Global-Investments-2027-Summer-Internship-Programme?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/summer-internships",
+      "opening_date": "2026-11-04T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-04T23:20:52.698Z"
+    },
     {
       "id": "bghjm70w0r",
       "company": "Evercore",
