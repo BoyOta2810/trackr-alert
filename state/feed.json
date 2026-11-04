@@ -1,6 +1,45 @@
 {
-  "updated_at": "2026-11-03T18:50:55.222Z",
+  "updated_at": "2026-11-04T00:00:49.109Z",
   "items": [
+    {
+      "id": "imfvsniqf4",
+      "company": "Russell-Cooke",
+      "name": "Vacation Scheme 2",
+      "tracker": "uk-law",
+      "type": "vacation-schemes",
+      "season": "2027",
+      "url": "https://www.russell-cooke.co.uk/careers/graduate-recruitment/our-vacation-scheme?utm_source=Trackr&utm_medium=tracker&utm_campaign=uk_law_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-law/vacation-schemes",
+      "opening_date": "2026-11-04T00:00:00.000Z",
+      "closing_date": "2027-02-03T00:00:00.000Z",
+      "opened_at": "2026-11-04T00:00:49.109Z"
+    },
+    {
+      "id": "e05p21cfi8",
+      "company": "Russell-Cooke",
+      "name": "Vacation scheme 1",
+      "tracker": "uk-law",
+      "type": "vacation-schemes",
+      "season": "2027",
+      "url": "https://www.russell-cooke.co.uk/careers/graduate-recruitment/our-vacation-scheme?utm_source=Trackr&utm_medium=tracker&utm_campaign=uk_law_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-law/vacation-schemes",
+      "opening_date": "2026-11-04T00:00:00.000Z",
+      "closing_date": "2027-02-03T00:00:00.000Z",
+      "opened_at": "2026-11-04T00:00:49.109Z"
+    },
+    {
+      "id": "9fab40lxsv",
+      "company": "Russell-Cooke",
+      "name": "Training Contract",
+      "tracker": "uk-law",
+      "type": "training-contracts",
+      "season": "2027",
+      "url": "https://www.russell-cooke.co.uk/careers/graduate-recruitment/our-training-contract?utm_source=Trackr&utm_medium=tracker&utm_campaign=uk_law_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-law/training-contracts",
+      "opening_date": "2026-11-04T00:00:00.000Z",
+      "closing_date": "2027-02-03T00:00:00.000Z",
+      "opened_at": "2026-11-04T00:00:49.109Z"
+    },
     {
       "id": "my8ncwbg9k",
       "company": "STJ Advisors",
