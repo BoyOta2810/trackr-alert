@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-04T14:25:57.770Z",
+  "updated_at": "2026-11-04T15:50:49.932Z",
   "items": [
+    {
+      "id": "tm7w2us2ou",
+      "company": "Shawbrook",
+      "name": "ACA Finance programme (ICAEW) 2027",
+      "tracker": "uk-finance",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://careers.shawbrook.co.uk/en/jobs/aca-finance-programme-icaew-2027-en-ref1822a?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/graduate-programmes",
+      "opening_date": "2026-11-04T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-04T15:50:49.932Z"
+    },
     {
       "id": "7exywj6p73",
       "company": "Roku",
