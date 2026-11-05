@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-05T18:45:53.126Z",
+  "updated_at": "2026-11-05T20:40:47.817Z",
   "items": [
+    {
+      "id": "ugpzsdj1ey",
+      "company": "HSBC",
+      "name": "2027 Spring Insight Programme",
+      "tracker": "uk-finance",
+      "type": "spring-weeks",
+      "season": "2027",
+      "url": "https://apply.careers.hsbc.com/emergingtalent/job/London-Corporate-and-Institutional-Banking-Spring-Insight-Programme-E14-5HQ/1376330157/?feedId=434057&utm_source=Trackr&utm_campaign=UK_Finance_2027&utm_medium=tracker",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/spring-weeks",
+      "opening_date": "2026-11-05T00:00:00.000Z",
+      "closing_date": "2026-11-20T00:00:00.000Z",
+      "opened_at": "2026-11-05T20:40:47.817Z"
+    },
     {
       "id": "ajner7sc27",
       "company": "Astorg",
