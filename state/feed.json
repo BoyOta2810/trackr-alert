@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-05T12:30:49.879Z",
+  "updated_at": "2026-11-05T13:20:46.882Z",
   "items": [
+    {
+      "id": "j6wakqno99",
+      "company": "Pexip",
+      "name": "Summer internship - Software Engineers",
+      "tracker": "uk-tech",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://pexip.bamboohr.com/careers/641?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/summer-internships",
+      "opening_date": "2026-11-05T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-05T13:20:46.882Z"
+    },
     {
       "id": "hu8v22yf7w",
       "company": "Armira",
