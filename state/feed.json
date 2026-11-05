@@ -1,6 +1,58 @@
 {
-  "updated_at": "2026-11-05T11:05:45.093Z",
+  "updated_at": "2026-11-05T11:16:19.410Z",
   "items": [
+    {
+      "id": "xrs7i1exsd",
+      "company": "PA Consulting",
+      "name": "2027 Apprentice - Digital (Data and Decision Intelligence) ",
+      "tracker": "uk-tech",
+      "type": "pre-university",
+      "season": "2027",
+      "url": "https://careers.smartrecruiters.com/PAConsulting?keyword=%222027+apprentice%22&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027&trid=Trackr&dcr_ci=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/pre-university",
+      "opening_date": "2026-11-05T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-05T11:16:19.410Z"
+    },
+    {
+      "id": "fgjsmxkhmg",
+      "company": "PA Consulting",
+      "name": "2027 Apprentice - Digital (Software Development)",
+      "tracker": "uk-tech",
+      "type": "pre-university",
+      "season": "2027",
+      "url": "https://careers.smartrecruiters.com/PAConsulting?keyword=%222027+apprentice%22&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027&trid=Trackr&dcr_ci=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/pre-university",
+      "opening_date": "2026-11-05T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-05T11:16:19.410Z"
+    },
+    {
+      "id": "dbqe60y6fe",
+      "company": "Actica Consulting",
+      "name": "Graduate Cyber Security Consultant",
+      "tracker": "uk-tech",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://actica.pinpointhq.com/en/postings/973dc768-c64a-47d1-ae2c-9fc66aa2248d?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/graduate-programmes",
+      "opening_date": "2026-11-05T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-05T11:16:19.410Z"
+    },
+    {
+      "id": "owa8qhuvp2",
+      "company": "Morgan Stanley",
+      "name": "2027 Step In, Step Up - Empowering Women",
+      "tracker": "uk-finance",
+      "type": "pre-university",
+      "season": "2027",
+      "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/candidate/so/pm/1/pl/1/opp/22357-2027-Step-In-Step-Up-Empowering-Women-Career-Pathways-Programmme/en-GB?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/pre-university",
+      "opening_date": "2026-11-05T00:00:00.000Z",
+      "closing_date": "2027-01-10T00:00:00.000Z",
+      "opened_at": "2026-11-05T11:16:19.410Z"
+    },
     {
       "id": "ymu5cwti74",
       "company": "AlphaSights",
