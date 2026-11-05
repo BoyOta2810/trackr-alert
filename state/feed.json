@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-05T00:05:44.846Z",
+  "updated_at": "2026-11-05T09:00:49.741Z",
   "items": [
+    {
+      "id": "bg2fuib18w",
+      "company": "PJT Partners",
+      "name": "2028 Summer Analyst - Strategic Advisory",
+      "tracker": "us-finance",
+      "type": "summer-internships",
+      "season": "2028",
+      "url": "https://pjtpartners.wd1.myworkdayjobs.com/en-US/Students/job/Houston/XMLNAME-2028-Summer-Analyst---Strategic-Advisory--Houston-_R0003592?utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2028&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/us-finance-2028/summer-internships",
+      "opening_date": "2026-11-04T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-05T09:00:49.741Z"
+    },
+    {
+      "id": "66wwsvb3zv",
+      "company": "Vista Equity Partners",
+      "name": "2028 Private Equity Summer Analyst",
+      "tracker": "us-finance",
+      "type": "summer-internships",
+      "season": "2028",
+      "url": "https://www.vistaequitypartners.com/careers/vista-career-opportunities/job-posting/?id=3048&utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2028",
+      "trackr_url": "https://app.the-trackr.com/us-finance-2028/summer-internships",
+      "opening_date": "2026-11-05T00:00:00.000Z",
+      "closing_date": "2026-11-17T00:00:00.000Z",
+      "opened_at": "2026-11-05T09:00:49.741Z"
+    },
     {
       "id": "pipmny14fu",
       "company": "National Bank of Canada",
