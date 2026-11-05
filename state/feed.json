@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-05T15:15:47.187Z",
+  "updated_at": "2026-11-05T17:05:53.413Z",
   "items": [
+    {
+      "id": "y9ahr927t6",
+      "company": "Baringa",
+      "name": "Summer Internship 2027 - Solutions AI LAB",
+      "tracker": "uk-tech",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://job-boards.eu.greenhouse.io/baringa/jobs/5028472101?gh_src=Trackr&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/summer-internships",
+      "opening_date": "2026-11-05T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-05T17:05:53.413Z"
+    },
     {
       "id": "r4tbx8lzgp",
       "company": "FT Partners",
