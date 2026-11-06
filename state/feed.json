@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-06T10:15:44.963Z",
+  "updated_at": "2026-11-06T10:20:55.723Z",
   "items": [
+    {
+      "id": "de8yufe5om",
+      "company": "Point72",
+      "name": "2027 Trader Summer Intern",
+      "tracker": "hong-kong-finance",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://job-boards.greenhouse.io/point72/jobs/8932943002?gh_jid=8932943002&utm_source=Trackr&utm_medium=tracker&utm_campaign=Hong_Kong_Finance_2027&gh_src=Trackr",
+      "trackr_url": "https://app.the-trackr.com/hong-kong-finance/summer-internships",
+      "opening_date": "2026-11-06T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-06T10:20:55.723Z"
+    },
+    {
+      "id": "obbqudciiw",
+      "company": "M&G",
+      "name": "Asset Management: Client Group & Product Internship",
+      "tracker": "uk-finance",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://mgpru.wd3.myworkdayjobs.com/en-US/mandgprudential/job/Asset-Management--Client-Group---Product-Internship--London-_R20839?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/summer-internships",
+      "opening_date": "2026-11-06T00:00:00.000Z",
+      "closing_date": "2026-12-31T00:00:00.000Z",
+      "opened_at": "2026-11-06T10:20:55.723Z"
+    },
     {
       "id": "rev290n0ei",
       "company": "M&G",
