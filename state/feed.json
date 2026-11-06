@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-06T10:20:55.723Z",
+  "updated_at": "2026-11-06T10:25:49.590Z",
   "items": [
+    {
+      "id": "n5kh27fxos",
+      "company": "M&G",
+      "name": "Asset Management: COO Internship",
+      "tracker": "uk-finance",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://mgpru.wd3.myworkdayjobs.com/en-US/mandgprudential/job/Asset-Management--COO-Internship--London-_R20840?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/summer-internships",
+      "opening_date": "2026-11-06T00:00:00.000Z",
+      "closing_date": "2026-12-31T00:00:00.000Z",
+      "opened_at": "2026-11-06T10:25:49.590Z"
+    },
+    {
+      "id": "6xgkcen2h8",
+      "company": "M&G",
+      "name": "Asset Management: Equities Internship",
+      "tracker": "uk-finance",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://mgpru.wd3.myworkdayjobs.com/en-US/mandgprudential/job/Asset-Management--Equities-Internship--London-_R20841?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/summer-internships",
+      "opening_date": "2026-11-06T00:00:00.000Z",
+      "closing_date": "2026-12-20T00:00:00.000Z",
+      "opened_at": "2026-11-06T10:25:49.590Z"
+    },
     {
       "id": "de8yufe5om",
       "company": "Point72",
