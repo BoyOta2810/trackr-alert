@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-06T10:40:49.553Z",
+  "updated_at": "2026-11-06T10:55:49.848Z",
   "items": [
+    {
+      "id": "0fpzhfqi3z",
+      "company": "Augusta & Co",
+      "name": "Investment Banking Intern",
+      "tracker": "uk-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://www.grb.uk.com/internships/augusta-co-investment-banking-intern-london-37159/?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/off-cycle-internships",
+      "opening_date": "2026-07-29T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-06T10:55:49.848Z"
+    },
     {
       "id": "211124gg0f",
       "company": "Leathes Prior",
