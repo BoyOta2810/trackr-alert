@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-06T10:35:45.572Z",
+  "updated_at": "2026-11-06T10:40:49.553Z",
   "items": [
+    {
+      "id": "211124gg0f",
+      "company": "Leathes Prior",
+      "name": "Summer Vacation Scheme",
+      "tracker": "uk-law",
+      "type": "vacation-schemes",
+      "season": "2027",
+      "url": "https://www.leathesprior.co.uk/trainee-assessment-days?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Law_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-law/vacation-schemes",
+      "opening_date": "2026-11-01T00:00:00.000Z",
+      "closing_date": "2027-07-21T00:00:00.000Z",
+      "opened_at": "2026-11-06T10:40:49.553Z"
+    },
+    {
+      "id": "7nh8amd8g4",
+      "company": "Leathes Prior",
+      "name": "Training Contract (Trainee Assessment Day)",
+      "tracker": "uk-law",
+      "type": "training-contracts",
+      "season": "2027",
+      "url": "https://www.leathesprior.co.uk/trainee-assessment-days?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Law_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-law/training-contracts",
+      "opening_date": "2026-11-01T00:00:00.000Z",
+      "closing_date": "2026-11-11T00:00:00.000Z",
+      "opened_at": "2026-11-06T10:40:49.553Z"
+    },
     {
       "id": "srpeibq49a",
       "company": "Leathes Prior",
