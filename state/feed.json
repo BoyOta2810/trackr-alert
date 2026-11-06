@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-06T13:10:45.457Z",
+  "updated_at": "2026-11-06T13:20:46.122Z",
   "items": [
+    {
+      "id": "if5mhkuo7l",
+      "company": "Cummins",
+      "name": "Placement Student - IT",
+      "tracker": "uk-tech",
+      "type": "industrial-placements",
+      "season": "2027",
+      "url": "https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?keyword=%22placement+student%22&lastSelectedFacet=CATEGORIES&location=United+Kingdom&locationId=300000000440593&locationLevel=country&mode=location&selectedCategoriesFacet=300000017270666&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027&iis=Trackr&sType=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/industrial-placements",
+      "opening_date": "2026-11-06T00:00:00.000Z",
+      "closing_date": "2026-12-18T00:00:00.000Z",
+      "opened_at": "2026-11-06T13:20:46.122Z"
+    },
+    {
+      "id": "7ro5u80om7",
+      "company": "Cummins",
+      "name": "Placement Student - Data Analytics",
+      "tracker": "uk-tech",
+      "type": "industrial-placements",
+      "season": "2027",
+      "url": "https://fa-espx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?keyword=%22placement+student+-+data%22&location=United+Kingdom&locationId=300000000440593&locationLevel=country&mode=location&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027&iis=Trackr&sType=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/industrial-placements",
+      "opening_date": "2026-11-06T00:00:00.000Z",
+      "closing_date": "2026-12-18T00:00:00.000Z",
+      "opened_at": "2026-11-06T13:20:46.122Z"
+    },
     {
       "id": "01zy4m51hk",
       "company": "The Carlyle Group",
