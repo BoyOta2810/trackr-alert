@@ -8,28 +8,13 @@
 import fs from "node:fs/promises";
 import crypto from "node:crypto";
 
-// Every tracker and its tabs, as the page paths Trackr itself uses. Events tabs are left out: they
-// are not applications. A tab added here later is recorded silently on its first check.
-const TRACKERS = {
-  "uk-finance": { name: "UK Finance", pages: ["summer-internships", "spring-weeks", "off-cycle-internships",
-    "industrial-placements", "graduate-programmes", "pre-university"].map((t) => "uk-finance/" + t) },
-  "uk-tech": { name: "UK Tech", pages: ["summer-internships", "industrial-placements", "graduate-programmes",
-    "spring-weeks", "pre-university"].map((t) => "uk-tech/" + t) },
-  "uk-law": { name: "UK Law", pages: ["training-contracts", "vacation-schemes", "non-law-internships",
-    "first-year-schemes"].map((t) => "uk-law/" + t) },
-  "uk-engineering": { name: "UK Engineering", pages: ["graduate-programmes", "industrial-placements",
-    "summer-internships", "apprenticeships"].map((t) => "uk-engineering/" + t) },
-  "us-finance": { name: "US Finance", pages: ["us-finance-2027/summer-internships", "us-finance-2027/full-time-programmes",
-    "us-finance-2028/summer-internships", "us-finance-2028/full-time-programmes", "us-finance-2028/insight-programs"] },
-  "us-tech": { name: "US Tech", pages: ["summer-internships", "full-time-programmes", "off-cycle-internships"]
-    .map((t) => "us-tech/" + t) },
-  "france-finance": { name: "France Finance", pages: ["summer-internships", "off-cycle-internships",
-    "graduate-programmes"].map((t) => "france-finance/" + t) },
-  "germany-finance": { name: "Germany Finance", pages: ["summer-internships", "off-cycle-internships",
-    "graduate-programmes"].map((t) => "germany-finance/" + t) },
-  "hong-kong-finance": { name: "Hong Kong Finance", pages: ["summer-internships", "off-cycle-internships"]
-    .map((t) => "hong-kong-finance/" + t) },
-};
+// Every tracker and its tabs (categories), as the page paths Trackr itself uses, in
+// docs/trackers.json; the Mini App reads the same file. Events tabs are left out: they are not
+// applications. A tab added there later is recorded silently on its first check.
+const TRACKERS = JSON.parse(await fs.readFile(new URL("./docs/trackers.json", import.meta.url), "utf8"));
+const TRACKER_OF = Object.fromEntries(Object.entries(TRACKERS).flatMap(([t, { pages }]) => pages.map((p) => [p, t])));
+// "us-finance-2028/insight-programs" -> "2028 insight programs"
+const tabName = (page) => page.replace(/^[a-z-]*?(\d{4})?\//, (_, y) => (y ? y + " " : "")).replace(/-/g, " ");
 const WATCH = (process.env.TRACKR_TRACKERS || Object.keys(TRACKERS).join(","))
   .split(",").map((s) => s.trim()).filter((s) => TRACKERS[s]);
 const DEFAULT_FOLLOW = ["uk-finance"]; // what /start gives: the bot began as UK Finance only
@@ -61,7 +46,7 @@ function unseal(s) {
   return JSON.parse(Buffer.concat([d.update(b.subarray(28)), d.final()]).toString());
 }
 
-// Subscribers are { chatId: [trackers they follow] }. Lists from before trackers existed are plain
+// Subscribers are { chatId: [trackers and categories they follow] }. Lists from before trackers existed are plain
 // arrays of chat ids; those people followed UK Finance.
 const followers = (subs) => (Array.isArray(subs) ? Object.fromEntries(subs.map((id) => [id, [...DEFAULT_FOLLOW]])) : subs);
 
@@ -186,9 +171,9 @@ function isOpen(p, now) {
 }
 
 // ---- Telegram ------------------------------------------------------------
-// The bot is public: anyone who opens it and presses Start follows UK Finance; commands switch
-// trackers on and off. TELEGRAM_CHAT_IDS (optional) are always-on extras, e.g. a channel, which
-// get TELEGRAM_CHAT_TRACKERS (default UK Finance).
+// The bot is public: anyone who opens it and presses Start follows UK Finance; the Mini App and
+// commands switch trackers and categories on and off. TELEGRAM_CHAT_IDS (optional) are always-on
+// extras, e.g. a channel, which get TELEGRAM_CHAT_TRACKERS (default UK Finance; categories work too).
 const MAX_SUBSCRIBERS = Number(process.env.MAX_SUBSCRIBERS || 10000);
 const SENDS_PER_SECOND = 25; // Telegram allows about 30 messages a second per bot
 const command = (tracker) => "/" + tracker.replace(/-/g, "_");
@@ -228,29 +213,46 @@ async function paced(items, fn) {
   }
 }
 
-function trackerMenu(follows) {
-  const lines = Object.entries(TRACKERS).map(([t, { name }]) => `${follows.includes(t) ? "✅" : "▫️"} ${name}  ${command(t)}`);
-  return `Your trackers:\n${lines.join("\n")}\n\nTap a button to switch a tracker on or off. ` +
-    "Changes show up on the bot's next check, within about 5 minutes.";
+// A subscriber follows a list of whole trackers ("uk-finance") and single categories
+// ("uk-tech/spring-weeks"). normalize keeps known entries, in catalogue order, and folds a
+// tracker whose every category is chosen back into the tracker.
+const wants = (list, p) => list.includes(p.tracker) || list.includes(p.page);
+function normalize(list) {
+  const set = new Set(list);
+  return Object.entries(TRACKERS).flatMap(([t, { pages }]) => {
+    const mine = pages.filter((p) => set.has(p));
+    return set.has(t) || mine.length === pages.length ? [t] : mine;
+  });
 }
 
-// Buttons under the tracker menu: one per tracker (two a row), then "all" and "unsubscribe".
-function trackerButtons(follows) {
-  const btns = Object.entries(TRACKERS).map(([t, { name }]) => ({ text: `${follows.includes(t) ? "✅" : "▫️"} ${name}`, callback_data: "t:" + t }));
-  const rows = [];
-  for (let i = 0; i < btns.length; i += 2) rows.push(btns.slice(i, i + 2));
-  rows.push([{ text: "Follow all", callback_data: "all" }, { text: "Unsubscribe", callback_data: "stop" }]);
-  return { inline_keyboard: rows };
+function trackerMenu(list) {
+  const lines = Object.entries(TRACKERS).map(([t, { name }]) => {
+    if (list.includes(t)) return `✅ ${name}`;
+    const mine = list.filter((p) => TRACKER_OF[p] === t);
+    return mine.length ? `☑️ ${name}: ${mine.map(tabName).join(", ")}` : `▫️ ${name}`;
+  });
+  return `Your alerts:\n${lines.join("\n")}\n\nTap ⚙️ Choose alerts below to pick trackers and categories ` +
+    "(spring weeks, summer internships, ...). Changes show up on the bot's next check, within about 5 minutes.";
 }
+
+// The Mini App (docs/index.html on GitHub Pages) is opened from a keyboard button, the only kind
+// whose app can send its result back as a message, which fits a bot that polls. The current
+// choice rides in the URL so the app opens with it ticked.
+const MINI_APP_URL = process.env.MINI_APP_URL || "https://boyota2810.github.io/trackr-alert/";
+const appKeyboard = (list) => ({
+  keyboard: [[{ text: "⚙️ Choose alerts", web_app: { url: `${MINI_APP_URL}#f=${list.join(",")}` } }]],
+  resize_keyboard: true,
+  is_persistent: true,
+});
 
 // The bot's Menu button (left of the text box) lists these. Sent once; bump the version to resend.
 const BOT_COMMANDS = [
-  { command: "trackers", description: "Choose your trackers" },
-  { command: "all", description: "Follow every tracker" },
+  { command: "trackers", description: "Choose trackers and categories" },
+  { command: "all", description: "Follow everything" },
   { command: "start", description: "Subscribe" },
   { command: "stop", description: "Unsubscribe" },
 ];
-const COMMANDS_VERSION = 1;
+const COMMANDS_VERSION = 2;
 
 async function setupMenu(state) {
   if (state.telegram.commandsVersion === COMMANDS_VERSION) return;
@@ -259,10 +261,10 @@ async function setupMenu(state) {
   state.telegram.commandsVersion = COMMANDS_VERSION;
 }
 
-// Applies a command (typed or from a button) to the subscriber list. Returns the reply and
-// whether it carries the tracker buttons, or null for input the bot ignores.
-function handle(subs, id, cmd) {
-  const known = cmd === "/start" || cmd === "/all" || cmd === "/trackers" || TRACKER_COMMANDS[cmd];
+// Applies a command, or the Mini App's choice (cmd "app"), to the subscriber list. Returns the
+// reply and whether it carries the Mini App keyboard, or null for input the bot ignores.
+function handle(subs, id, cmd, chosen) {
+  const known = cmd === "/start" || cmd === "/all" || cmd === "/trackers" || cmd === "app" || TRACKER_COMMANDS[cmd];
   if (cmd === "/stop") {
     delete subs[id];
     return { text: "You're unsubscribed. Send /start any time to subscribe again." };
@@ -270,17 +272,30 @@ function handle(subs, id, cmd) {
   if (known && !subs[id] && Object.keys(subs).length >= MAX_SUBSCRIBERS) return { text: "Sorry, this bot is full right now." };
   if (cmd === "/start") {
     subs[id] ??= [...DEFAULT_FOLLOW];
-    return { text: "✅ You're subscribed. I'll message you when a new programme opens on the trackers you follow.\n\n"
-      + trackerMenu(subs[id]), buttons: true };
+    return { text: "✅ You're subscribed. I'll message you when a new programme opens in the categories you follow.\n\n"
+      + trackerMenu(subs[id]), app: true };
   }
   if (cmd === "/trackers") subs[id] ??= [...DEFAULT_FOLLOW];
   else if (cmd === "/all") subs[id] = Object.keys(TRACKERS);
+  else if (cmd === "app") subs[id] = normalize(chosen);
   else if (TRACKER_COMMANDS[cmd]) {
+    // Following any part of a tracker: the command switches all of it off; otherwise all on.
     const t = TRACKER_COMMANDS[cmd];
     const mine = subs[id] ?? [];
-    subs[id] = mine.includes(t) ? mine.filter((x) => x !== t) : [...mine, t];
+    const rest = mine.filter((x) => x !== t && TRACKER_OF[x] !== t);
+    subs[id] = rest.length < mine.length ? rest : normalize([...mine, t]);
   } else return null;
-  return { text: trackerMenu(subs[id]), buttons: true };
+  return { text: trackerMenu(subs[id]), app: true };
+}
+
+// The Mini App sends a JSON list of trackers and categories; anything else counts as nothing.
+function appChoice(data) {
+  try {
+    const list = JSON.parse(data);
+    return Array.isArray(list) ? list.filter((x) => typeof x === "string") : null;
+  } catch {
+    return null;
+  }
 }
 
 async function syncTelegramSubscribers(state) {
@@ -294,25 +309,25 @@ async function syncTelegramSubscribers(state) {
     const m = q ? q.message : u.message;
     if (m?.chat?.type !== "private") continue;
     const id = String(m.chat.id);
-    let cmd;
+    let cmd, chosen;
     if (q) {
+      // Tracker buttons on menus sent before the Mini App. Updates are read every 5 minutes, so
+      // the press is often too old to answer; the reply is a fresh menu.
       const d = String(q.data ?? "");
       cmd = d === "all" ? "/all" : d === "stop" ? "/stop" : d.startsWith("t:") && TRACKERS[d.slice(2)] ? command(d.slice(2)) : "";
-      // Updates are read every 5 minutes, so the press is often too old to answer; that's fine.
       await tg("answerCallbackQuery", { callback_query_id: q.id }).catch(() => {});
+    } else if (m.web_app_data) {
+      chosen = appChoice(m.web_app_data.data);
+      if (!chosen) continue;
+      cmd = "app";
     } else {
       if (!m.text) continue;
       cmd = m.text.trim().split(/[\s@]/)[0].toLowerCase();
     }
-    const reply = handle(subs, id, cmd);
+    const reply = handle(subs, id, cmd, chosen);
     if (!reply) continue;
-    const msg = { chat_id: m.chat.id, text: reply.text, reply_markup: reply.buttons ? trackerButtons(subs[id]) : undefined };
-    // A button press updates the menu it came from; edits fail if nothing changed, so fall back
-    // to a new message only for other errors.
-    if (q) {
-      await tg("editMessageText", { ...msg, message_id: m.message_id }).catch((e) =>
-        /not modified/i.test(e.description) ? null : tg("sendMessage", msg).catch(() => {}));
-    } else await tg("sendMessage", msg).catch(() => {});
+    const reply_markup = reply.app ? appKeyboard(subs[id]) : { remove_keyboard: true };
+    await tg("sendMessage", { chat_id: m.chat.id, text: reply.text, reply_markup }).catch(() => {});
   }
 }
 
@@ -321,7 +336,7 @@ const programmeLine = (p) =>
   (p.closingDate ? `Closes ${p.closingDate.slice(0, 10)}\n` : "") +
   (p.url ?? `https://app.the-trackr.com/${p.page}`);
 
-// Sends each recipient the new programmes from the trackers they follow, at most 5 per message.
+// Sends each recipient the new programmes in the categories they follow, at most 5 per message.
 // One failing recipient doesn't stop the others. Returns the ids of programmes that reached at
 // least one person, plus those nobody follows (nothing to deliver; they still go into the feed).
 async function notify(fresh, state) {
@@ -339,7 +354,7 @@ async function notify(fresh, state) {
   const followed = new Set();
   const outbox = [];
   for (const [chatId, follows] of recipients) {
-    const mine = fresh.filter((p) => follows.includes(p.tracker));
+    const mine = fresh.filter((p) => wants(follows, p));
     mine.forEach((p) => followed.add(p.id));
     for (let i = 0; i < mine.length; i += 5) outbox.push({ chatId, programmes: mine.slice(i, i + 5) });
   }

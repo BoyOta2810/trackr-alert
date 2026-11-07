@@ -10,17 +10,18 @@ unsubscribes. Runs free on GitHub Actions.
 ## For users
 Open the bot in Telegram and press **Start**. You follow UK Finance to begin with. You'll get a
 confirmation within about 5-10 minutes (the bot reads new messages on each check), then a message
-whenever a new programme opens on a tracker you follow.
+whenever a new programme opens in a category you follow.
 
-The confirmation carries a button for each tracker (✅ followed, ▫️ not), plus **Follow all** and
-**Unsubscribe**. Tapping one updates that same message on the next check. The bot's **Menu**
-button (left of the text box) lists the main commands; the bot registers it on its first run.
+Below the text box the bot shows a **⚙️ Choose alerts** button. It opens a Mini App listing every
+tracker and its categories (summer internships, spring weeks, graduate programmes, ...); tick
+whole trackers or single categories and press **Save**. The bot confirms on its next check. The
+bot's **Menu** button (left of the text box) lists the main commands.
 
 | Command | |
 | --- | --- |
-| `/trackers` | your trackers, with buttons to switch each on or off |
-| `/uk_finance`, `/uk_tech`, `/uk_law`, `/uk_engineering`, `/us_finance`, `/us_tech`, `/france_finance`, `/germany_finance`, `/hong_kong_finance` | follow or unfollow that tracker |
-| `/all` | follow every tracker |
+| `/trackers` | what you follow, and the Choose alerts button |
+| `/uk_finance`, `/uk_tech`, `/uk_law`, `/uk_engineering`, `/us_finance`, `/us_tech`, `/france_finance`, `/germany_finance`, `/hong_kong_finance` | follow or unfollow a whole tracker |
+| `/all` | follow everything |
 | `/stop` | unsubscribe |
 
 ## How it runs
@@ -69,9 +70,15 @@ Keep the repo **public**: public repos get unlimited free Actions minutes.
 3. When the token expires, create a new one and repeat `wrangler secret put`. Until then the
    15-minute fallback keeps running, and the heartbeat's run count drops to about 0.
 
+### Mini App (GitHub Pages)
+`docs/` is published to `https://boyota2810.github.io/trackr-alert/` by the **Mini App** workflow
+whenever `docs/` changes (Settings → Pages → Source: GitHub Actions). It opens from a keyboard
+button, the only kind whose app can send its result back to a polling bot as a message. Set
+`MINI_APP_URL` to host it elsewhere. Nothing needs registering with @BotFather.
+
 ### Which trackers to watch
-All trackers and their tabs are listed in `TRACKERS` at the top of `check.mjs` (Events tabs are
-left out: they aren't applications). `TRACKR_TRACKERS` (optional variable, comma-separated, e.g.
+All trackers and their tabs are listed in `docs/trackers.json`; the Mini App reads the same file
+(Events tabs are left out: they aren't applications). `TRACKR_TRACKERS` (optional variable, comma-separated, e.g.
 `uk-finance,uk-law`) limits which are checked. Each tab is loaded in turn in one page, about 30 s
 for all of them; parallel pages get empty answers from Trackr's session check.
 

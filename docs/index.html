@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Trackr alerts</title>
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<style>
+  :root {
+    --bg: var(--tg-theme-secondary-bg-color, #f1f1f4);
+    --card: var(--tg-theme-section-bg-color, var(--tg-theme-bg-color, #fff));
+    --text: var(--tg-theme-text-color, #111);
+    --hint: var(--tg-theme-hint-color, #8a8a8e);
+    --accent: var(--tg-theme-button-color, #2481cc);
+    --on-accent: var(--tg-theme-button-text-color, #fff);
+    --line: color-mix(in srgb, var(--hint) 25%, transparent);
+  }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  body { margin: 0; padding: 12px 12px 90px; background: var(--bg); color: var(--text);
+    font: 15px/1.35 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  header { display: flex; align-items: baseline; justify-content: space-between; padding: 4px 4px 10px; }
+  h1 { font-size: 20px; margin: 0; }
+  .quick button { border: 0; background: none; color: var(--accent); font: inherit; padding: 4px 6px; cursor: pointer; }
+  .hint { color: var(--hint); font-size: 13px; padding: 0 4px 12px; margin: 0; }
+  .card { background: var(--card); border-radius: 12px; padding: 12px; margin-bottom: 10px; }
+  .head { display: flex; align-items: center; gap: 10px; cursor: pointer; user-select: none; }
+  .head .name { font-weight: 600; flex: 1; }
+  .head .count { color: var(--hint); font-size: 13px; }
+  .box { width: 22px; height: 22px; border-radius: 6px; border: 2px solid var(--line); flex: none;
+    display: grid; place-items: center; color: var(--on-accent); font-size: 14px; font-weight: 700; }
+  .box.on, .box.some { background: var(--accent); border-color: var(--accent); }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+  .chip { border: 1.5px solid var(--line); background: none; color: var(--text); border-radius: 999px;
+    padding: 6px 12px; font: inherit; font-size: 14px; cursor: pointer; }
+  .chip.on { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+  #save { position: fixed; left: 12px; right: 12px; bottom: 12px; padding: 14px; border: 0; border-radius: 12px;
+    background: var(--accent); color: var(--on-accent); font: inherit; font-weight: 600; cursor: pointer; }
+  .tg #save { display: none; } /* Telegram's own main button is used instead */
+  #note { display: none; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Your alerts</h1>
+  <span class="quick"><button id="all">All</button><button id="none">None</button></span>
+</header>
+<p class="hint">Pick whole trackers or single categories. You'll get a message when a programme opens in any of them.</p>
+<p class="hint" id="note">Open this from the Trackr bot in Telegram to save your choice.</p>
+<main id="list"></main>
+<button id="save">Save</button>
+<script>
+const tg = window.Telegram?.WebApp;
+const inTelegram = !!tg?.initData;
+if (inTelegram) { document.body.classList.add("tg"); tg.ready(); tg.expand(); }
+else document.getElementById("note").style.display = "block";
+
+// Same wording as the bot: "us-finance-2028/insight-programs" -> "2028 Insight programs"
+const tabName = (page) => {
+  const s = page.replace(/^[a-z-]*?(\d{4})?\//, (_, y) => (y ? y + " " : "")).replace(/-/g, " ");
+  return s.replace(/[a-z]/, (c) => c.toUpperCase());
+};
+
+// The bot puts the current choice in the URL: #f=uk-finance,uk-tech/spring-weeks
+const start = new Set((new URLSearchParams(location.hash.slice(1)).get("f") || "").split(",").filter(Boolean));
+let trackers = {};
+const chosen = new Set(); // category paths only; whole trackers are expanded on load
+
+function render() {
+  const list = document.getElementById("list");
+  list.innerHTML = "";
+  for (const [key, { name, pages }] of Object.entries(trackers)) {
+    const n = pages.filter((p) => chosen.has(p)).length;
+    const card = document.createElement("section");
+    card.className = "card";
+    const head = document.createElement("div");
+    head.className = "head";
+    head.innerHTML = `<span class="box ${n === pages.length ? "on" : n ? "some" : ""}">${n === pages.length ? "✓" : n ? "–" : ""}</span>` +
+      `<span class="name"></span><span class="count">${n ? `${n}/${pages.length}` : ""}</span>`;
+    head.querySelector(".name").textContent = name;
+    head.onclick = () => { pages.forEach((p) => (n === pages.length ? chosen.delete(p) : chosen.add(p))); changed(); };
+    const chips = document.createElement("div");
+    chips.className = "chips";
+    for (const p of pages) {
+      const b = document.createElement("button");
+      b.className = "chip" + (chosen.has(p) ? " on" : "");
+      b.textContent = tabName(p);
+      b.onclick = () => { chosen.has(p) ? chosen.delete(p) : chosen.add(p); changed(); };
+      chips.append(b);
+    }
+    card.append(head, chips);
+    list.append(card);
+  }
+}
+
+function changed() {
+  tg?.HapticFeedback?.selectionChanged();
+  render();
+}
+
+// Whole trackers go back as their key, so categories Trackr adds later are included too.
+function result() {
+  return Object.entries(trackers).flatMap(([key, { pages }]) => {
+    const mine = pages.filter((p) => chosen.has(p));
+    return mine.length === pages.length ? [key] : mine;
+  });
+}
+
+function save() {
+  const data = JSON.stringify(result());
+  if (inTelegram) tg.sendData(data);
+  else alert("Open this from the Trackr bot in Telegram to save.\n\n" + data);
+}
+
+document.getElementById("all").onclick = () => { Object.values(trackers).forEach((t) => t.pages.forEach((p) => chosen.add(p))); changed(); };
+document.getElementById("none").onclick = () => { chosen.clear(); changed(); };
+document.getElementById("save").onclick = save;
+if (inTelegram) {
+  tg.MainButton.setParams({ text: "Save", is_visible: true });
+  tg.MainButton.onClick(save);
+}
+
+fetch("trackers.json", { cache: "no-cache" }).then((r) => r.json()).then((t) => {
+  trackers = t;
+  for (const [key, { pages }] of Object.entries(t)) for (const p of pages) if (start.has(key) || start.has(p)) chosen.add(p);
+  render();
+});
+</script>
+</body>
+</html>

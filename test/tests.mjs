@@ -54,6 +54,8 @@ function newDir(state) {
   fs.copyFileSync(SRC, path.join(d, "check.mjs"));
   fs.copyFileSync(new URL("./preload.mjs", import.meta.url), path.join(d, "preload.mjs"));
   fs.symlinkSync(path.join(REPO, "node_modules"), path.join(d, "node_modules"), "junction"); // junction: no admin rights needed on Windows
+  fs.mkdirSync(path.join(d, "docs"));
+  fs.copyFileSync(path.join(REPO, "docs/trackers.json"), path.join(d, "docs/trackers.json"));
   fs.mkdirSync(path.join(d, "state"));
   if (state) fs.writeFileSync(path.join(d, "state/seen.json"), JSON.stringify(state));
   return d;
@@ -302,19 +304,62 @@ await test("/all and /trackers; /stop removes every tracker", async () => {
 });
 
 const press = (update_id, id, data) => ({ update_id, callback_query: { id: "q" + update_id, data, message: { message_id: 7, chat: { id, type: "private" } } } });
-await test("menu set once; buttons toggle trackers and edit the menu in place", async () => {
+const appMsg = (update_id, id, data) => ({ update_id, message: { web_app_data: { data, button_text: "x" }, chat: { id, type: "private" } } });
+await test("menu set once; /start offers the Mini App; old tracker buttons still work", async () => {
   const d = newDir(base([]));
-  const r = await run(d, { trackrBody: trackr(prog("a")), env: EARLY, cfg: { updates: [msg(1, 555, "/start"), press(2, 555, "t:uk-law"), press(3, 555, "t:uk-finance"), press(4, 555, "t:bogus")] } });
+  const r = await run(d, { trackrBody: trackr(prog("a")), env: EARLY, cfg: { updates: [msg(1, 555, "/start"), press(2, 555, "t:uk-law"), press(3, 555, "t:bogus")] } });
   assert(r.code === 0, "exit " + r.code + r.out);
   assert(r.tg.calls.some((c) => c.method === "setMyCommands") && r.tg.calls.some((c) => c.method === "setChatMenuButton"), "menu not set");
-  const start = r.tg.delivered.find((m) => m.id === "555");
-  assert(start?.markup?.inline_keyboard.flat().some((b) => b.callback_data === "t:uk-law"), "no buttons on /start");
-  assert(r.tg.edited.length === 2, "edits " + r.tg.edited.length);
-  const last = r.tg.edited[1].markup.inline_keyboard.flat();
-  assert(last.find((b) => b.callback_data === "t:uk-law").text.startsWith("✅") && last.find((b) => b.callback_data === "t:uk-finance").text.startsWith("▫️"), "toggle " + JSON.stringify(last));
-  assert(r.tg.calls.filter((c) => c.method === "answerCallbackQuery").length === 3, "answers");
+  const mine = r.tg.delivered.filter((m) => m.id === "555");
+  assert(mine.length === 2, "replies " + mine.length);
+  const url = mine[0].markup?.keyboard?.[0]?.[0]?.web_app?.url ?? "";
+  assert(url.endsWith("#f=uk-finance"), "app button " + url);
+  assert(/✅ UK Law/.test(mine[1].text) && mine[1].markup.keyboard[0][0].web_app.url.endsWith("#f=uk-finance,uk-law"), "press " + mine[1].text);
+  assert(r.tg.calls.filter((c) => c.method === "answerCallbackQuery").length === 2, "answers");
   const r2 = await run(d, { trackrBody: trackr(prog("a")), env: EARLY });
   assert(!r2.tg.calls.some((c) => c.method === "setMyCommands"), "menu set again");
+});
+
+await test("Mini App: categories are followed separately", async () => {
+  const d = newDir(base(["111"]));
+  const byType = (m) => JSON.stringify(Object.fromEntries(Object.entries(m).map(([t, ps]) => [t, trackr(...ps)])));
+  const allUkf = JSON.stringify(["uk-finance/summer-internships", "uk-finance/spring-weeks", "uk-finance/off-cycle-internships",
+    "uk-finance/industrial-placements", "uk-finance/graduate-programmes", "uk-finance/pre-university"]);
+  const r1 = await run(d, { trackrBody: trackr(prog("a")), env: { ...EARLY, MOCK_TRACKR_BY_TYPE: byType({ "spring-weeks": [] }) },
+    cfg: { updates: [appMsg(1, 666, '["uk-finance/spring-weeks","uk-tech/spring-weeks","nope"]'), appMsg(2, 888, allUkf), appMsg(3, 999, "not json"),
+      msg(4, 777, "/start"), msg(5, 777, "/uk_finance")] } });
+  assert(r1.code === 0, "exit " + r1.code + r1.out);
+  const reply = (id) => r1.tg.delivered.filter((m) => m.id === id).pop();
+  assert(/☑️ UK Finance: spring weeks/.test(reply("666").text) && /☑️ UK Tech: spring weeks/.test(reply("666").text), "666 menu " + reply("666").text);
+  assert(reply("666").markup.keyboard[0][0].web_app.url.endsWith("#f=uk-finance/spring-weeks,uk-tech/spring-weeks"), "666 url");
+  assert(/✅ UK Finance/.test(reply("888").text), "full tracker not folded");
+  assert(!reply("999"), "bad data answered");
+  assert(/▫️ UK Finance/.test(reply("777").text), "/uk_finance did not switch off");
+  const r2 = await run(d, { trackrBody: trackr(prog("a"), prog("F")), env: { ...EARLY, MOCK_TRACKR_BY_TYPE: byType({ "spring-weeks": [prog("S", true, { type: "spring-weeks" })] }) } });
+  const got = (id, re) => r2.tg.delivered.some((m) => m.id === id && re.test(m.text));
+  assert(got("666", /Prog S/) && !got("666", /Prog F/), "666 should get only spring weeks");
+  assert(got("111", /Prog S/) && got("111", /Prog F/) && got("888", /Prog F/), "whole-tracker followers");
+});
+
+await test("Mini App page: opens with the URL's choice and sends what is ticked", async () => {
+  const { chromium } = await import("playwright");
+  const b = await chromium.launch();
+  const page = await b.newPage();
+  const sent = [];
+  await page.exposeFunction("__sent", (x) => sent.push(x));
+  await page.route("https://telegram.org/**", (r) => r.fulfill({ contentType: "text/javascript",
+    body: "window.Telegram={WebApp:{initData:'x',ready(){},expand(){},sendData:(d)=>window.__sent(d),MainButton:{setParams(){},onClick(f){window.__save=f}}}}" }));
+  await page.route("https://app.test/**", (r) => r.fulfill({ path: path.join(REPO, "docs", new URL(r.request().url()).pathname.slice(1) || "index.html") }));
+  await page.goto("https://app.test/index.html#f=uk-law,uk-tech/spring-weeks");
+  await page.locator(".chip.on").first().waitFor();
+  const on = await page.locator(".chip.on").count();
+  await page.locator(".card", { hasText: "UK Law" }).locator(".chip", { hasText: "Vacation schemes" }).click();
+  await page.locator(".card", { hasText: "Hong Kong Finance" }).locator(".head").click();
+  await page.evaluate(() => window.__save());
+  await page.waitForTimeout(100);
+  await b.close();
+  assert(on === 5, "ticked on open " + on);
+  assert(sent[0] === JSON.stringify(["uk-tech/spring-weeks", "uk-law/training-contracts", "uk-law/non-law-internships", "uk-law/first-year-schemes", "hong-kong-finance"]), "sent " + sent[0]);
 });
 
 server.close();

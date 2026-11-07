@@ -1,0 +1,82 @@
+{
+  "uk-finance": {
+    "name": "UK Finance",
+    "pages": [
+      "uk-finance/summer-internships",
+      "uk-finance/spring-weeks",
+      "uk-finance/off-cycle-internships",
+      "uk-finance/industrial-placements",
+      "uk-finance/graduate-programmes",
+      "uk-finance/pre-university"
+    ]
+  },
+  "uk-tech": {
+    "name": "UK Tech",
+    "pages": [
+      "uk-tech/summer-internships",
+      "uk-tech/industrial-placements",
+      "uk-tech/graduate-programmes",
+      "uk-tech/spring-weeks",
+      "uk-tech/pre-university"
+    ]
+  },
+  "uk-law": {
+    "name": "UK Law",
+    "pages": [
+      "uk-law/training-contracts",
+      "uk-law/vacation-schemes",
+      "uk-law/non-law-internships",
+      "uk-law/first-year-schemes"
+    ]
+  },
+  "uk-engineering": {
+    "name": "UK Engineering",
+    "pages": [
+      "uk-engineering/graduate-programmes",
+      "uk-engineering/industrial-placements",
+      "uk-engineering/summer-internships",
+      "uk-engineering/apprenticeships"
+    ]
+  },
+  "us-finance": {
+    "name": "US Finance",
+    "pages": [
+      "us-finance-2027/summer-internships",
+      "us-finance-2027/full-time-programmes",
+      "us-finance-2028/summer-internships",
+      "us-finance-2028/full-time-programmes",
+      "us-finance-2028/insight-programs"
+    ]
+  },
+  "us-tech": {
+    "name": "US Tech",
+    "pages": [
+      "us-tech/summer-internships",
+      "us-tech/full-time-programmes",
+      "us-tech/off-cycle-internships"
+    ]
+  },
+  "france-finance": {
+    "name": "France Finance",
+    "pages": [
+      "france-finance/summer-internships",
+      "france-finance/off-cycle-internships",
+      "france-finance/graduate-programmes"
+    ]
+  },
+  "germany-finance": {
+    "name": "Germany Finance",
+    "pages": [
+      "germany-finance/summer-internships",
+      "germany-finance/off-cycle-internships",
+      "germany-finance/graduate-programmes"
+    ]
+  },
+  "hong-kong-finance": {
+    "name": "Hong Kong Finance",
+    "pages": [
+      "hong-kong-finance/summer-internships",
+      "hong-kong-finance/off-cycle-internships"
+    ]
+  }
+}
