@@ -1,6 +1,45 @@
 {
-  "updated_at": "2026-11-06T13:40:49.548Z",
+  "updated_at": "2026-11-07T15:30:49.445Z",
   "items": [
+    {
+      "id": "xn49w4d0so",
+      "company": "HSBC",
+      "name": "Women in Technology - Insight Programme",
+      "tracker": "uk-tech",
+      "type": "spring-weeks",
+      "season": "2027",
+      "url": "https://apply.careers.hsbc.com/emergingtalent/job/Sheffield-Women-in-Technology-Women-who-code-Insight-Programme-S1-4NB/1376922757/?feedId=434057&utm_source=Trackr&utm_campaign=UK_Tech_2027&utm_medium=tracker",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/spring-weeks",
+      "opening_date": "2026-11-07T00:00:00.000Z",
+      "closing_date": "2026-12-02T00:00:00.000Z",
+      "opened_at": "2026-11-07T15:30:49.445Z"
+    },
+    {
+      "id": "b9hmme5fhi",
+      "company": "HSBC",
+      "name": "Sheffield Tech Insight Programme",
+      "tracker": "uk-tech",
+      "type": "spring-weeks",
+      "season": "2027",
+      "url": "https://apply.careers.hsbc.com/emergingtalent/job/Sheffield-Sheffield-Tech-Insight-Programme-S1-4NB/1376923057/?feedId=434057&utm_source=Trackr&utm_campaign=UK_Tech_2027&utm_medium=tracker",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/spring-weeks",
+      "opening_date": "2026-11-07T00:00:00.000Z",
+      "closing_date": "2026-12-02T00:00:00.000Z",
+      "opened_at": "2026-11-07T15:30:49.445Z"
+    },
+    {
+      "id": "rptns9082c",
+      "company": "HSBC",
+      "name": "Women in Banking - Insight Programme",
+      "tracker": "uk-finance",
+      "type": "spring-weeks",
+      "season": "2027",
+      "url": "https://apply.careers.hsbc.com/emergingtalent/job/Birmingham-Women-in-Banking-Insight-Programme-B1-1HQ/1376880057/?feedId=434057&utm_source=Trackr&utm_campaign=UK_Finance_2027&utm_medium=tracker",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/spring-weeks",
+      "opening_date": "2026-11-05T00:00:00.000Z",
+      "closing_date": "2026-12-02T00:00:00.000Z",
+      "opened_at": "2026-11-07T15:30:49.445Z"
+    },
     {
       "id": "if2uyb9945",
       "company": "ExodusPoint",
