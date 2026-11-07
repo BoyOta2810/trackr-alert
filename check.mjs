@@ -327,7 +327,12 @@ async function syncTelegramSubscribers(state) {
     const reply = handle(subs, id, cmd, chosen);
     if (!reply) continue;
     const reply_markup = reply.app ? appKeyboard(subs[id]) : { remove_keyboard: true };
-    await tg("sendMessage", { chat_id: m.chat.id, text: reply.text, reply_markup }).catch(() => {});
+    // If Telegram refuses the keyboard, the reply still goes out without it.
+    await tg("sendMessage", { chat_id: m.chat.id, text: reply.text, reply_markup }).catch((e) => {
+      console.error(`reply failed (${cmd}): ${e.message}`);
+      return tg("sendMessage", { chat_id: m.chat.id, text: reply.text }).catch((e2) => console.error(`plain reply failed: ${e2.message}`));
+    });
+    console.log(`handled ${cmd}`);
   }
 }
 
