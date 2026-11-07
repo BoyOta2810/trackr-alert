@@ -1,6 +1,58 @@
 {
-  "updated_at": "2026-11-07T15:30:49.445Z",
+  "updated_at": "2026-11-07T15:40:47.331Z",
   "items": [
+    {
+      "id": "v7zlkcaxjt",
+      "company": "Amazon",
+      "name": "Software Developer Engineer Apprentice",
+      "tracker": "uk-tech",
+      "type": "pre-university",
+      "season": "2027",
+      "url": "https://amazon.jobs/en/search?offset=0&result_limit=10&sort=relevant&category%5B%5D=software-development&distanceType=Mi&radius=24km&latitude=51.50643&longitude=-0.12721&loc_group_id=&loc_query=gbr&base_query=apprenticeship&city=&country=GBR&region=&county=&query_options=&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/pre-university",
+      "opening_date": "2026-11-06T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-07T15:40:47.331Z"
+    },
+    {
+      "id": "rczdi6kt4v",
+      "company": "Amazon",
+      "name": "Data Analyst Apprentice",
+      "tracker": "uk-tech",
+      "type": "pre-university",
+      "season": "2027",
+      "url": "https://amazon.jobs/en/search?offset=0&result_limit=10&sort=relevant&category%5B%5D=data-science&distanceType=Mi&radius=24km&latitude=51.50643&longitude=-0.12721&loc_group_id=&loc_query=gbr&base_query=apprenticeship&city=&country=GBR&region=&county=&query_options=&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/pre-university",
+      "opening_date": "2026-11-06T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-07T15:40:47.331Z"
+    },
+    {
+      "id": "kefcj8bryo",
+      "company": "Amazon",
+      "name": "DevOps Apprentice",
+      "tracker": "uk-tech",
+      "type": "pre-university",
+      "season": "2027",
+      "url": "https://amazon.jobs/en/search?offset=0&result_limit=10&sort=relevant&category%5B%5D=systems-quality-security-engineering&distanceType=Mi&radius=24km&latitude=51.50643&longitude=-0.12721&loc_group_id=&loc_query=gbr&base_query=apprenticeship&city=&country=GBR&region=&county=&query_options=&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/pre-university",
+      "opening_date": "2026-11-06T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-07T15:40:47.331Z"
+    },
+    {
+      "id": "4x1ja2fmad",
+      "company": "Amazon",
+      "name": "Cyber Security Apprentice",
+      "tracker": "uk-tech",
+      "type": "pre-university",
+      "season": "2027",
+      "url": "https://amazon.jobs/en/search?offset=0&result_limit=10&sort=relevant&category%5B%5D=systems-quality-security-engineering&distanceType=Mi&radius=24km&latitude=51.50643&longitude=-0.12721&loc_group_id=&loc_query=gbr&base_query=apprenticeship&city=&country=GBR&region=&county=&query_options=&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/pre-university",
+      "opening_date": "2026-11-06T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-07T15:40:47.331Z"
+    },
     {
       "id": "xn49w4d0so",
       "company": "HSBC",
