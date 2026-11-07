@@ -230,43 +230,89 @@ async function paced(items, fn) {
 
 function trackerMenu(follows) {
   const lines = Object.entries(TRACKERS).map(([t, { name }]) => `${follows.includes(t) ? "✅" : "▫️"} ${name}  ${command(t)}`);
-  return `Your trackers:\n${lines.join("\n")}\n\nSend a command to switch a tracker on or off, /all for every tracker, /stop to unsubscribe.`;
+  return `Your trackers:\n${lines.join("\n")}\n\nTap a button to switch a tracker on or off. ` +
+    "Changes show up on the bot's next check, within about 5 minutes.";
+}
+
+// Buttons under the tracker menu: one per tracker (two a row), then "all" and "unsubscribe".
+function trackerButtons(follows) {
+  const btns = Object.entries(TRACKERS).map(([t, { name }]) => ({ text: `${follows.includes(t) ? "✅" : "▫️"} ${name}`, callback_data: "t:" + t }));
+  const rows = [];
+  for (let i = 0; i < btns.length; i += 2) rows.push(btns.slice(i, i + 2));
+  rows.push([{ text: "Follow all", callback_data: "all" }, { text: "Unsubscribe", callback_data: "stop" }]);
+  return { inline_keyboard: rows };
+}
+
+// The bot's Menu button (left of the text box) lists these. Sent once; bump the version to resend.
+const BOT_COMMANDS = [
+  { command: "trackers", description: "Choose your trackers" },
+  { command: "all", description: "Follow every tracker" },
+  { command: "start", description: "Subscribe" },
+  { command: "stop", description: "Unsubscribe" },
+];
+const COMMANDS_VERSION = 1;
+
+async function setupMenu(state) {
+  if (state.telegram.commandsVersion === COMMANDS_VERSION) return;
+  await tg("setMyCommands", { commands: BOT_COMMANDS });
+  await tg("setChatMenuButton", { menu_button: { type: "commands" } });
+  state.telegram.commandsVersion = COMMANDS_VERSION;
+}
+
+// Applies a command (typed or from a button) to the subscriber list. Returns the reply and
+// whether it carries the tracker buttons, or null for input the bot ignores.
+function handle(subs, id, cmd) {
+  const known = cmd === "/start" || cmd === "/all" || cmd === "/trackers" || TRACKER_COMMANDS[cmd];
+  if (cmd === "/stop") {
+    delete subs[id];
+    return { text: "You're unsubscribed. Send /start any time to subscribe again." };
+  }
+  if (known && !subs[id] && Object.keys(subs).length >= MAX_SUBSCRIBERS) return { text: "Sorry, this bot is full right now." };
+  if (cmd === "/start") {
+    subs[id] ??= [...DEFAULT_FOLLOW];
+    return { text: "✅ You're subscribed. I'll message you when a new programme opens on the trackers you follow.\n\n"
+      + trackerMenu(subs[id]), buttons: true };
+  }
+  if (cmd === "/trackers") subs[id] ??= [...DEFAULT_FOLLOW];
+  else if (cmd === "/all") subs[id] = Object.keys(TRACKERS);
+  else if (TRACKER_COMMANDS[cmd]) {
+    const t = TRACKER_COMMANDS[cmd];
+    const mine = subs[id] ?? [];
+    subs[id] = mine.includes(t) ? mine.filter((x) => x !== t) : [...mine, t];
+  } else return null;
+  return { text: trackerMenu(subs[id]), buttons: true };
 }
 
 async function syncTelegramSubscribers(state) {
   if (!TOKEN || DRY_RUN) return;
   const subs = subscribersOrThrow(state);
-  const updates = await tg("getUpdates", { offset: state.telegram.offset, timeout: 0, allowed_updates: ["message"] });
+  await setupMenu(state).catch((e) => console.error("menu setup failed:", e.message));
+  const updates = await tg("getUpdates", { offset: state.telegram.offset, timeout: 0, allowed_updates: ["message", "callback_query"] });
   for (const u of updates) {
     state.telegram.offset = u.update_id + 1;
-    const m = u.message;
-    if (!m?.text || m.chat?.type !== "private") continue;
-    const cmd = m.text.trim().split(/[\s@]/)[0].toLowerCase();
+    const q = u.callback_query;
+    const m = q ? q.message : u.message;
+    if (m?.chat?.type !== "private") continue;
     const id = String(m.chat.id);
-    const known = cmd === "/start" || cmd === "/all" || cmd === "/trackers" || TRACKER_COMMANDS[cmd];
-    let reply;
-    if (cmd === "/stop") {
-      delete subs[id];
-      reply = "You're unsubscribed. Send /start any time to subscribe again.";
-    } else if (known && !subs[id] && Object.keys(subs).length >= MAX_SUBSCRIBERS) {
-      reply = "Sorry, this bot is full right now.";
-    } else if (cmd === "/start") {
-      subs[id] ??= [...DEFAULT_FOLLOW];
-      reply = "✅ You're subscribed. I'll message you when a new programme opens on the trackers you follow.\n\n"
-        + trackerMenu(subs[id]);
-    } else if (cmd === "/trackers") {
-      subs[id] ??= [...DEFAULT_FOLLOW];
-      reply = trackerMenu(subs[id]);
-    } else if (cmd === "/all") {
-      subs[id] = Object.keys(TRACKERS);
-      reply = trackerMenu(subs[id]);
-    } else if (TRACKER_COMMANDS[cmd]) {
-      const t = TRACKER_COMMANDS[cmd];
-      const mine = subs[id] ?? [];
-      subs[id] = mine.includes(t) ? mine.filter((x) => x !== t) : [...mine, t];
-      reply = trackerMenu(subs[id]);
-    } else continue;
-    await tg("sendMessage", { chat_id: m.chat.id, text: reply }).catch(() => {});
+    let cmd;
+    if (q) {
+      const d = String(q.data ?? "");
+      cmd = d === "all" ? "/all" : d === "stop" ? "/stop" : d.startsWith("t:") && TRACKERS[d.slice(2)] ? command(d.slice(2)) : "";
+      // Updates are read every 5 minutes, so the press is often too old to answer; that's fine.
+      await tg("answerCallbackQuery", { callback_query_id: q.id }).catch(() => {});
+    } else {
+      if (!m.text) continue;
+      cmd = m.text.trim().split(/[\s@]/)[0].toLowerCase();
+    }
+    const reply = handle(subs, id, cmd);
+    if (!reply) continue;
+    const msg = { chat_id: m.chat.id, text: reply.text, reply_markup: reply.buttons ? trackerButtons(subs[id]) : undefined };
+    // A button press updates the menu it came from; edits fail if nothing changed, so fall back
+    // to a new message only for other errors.
+    if (q) {
+      await tg("editMessageText", { ...msg, message_id: m.message_id }).catch((e) =>
+        /not modified/i.test(e.description) ? null : tg("sendMessage", msg).catch(() => {}));
+    } else await tg("sendMessage", msg).catch(() => {});
   }
 }
 

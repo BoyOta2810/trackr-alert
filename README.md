@@ -12,9 +12,13 @@ Open the bot in Telegram and press **Start**. You follow UK Finance to begin wit
 confirmation within about 5-10 minutes (the bot reads new messages on each check), then a message
 whenever a new programme opens on a tracker you follow.
 
+The confirmation carries a button for each tracker (✅ followed, ▫️ not), plus **Follow all** and
+**Unsubscribe**. Tapping one updates that same message on the next check. The bot's **Menu**
+button (left of the text box) lists the main commands; the bot registers it on its first run.
+
 | Command | |
 | --- | --- |
-| `/trackers` | your trackers, with a command to switch each on or off |
+| `/trackers` | your trackers, with buttons to switch each on or off |
 | `/uk_finance`, `/uk_tech`, `/uk_law`, `/uk_engineering`, `/us_finance`, `/us_tech`, `/france_finance`, `/germany_finance`, `/hong_kong_finance` | follow or unfollow that tracker |
 | `/all` | follow every tracker |
 | `/stop` | unsubscribe |

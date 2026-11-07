@@ -27,9 +27,14 @@ const server = http.createServer((req, res) => {
       const f = tg.fail[id];
       if (f === 429 && !tg.retried[id]) { tg.retried[id] = 1; return send(429, { ok: false, description: "Too Many Requests: retry after 1", parameters: { retry_after: 1 } }); }
       if (f && f !== 429) return send(f.code ?? f, { ok: false, description: f.desc ?? `err ${f}` });
-      tg.delivered.push({ id, text: body.text });
+      tg.delivered.push({ id, text: body.text, markup: body.reply_markup });
       return send(200, { ok: true, result: { message_id: 1 } });
     }
+    if (method === "editMessageText") {
+      tg.edited.push({ id: String(body.chat_id), text: body.text, markup: body.reply_markup });
+      return send(200, { ok: true, result: true });
+    }
+    if (["setMyCommands", "setChatMenuButton", "answerCallbackQuery"].includes(method)) return send(200, { ok: true, result: true });
     send(404, { ok: false, description: "no method" });
   });
 });
@@ -56,7 +61,7 @@ function newDir(state) {
 const readState = (d) => JSON.parse(fs.readFileSync(path.join(d, "state/seen.json"), "utf8"));
 
 function run(d, { trackrBody, env = {}, args = [], cfg = {} } = {}) {
-  tg = { updates: [], fail: {}, retried: {}, calls: [], delivered: [], ...cfg };
+  tg = { updates: [], fail: {}, retried: {}, calls: [], delivered: [], edited: [], ...cfg };
   return new Promise((resolve) => {
     const p = spawn(process.execPath, ["--import", "./preload.mjs", "check.mjs", ...args], {
       cwd: d,
@@ -294,6 +299,22 @@ await test("/all and /trackers; /stop removes every tracker", async () => {
   assert(r.tg.delivered.some((m) => m.id === "444" && /✅ UK Finance[\s\S]*▫️ UK Law/.test(m.text)), "/trackers");
   const r2 = await run(d, { trackrBody: trackr(prog("a"), prog("n")), env: EARLY });
   assert(r2.tg.delivered.some((m) => m.id === "333") && !r2.tg.delivered.some((m) => m.id === "444"), "after /stop");
+});
+
+const press = (update_id, id, data) => ({ update_id, callback_query: { id: "q" + update_id, data, message: { message_id: 7, chat: { id, type: "private" } } } });
+await test("menu set once; buttons toggle trackers and edit the menu in place", async () => {
+  const d = newDir(base([]));
+  const r = await run(d, { trackrBody: trackr(prog("a")), env: EARLY, cfg: { updates: [msg(1, 555, "/start"), press(2, 555, "t:uk-law"), press(3, 555, "t:uk-finance"), press(4, 555, "t:bogus")] } });
+  assert(r.code === 0, "exit " + r.code + r.out);
+  assert(r.tg.calls.some((c) => c.method === "setMyCommands") && r.tg.calls.some((c) => c.method === "setChatMenuButton"), "menu not set");
+  const start = r.tg.delivered.find((m) => m.id === "555");
+  assert(start?.markup?.inline_keyboard.flat().some((b) => b.callback_data === "t:uk-law"), "no buttons on /start");
+  assert(r.tg.edited.length === 2, "edits " + r.tg.edited.length);
+  const last = r.tg.edited[1].markup.inline_keyboard.flat();
+  assert(last.find((b) => b.callback_data === "t:uk-law").text.startsWith("✅") && last.find((b) => b.callback_data === "t:uk-finance").text.startsWith("▫️"), "toggle " + JSON.stringify(last));
+  assert(r.tg.calls.filter((c) => c.method === "answerCallbackQuery").length === 3, "answers");
+  const r2 = await run(d, { trackrBody: trackr(prog("a")), env: EARLY });
+  assert(!r2.tg.calls.some((c) => c.method === "setMyCommands"), "menu set again");
 });
 
 server.close();
