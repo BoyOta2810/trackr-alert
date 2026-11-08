@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-08T22:00:48.765Z",
+  "updated_at": "2026-11-08T22:05:47.876Z",
   "items": [
+    {
+      "id": "9xc1k1uf7m",
+      "company": "Skidmore, Owings & Merrill",
+      "name": "Summer Intern - Engineer",
+      "tracker": "uk-engineering",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://som.wd5.myworkdayjobs.com/External/3/refreshFacet/318c8bb6f553100021d223d9780d30be?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-engineering/summer-internships",
+      "opening_date": "2026-11-05T00:00:00.000Z",
+      "closing_date": "2027-01-19T00:00:00.000Z",
+      "opened_at": "2026-11-08T22:05:47.876Z"
+    },
     {
       "id": "p4fhqcnadf",
       "company": "Cobham Ultra group",
