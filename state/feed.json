@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-08T22:05:47.876Z",
+  "updated_at": "2026-11-08T22:10:48.532Z",
   "items": [
+    {
+      "id": "6ugu44l4vl",
+      "company": "Mott MacDonald",
+      "name": "2027 UK Degree Apprenticeship Programme: Engineering",
+      "tracker": "uk-engineering",
+      "type": "apprenticeships",
+      "season": "2027",
+      "url": "https://www.mottmac.com/en-gb/careers/explore-our-careers/?take=12&term=apprenticeship&country=United+Kingdom&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-engineering/apprenticeships",
+      "opening_date": "2026-11-05T00:00:00.000Z",
+      "closing_date": "2027-01-15T00:00:00.000Z",
+      "opened_at": "2026-11-08T22:10:48.532Z"
+    },
     {
       "id": "9xc1k1uf7m",
       "company": "Skidmore, Owings & Merrill",
