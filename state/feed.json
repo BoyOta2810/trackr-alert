@@ -1,6 +1,45 @@
 {
-  "updated_at": "2026-11-09T14:10:56.627Z",
+  "updated_at": "2026-11-09T14:15:51.754Z",
   "items": [
+    {
+      "id": "sor1wedus4",
+      "company": "Johnston Carmichael",
+      "name": "IT Graduate 2027",
+      "tracker": "uk-tech",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://careers.johnstoncarmichael.com/Department/Early%20Careers?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/graduate-programmes",
+      "opening_date": "2026-11-09T00:00:00.000Z",
+      "closing_date": "2026-12-07T00:00:00.000Z",
+      "opened_at": "2026-11-09T14:15:51.754Z"
+    },
+    {
+      "id": "v9gypxsbxu",
+      "company": "Sky",
+      "name": "Finance Apprenticeship",
+      "tracker": "uk-finance",
+      "type": "pre-university",
+      "season": "2027",
+      "url": "https://apply.skyearlycareers.targetconnect.com/finance-apprenticeship-2027/925/viewdetails?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/pre-university",
+      "opening_date": "2026-11-09T00:00:00.000Z",
+      "closing_date": "2026-12-06T00:00:00.000Z",
+      "opened_at": "2026-11-09T14:15:51.754Z"
+    },
+    {
+      "id": "kj1m9pnp93",
+      "company": "IK Partners",
+      "name": "Off-Cycle Analyst Intern",
+      "tracker": "uk-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://ikpartners.recruitee.com/o/off-cycle-analyst-intern-london-3?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/off-cycle-internships",
+      "opening_date": "2026-11-09T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-09T14:15:51.754Z"
+    },
     {
       "id": "29xrwgiq3l",
       "company": "FCF Fox Corporate Finance",
