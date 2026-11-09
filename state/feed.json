@@ -1,6 +1,45 @@
 {
-  "updated_at": "2026-11-09T12:00:45.684Z",
+  "updated_at": "2026-11-09T12:05:45.480Z",
   "items": [
+    {
+      "id": "oq8ri0vjq5",
+      "company": " NORD Holding",
+      "name": "Praktikant – Investor Relations",
+      "tracker": "germany-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://www.nordholding.de/stellenangebote/praktikum-investor-relations?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
+      "opening_date": "2026-09-29T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-09T12:05:45.480Z"
+    },
+    {
+      "id": "fnavqo15k4",
+      "company": " NORD Holding",
+      "name": "Praktikant – Primary, Secondary und Co-Investments",
+      "tracker": "germany-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://www.nordholding.de/stellenangebote/praktikum-primary-secondary-co-investments?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
+      "opening_date": "2026-09-29T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-09T12:05:45.480Z"
+    },
+    {
+      "id": "9xrmbbt2hr",
+      "company": " NORD Holding",
+      "name": "Praktikant – Direct Investments Mid Cap",
+      "tracker": "germany-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://www.nordholding.de/stellenangebote?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
+      "opening_date": "2026-09-29T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-09T12:05:45.480Z"
+    },
     {
       "id": "ylu32mmfrr",
       "company": "Afinum",
