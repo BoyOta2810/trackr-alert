@@ -1,6 +1,45 @@
 {
-  "updated_at": "2026-11-09T11:40:47.044Z",
+  "updated_at": "2026-11-09T11:45:52.373Z",
   "items": [
+    {
+      "id": "a3guizsdkt",
+      "company": "Orlando Management",
+      "name": "Praktikant:in - Transaction Team",
+      "tracker": "germany-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://orlando-capital.jobs.personio.com/job/1022981?display=de&utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
+      "opening_date": "2026-10-28T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-09T11:45:52.373Z"
+    },
+    {
+      "id": "7bin4pgeu7",
+      "company": "Orlando Management",
+      "name": "Private Equity Internship – Portfolio Operations / Value Creation",
+      "tracker": "germany-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://orlando-capital.jobs.personio.com/job/2512550?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
+      "opening_date": "2026-10-28T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-09T11:45:52.373Z"
+    },
+    {
+      "id": "gsag65hj6t",
+      "company": "Harris Associates",
+      "name": "2028 Summer Equity Research Internship",
+      "tracker": "us-finance",
+      "type": "summer-internships",
+      "season": "2028",
+      "url": "https://job-boards.greenhouse.io/harrisprivatejobboard/jobs/4702510006?utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2028&gh_src=Trackr",
+      "trackr_url": "https://app.the-trackr.com/us-finance-2028/summer-internships",
+      "opening_date": "2026-11-09T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-09T11:45:52.373Z"
+    },
     {
       "id": "e73b6ma2xi",
       "company": "Tikehau Capital",
