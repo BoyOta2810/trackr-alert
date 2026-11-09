@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-09T12:50:47.450Z",
+  "updated_at": "2026-11-09T13:00:49.233Z",
   "items": [
+    {
+      "id": "pcadpdjduj",
+      "company": "Mercurius",
+      "name": "Working student / intern",
+      "tracker": "germany-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://mercurius.de/private-equity/karriere?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
+      "opening_date": "2026-10-11T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-09T13:00:49.233Z"
+    },
     {
       "id": "56qa7udi82",
       "company": "Peakside Capital",
