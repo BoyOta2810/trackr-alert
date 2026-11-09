@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-09T19:00:45.721Z",
+  "updated_at": "2026-11-09T20:20:46.720Z",
   "items": [
+    {
+      "id": "sm1rst9680",
+      "company": "Glencore",
+      "name": "Graduate Process Engineer",
+      "tracker": "uk-engineering",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://job-boards.eu.greenhouse.io/glencoreuk/jobs/5031255101?gh_src=ugkbj6f2teu",
+      "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
+      "opening_date": "2026-11-09T00:00:00.000Z",
+      "closing_date": "2026-12-07T00:00:00.000Z",
+      "opened_at": "2026-11-09T20:20:46.720Z"
+    },
     {
       "id": "0xqflr02nc",
       "company": "Millennium Management",
