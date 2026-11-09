@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-09T17:50:47.577Z",
+  "updated_at": "2026-11-09T17:55:50.280Z",
   "items": [
+    {
+      "id": "v1b3z5r9nu",
+      "company": "Wellcome Investments",
+      "name": "Investment Graduate Programme 2027",
+      "tracker": "uk-finance",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://apptrkr.io/wellcome/wellcome-trust-investment-graduate-programme-2027?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/graduate-programmes",
+      "opening_date": "2026-11-09T00:00:00.000Z",
+      "closing_date": "2026-11-17T00:00:00.000Z",
+      "opened_at": "2026-11-09T17:55:50.280Z"
+    },
     {
       "id": "nje8dentha",
       "company": "Natixis",
