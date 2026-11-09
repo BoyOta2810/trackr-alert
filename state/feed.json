@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-09T20:20:46.720Z",
+  "updated_at": "2026-11-09T23:05:49.684Z",
   "items": [
+    {
+      "id": "x66r1tk3a5",
+      "company": "IBM",
+      "name": "Digital & Technology Solutions Apprenticeship 2027",
+      "tracker": "uk-tech",
+      "type": "pre-university",
+      "season": "2027",
+      "url": "https://careers.ibm.com/en_US/careers/JobDetail?jobId=140065&source=Trackr&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/pre-university",
+      "opening_date": "2026-11-09T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-09T23:05:49.684Z"
+    },
+    {
+      "id": "qrylkuekic",
+      "company": "IBM",
+      "name": "Consulting Apprentice",
+      "tracker": "uk-finance",
+      "type": "pre-university",
+      "season": "2027",
+      "url": "https://www.ibm.com/careers/search?field_keyword_08%5B0%5D=Consulting&field_keyword_05%5B0%5D=United+Kingdom&q=%22apprentice%22&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/pre-university",
+      "opening_date": "2026-11-09T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-09T23:05:49.684Z"
+    },
     {
       "id": "sm1rst9680",
       "company": "Glencore",
