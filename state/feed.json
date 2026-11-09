@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-09T14:15:51.754Z",
+  "updated_at": "2026-11-09T14:45:47.134Z",
   "items": [
+    {
+      "id": "5h1pssmfuf",
+      "company": "Bending Spoons",
+      "name": "First Venture",
+      "tracker": "uk-finance",
+      "type": "spring-weeks",
+      "season": "2027",
+      "url": "https://firstventure.bendingspoons.com/?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/spring-weeks",
+      "opening_date": "2026-11-09T00:00:00.000Z",
+      "closing_date": "2026-12-13T00:00:00.000Z",
+      "opened_at": "2026-11-09T14:45:47.134Z"
+    },
     {
       "id": "sor1wedus4",
       "company": "Johnston Carmichael",
