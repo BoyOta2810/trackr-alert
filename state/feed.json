@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-09T13:15:48.876Z",
+  "updated_at": "2026-11-09T13:20:51.450Z",
   "items": [
+    {
+      "id": "d8fb6lemfl",
+      "company": " Icelake",
+      "name": "Private Equity Intern",
+      "tracker": "germany-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://icelake.com/careers/?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
+      "opening_date": "2026-08-26T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-09T13:20:51.450Z"
+    },
     {
       "id": "68ig44tr3g",
       "company": " RCP Invest",
