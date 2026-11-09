@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-09T17:40:45.653Z",
+  "updated_at": "2026-11-09T17:50:47.577Z",
   "items": [
+    {
+      "id": "nje8dentha",
+      "company": "Natixis",
+      "name": "Intern - Financing Operations Agency & Solutions",
+      "tracker": "uk-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://recrutement.natixis.com/en/job/intern-financing-operations-agency-solutions-2?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/off-cycle-internships",
+      "opening_date": "2026-11-09T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-09T17:50:47.577Z"
+    },
+    {
+      "id": "4sqpbsmz71",
+      "company": "Natixis",
+      "name": "Intern - SPG Sales",
+      "tracker": "uk-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://recrutement.natixis.com/en/job/intern-spg-sales-2?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/off-cycle-internships",
+      "opening_date": "2026-11-09T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-09T17:50:47.577Z"
+    },
     {
       "id": "b1na8bvwr5",
       "company": "ScottishPower",
