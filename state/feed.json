@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-09T15:40:46.272Z",
+  "updated_at": "2026-11-09T17:40:45.653Z",
   "items": [
+    {
+      "id": "b1na8bvwr5",
+      "company": "ScottishPower",
+      "name": "Renewables Cyber Security Graduate",
+      "tracker": "uk-tech",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://www.scottishpower.com/w/cyber-security-graduate?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/graduate-programmes",
+      "opening_date": "2026-11-09T00:00:00.000Z",
+      "closing_date": "2027-01-03T00:00:00.000Z",
+      "opened_at": "2026-11-09T17:40:45.653Z"
+    },
     {
       "id": "zdxrlmg773",
       "company": "WMCF Corporate Finance",
