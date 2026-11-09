@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-09T23:05:49.684Z",
+  "updated_at": "2026-11-09T23:10:49.272Z",
   "items": [
+    {
+      "id": "q6pqndt2zx",
+      "company": "IBM",
+      "name": "Data Insights, Analytics & Technology Intern",
+      "tracker": "uk-tech",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://careers.ibm.com/en_US/careers/JobDetail?jobId=138998&source=Trackr&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/summer-internships",
+      "opening_date": "2026-11-09T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-09T23:10:49.272Z"
+    },
+    {
+      "id": "229lzrtr6e",
+      "company": "IBM",
+      "name": "Strategy & Business Transformation Intern",
+      "tracker": "uk-finance",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://careers.ibm.com/en_US/careers/JobDetail?jobId=139002&source=Trackr&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/summer-internships",
+      "opening_date": "2026-11-09T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-09T23:10:49.272Z"
+    },
     {
       "id": "x66r1tk3a5",
       "company": "IBM",
