@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-08T23:50:48.461Z",
+  "updated_at": "2026-11-09T09:25:45.456Z",
   "items": [
+    {
+      "id": "wqgjka7t5w",
+      "company": "Deloitte",
+      "name": "Spring Into Deloitte: Advisory",
+      "tracker": "uk-finance",
+      "type": "spring-weeks",
+      "season": "2027",
+      "url": "https://apply.deloitte.co.uk/UKEarlyCareers/JobDetail/Spring-into-Deloitte-Advisory/25353?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/spring-weeks",
+      "opening_date": "2026-11-09T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-09T09:25:45.456Z"
+    },
+    {
+      "id": "duhqbdk1pp",
+      "company": "Deloitte",
+      "name": "Spring into Deloitte: Finance (Inspiring Women)",
+      "tracker": "uk-finance",
+      "type": "spring-weeks",
+      "season": "2027",
+      "url": "https://apply.deloitte.co.uk/UKEarlyCareers/JobDetail/Spring-into-Deloitte-Finance-Inspiring-Women/25354?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/spring-weeks",
+      "opening_date": "2026-11-09T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-09T09:25:45.456Z"
+    },
     {
       "id": "yjasvasyxd",
       "company": "Scotiabank",
