@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-09T15:35:45.543Z",
+  "updated_at": "2026-11-09T15:40:46.272Z",
   "items": [
+    {
+      "id": "zdxrlmg773",
+      "company": "WMCF Corporate Finance",
+      "name": "Praktikum Analyst",
+      "tracker": "germany-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://www.wm-cf.com/praktikum-m-w-d/?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
+      "opening_date": "2026-08-18T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-09T15:40:46.272Z"
+    },
+    {
+      "id": "bx9dkl34ob",
+      "company": " ABACUS Corporate Finance",
+      "name": "Working student",
+      "tracker": "germany-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://www.abacus-cf.com/en/careers/?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
+      "opening_date": "2026-08-16T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-09T15:40:46.272Z"
+    },
     {
       "id": "bn30dydks4",
       "company": "Roots Advisory",
