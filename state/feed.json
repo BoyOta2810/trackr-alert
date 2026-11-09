@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-09T10:30:46.627Z",
+  "updated_at": "2026-11-09T10:35:46.583Z",
   "items": [
+    {
+      "id": "y0gk3b4nhp",
+      "company": "Oaklins",
+      "name": "M&A (Small-Cap, drei Monate)",
+      "tracker": "germany-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://www.oaklins.com/de/en/career/praktikum-ma-small-cap-drei-monate-jan-mrz-apr-jun-2027/?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
+      "opening_date": "2026-10-29T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-09T10:35:46.583Z"
+    },
+    {
+      "id": "pklxseo029",
+      "company": "Oaklins",
+      "name": "Debt Advisory (drei Monate)",
+      "tracker": "germany-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://www.oaklins.com/de/de/career/praktikumda/?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
+      "opening_date": "2026-10-29T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-09T10:35:46.583Z"
+    },
     {
       "id": "s4o0uptsun",
       "company": "Bankhaus Metzler",
