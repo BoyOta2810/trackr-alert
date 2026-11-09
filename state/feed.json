@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-09T23:10:49.272Z",
+  "updated_at": "2026-11-09T23:25:45.829Z",
   "items": [
+    {
+      "id": "t2va5huukl",
+      "company": "Aspect Capital",
+      "name": "Short Term Research Intern",
+      "tracker": "uk-finance",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://aspectcapital-42aeea.careers.hibob.com/jobs/b91988a7-fc10-4fdd-b05c-7a4ef6f72d61",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/summer-internships",
+      "opening_date": "2026-11-09T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-09T23:25:45.829Z"
+    },
     {
       "id": "q6pqndt2zx",
       "company": "IBM",
