@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-09T13:20:51.450Z",
+  "updated_at": "2026-11-09T13:25:48.061Z",
   "items": [
+    {
+      "id": "shjhjfrpph",
+      "company": " Finvia",
+      "name": "Werkstudent Alternative Investment",
+      "tracker": "germany-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://www.finvia.fo/ueber-finvia/karriere?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
+      "opening_date": "2026-10-19T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-09T13:25:48.061Z"
+    },
     {
       "id": "d8fb6lemfl",
       "company": " Icelake",
