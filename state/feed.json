@@ -1,6 +1,45 @@
 {
-  "updated_at": "2026-11-09T14:00:54.666Z",
+  "updated_at": "2026-11-09T14:05:50.128Z",
   "items": [
+    {
+      "id": "vzc6t5jn9u",
+      "company": "Alvarez & Marsal",
+      "name": "Intern, Digital Investigations - Frankfurt",
+      "tracker": "germany-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://careers.alvarezandmarsal.com/jobs/18371277-intern-m-slash-f-slash-d-digital-investigations-frankfurt?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
+      "opening_date": "2026-10-28T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-09T14:05:50.128Z"
+    },
+    {
+      "id": "ffka1wttv3",
+      "company": "Alvarez & Marsal",
+      "name": "Intern, Debt Advisory - Q1 2027",
+      "tracker": "germany-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://careers.alvarezandmarsal.com/jobs/18418476-intern-m-slash-f-slash-d-debt-advisory-q1-2027?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
+      "opening_date": "2026-10-29T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-09T14:05:50.128Z"
+    },
+    {
+      "id": "buaswmazkp",
+      "company": "Alvarez & Marsal",
+      "name": "Working Student, Valuation Services - 2027",
+      "tracker": "germany-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://careers.alvarezandmarsal.com/jobs/18214809-working-student-m-slash-f-slash-d-valuation-services-2027?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
+      "opening_date": "2026-10-28T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-09T14:05:50.128Z"
+    },
     {
       "id": "vuif6x5yak",
       "company": "ox8 Corporate Finance",
