@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-09T14:45:47.134Z",
+  "updated_at": "2026-11-09T14:50:47.209Z",
   "items": [
+    {
+      "id": "8i3mkzmamq",
+      "company": "National Grid",
+      "name": "Cyber Security Summer Internship",
+      "tracker": "uk-tech",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://jobs.nationalgrid.com/uk/jobs/13324/cyber-security-summer-internship-warwick?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/summer-internships",
+      "opening_date": "2026-11-09T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-09T14:50:47.209Z"
+    },
     {
       "id": "5h1pssmfuf",
       "company": "Bending Spoons",
