@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-09T23:25:45.829Z",
+  "updated_at": "2026-11-10T09:15:47.614Z",
   "items": [
+    {
+      "id": "s5cagaj0cq",
+      "company": "Bernstein",
+      "name": "2028 Summer Research Associate",
+      "tracker": "us-finance",
+      "type": "summer-internships",
+      "season": "2028",
+      "url": "https://careers.societegenerale.com/en/job-offers/2028-bernstein-summer-research-associate-campus-intern-26000NKN-en?utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2028",
+      "trackr_url": "https://app.the-trackr.com/us-finance-2028/summer-internships",
+      "opening_date": "2026-11-10T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-10T09:15:47.614Z"
+    },
+    {
+      "id": "adh0jjut4h",
+      "company": "Morgan Stanley",
+      "name": "2027 Technology Spring Insight",
+      "tracker": "uk-tech",
+      "type": "spring-weeks",
+      "season": "2027",
+      "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/user-5764832/candidate/so/pm/1/pl/2/opp/22453-2027-Technology-Spring-Insight-Glasgow/en-GB?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/spring-weeks",
+      "opening_date": "2026-11-10T00:00:00.000Z",
+      "closing_date": "2027-03-13T00:00:00.000Z",
+      "opened_at": "2026-11-10T09:15:47.614Z"
+    },
     {
       "id": "t2va5huukl",
       "company": "Aspect Capital",
