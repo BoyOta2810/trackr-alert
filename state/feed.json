@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-10T10:25:48.850Z",
+  "updated_at": "2026-11-10T10:30:45.930Z",
   "items": [
+    {
+      "id": "aqsof8qe9c",
+      "company": "BNP Paribas",
+      "name": "Open Sophomore Opportunity Summit",
+      "tracker": "us-finance",
+      "type": "insight-programs",
+      "season": "2028",
+      "url": "https://usa.bnpparibas/en/jobs/open-sophomore-opportunity-summit/?utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2028",
+      "trackr_url": "https://app.the-trackr.com/us-finance-2028/insight-programs",
+      "opening_date": "2026-11-10T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-10T10:30:45.930Z"
+    },
     {
       "id": "jlj3k4u52b",
       "company": "Morgan Stanley",
