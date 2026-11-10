@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-10T10:30:45.930Z",
+  "updated_at": "2026-11-10T12:00:48.917Z",
   "items": [
+    {
+      "id": "ald1alf6km",
+      "company": "Citi",
+      "name": "Technology - Application Development, Summer Analyst 2027",
+      "tracker": "uk-tech",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/London--United-Kingdom/Technology---Application-Development--Summer-Analyst--United-Kingdom---London--2027_261007037/apply?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/summer-internships",
+      "opening_date": "2026-11-10T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-10T12:00:48.917Z"
+    },
     {
       "id": "aqsof8qe9c",
       "company": "BNP Paribas",
