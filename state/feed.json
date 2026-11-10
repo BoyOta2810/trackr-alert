@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-10T13:50:52.196Z",
+  "updated_at": "2026-11-10T13:55:46.803Z",
   "items": [
+    {
+      "id": "f215lgg2zq",
+      "company": "Amazon",
+      "name": "Finance Apprentice",
+      "tracker": "uk-finance",
+      "type": "pre-university",
+      "season": "2027",
+      "url": "https://www.amazon.jobs/en/jobs/10598583/finance-apprentice-42-month-fixed-term-contract?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/pre-university",
+      "opening_date": "2026-11-10T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-10T13:55:46.803Z"
+    },
     {
       "id": "4kg8x4x3nw",
       "company": "Evercore",
