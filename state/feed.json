@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-11T10:55:47.012Z",
+  "updated_at": "2026-11-11T11:20:46.055Z",
   "items": [
+    {
+      "id": "xwtop2m8v9",
+      "company": "M&G",
+      "name": "Risk & Compliance Graduate",
+      "tracker": "uk-finance",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://mgpru.wd3.myworkdayjobs.com/en-US/mandgprudential?q=%22Risk+&+Compliance+Graduate%22=&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/graduate-programmes",
+      "opening_date": "2026-11-11T00:00:00.000Z",
+      "closing_date": "2026-12-31T00:00:00.000Z",
+      "opened_at": "2026-11-11T11:20:46.055Z"
+    },
+    {
+      "id": "ejpksofeca",
+      "company": "Morningstar",
+      "name": "Indexes Derivatives Sales Intern",
+      "tracker": "uk-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://morningstar.wd5.myworkdayjobs.com/en-US/morningstar/job/London/Intern_AP-25378893?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/off-cycle-internships",
+      "opening_date": "2026-11-11T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-11T11:20:46.055Z"
+    },
     {
       "id": "4jjgd88krm",
       "company": "Tidal Partners",
