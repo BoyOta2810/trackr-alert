@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-11T12:35:47.391Z",
+  "updated_at": "2026-11-11T12:40:47.751Z",
   "items": [
+    {
+      "id": "9kc757newn",
+      "company": "Aprio",
+      "name": "2028 Internship - Tax/Audit",
+      "tracker": "us-finance",
+      "type": "summer-internships",
+      "season": "2028",
+      "url": "https://jobs.lever.co/Aprio?commitment=Internship&utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2028&lever-source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/us-finance-2028/summer-internships",
+      "opening_date": "2026-11-11T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-11T12:40:47.751Z"
+    },
     {
       "id": "3lmze32gr6",
       "company": "Aprio",
