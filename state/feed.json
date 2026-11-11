@@ -1,6 +1,45 @@
 {
-  "updated_at": "2026-11-11T01:05:48.812Z",
+  "updated_at": "2026-11-11T09:35:46.443Z",
   "items": [
+    {
+      "id": "lq8cdk7tn5",
+      "company": "Insight Partners",
+      "name": "2028 Full Time Investment Analyst",
+      "tracker": "us-finance",
+      "type": "full-time-programmes",
+      "season": "2028",
+      "url": "https://jobs.ashbyhq.com/insight-partners/5ba236f8-e3fa-46e0-9f21-7f67cacb9a7a?utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2028",
+      "trackr_url": "https://app.the-trackr.com/us-finance-2028/full-time-programmes",
+      "opening_date": "2026-11-11T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-11T09:35:46.443Z"
+    },
+    {
+      "id": "z2agkyy3cf",
+      "company": "Insight Partners",
+      "name": "2028 Summer Investment Analyst",
+      "tracker": "us-finance",
+      "type": "summer-internships",
+      "season": "2028",
+      "url": "https://jobs.ashbyhq.com/insight-partners/d58a2656-62af-4e2f-ae7c-3776ef08cd0e?utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2028",
+      "trackr_url": "https://app.the-trackr.com/us-finance-2028/summer-internships",
+      "opening_date": "2026-11-11T00:00:00.000Z",
+      "closing_date": "2027-05-22T00:00:00.000Z",
+      "opened_at": "2026-11-11T09:35:46.443Z"
+    },
+    {
+      "id": "wmjgaysex2",
+      "company": "Insight Partners",
+      "name": "2028 Diligence & Growth Strategy Analyst",
+      "tracker": "us-finance",
+      "type": "summer-internships",
+      "season": "2028",
+      "url": "https://jobs.ashbyhq.com/insight-partners/d95e4366-2551-4b20-8500-e2da56ab8124?utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2028",
+      "trackr_url": "https://app.the-trackr.com/us-finance-2028/summer-internships",
+      "opening_date": "2026-11-11T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-11T09:35:46.443Z"
+    },
     {
       "id": "rkk9mfpvuo",
       "company": "Addepar",
