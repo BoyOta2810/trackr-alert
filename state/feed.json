@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-11T14:45:47.934Z",
+  "updated_at": "2026-11-11T16:10:50.496Z",
   "items": [
+    {
+      "id": "0d17vqgd1x",
+      "company": "iSAM",
+      "name": "Graduate Analyst - Summer 2027",
+      "tracker": "uk-finance",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://job-boards.eu.greenhouse.io/isam/jobs/5032019101?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027&gh_src=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/graduate-programmes",
+      "opening_date": "2026-11-11T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-11T16:10:50.496Z"
+    },
     {
       "id": "v3wbvhbwky",
       "company": "b2venture",
