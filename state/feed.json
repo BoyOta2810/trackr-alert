@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-11T00:35:44.068Z",
+  "updated_at": "2026-11-11T01:00:51.293Z",
   "items": [
+    {
+      "id": "tn8qin57pd",
+      "company": "Salesforce",
+      "name": "Engineering Intern",
+      "tracker": "uk-tech",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/details/Engineering-Intern_JR367683?CF_-_REC_-_LRV_-_Job_Posting_Anchor_-_Country_from_Job_Posting_Location_Extended=29247e57dbaf46fb855b224e03170bc7&workerSubType=3a910852b2c31010f48d2cefdccd0000&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/summer-internships",
+      "opening_date": "2026-11-10T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-11T01:00:51.293Z"
+    },
+    {
+      "id": "xy6p614fvk",
+      "company": "M&G",
+      "name": "Risk & Compliance Internship",
+      "tracker": "uk-finance",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://mgpru.wd3.myworkdayjobs.com/en-US/mandgprudential/job/London/Risk---Compliance-Internship--London-_R20871?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/summer-internships",
+      "opening_date": "2026-11-10T00:00:00.000Z",
+      "closing_date": "2026-12-31T00:00:00.000Z",
+      "opened_at": "2026-11-11T01:00:51.293Z"
+    },
     {
       "id": "grzslwqtl6",
       "company": "Chubb",
