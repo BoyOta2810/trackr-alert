@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-11T12:40:47.751Z",
+  "updated_at": "2026-11-11T13:30:48.434Z",
   "items": [
+    {
+      "id": "a1efccsctk",
+      "company": "National Grid",
+      "name": "Finance Higher Apprenticeship",
+      "tracker": "uk-finance",
+      "type": "pre-university",
+      "season": "2027",
+      "url": "https://jobs-ats.nationalgrid.com/job/Warwick-Finance-Higher-Apprenticeship%2C-Finance-and-Enterprise-Business-Services%2C-Warwick-CV34-6DA/1448854500?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/pre-university",
+      "opening_date": "2026-11-09T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-11T13:30:48.434Z"
+    },
+    {
+      "id": "vscaes1pb4",
+      "company": "Maven Securities",
+      "name": "Trader Summer Internship 2027",
+      "tracker": "uk-finance",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://job-boards.greenhouse.io/mavensecuritiesholdingltd/jobs/8048591?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027&gh_src=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/summer-internships",
+      "opening_date": "2026-09-01T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-11T13:30:48.434Z"
+    },
     {
       "id": "9kc757newn",
       "company": "Aprio",
