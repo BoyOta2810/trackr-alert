@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-11T01:00:51.293Z",
+  "updated_at": "2026-11-11T01:05:48.812Z",
   "items": [
+    {
+      "id": "rkk9mfpvuo",
+      "company": "Addepar",
+      "name": "Software Engineering Intern - Summer 2027",
+      "tracker": "uk-tech",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://job-boards.greenhouse.io/addepar1/jobs/8927507002?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027&gh_src=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/summer-internships",
+      "opening_date": "2026-11-10T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-11T01:05:48.812Z"
+    },
+    {
+      "id": "58tk74zd6o",
+      "company": "Addepar",
+      "name": "Data Intern - Summer 2027",
+      "tracker": "uk-tech",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://job-boards.greenhouse.io/addepar1?offices%5B%5D=4039395002&departments%5B%5D=4062452002&keyword=%22data%22&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027&gh_src=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/summer-internships",
+      "opening_date": "2026-11-10T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-11T01:05:48.812Z"
+    },
     {
       "id": "tn8qin57pd",
       "company": "Salesforce",
