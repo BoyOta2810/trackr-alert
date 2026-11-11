@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-10T17:20:45.419Z",
+  "updated_at": "2026-11-11T00:35:44.068Z",
   "items": [
+    {
+      "id": "grzslwqtl6",
+      "company": "Chubb",
+      "name": "Chubb Apprenticeship Program",
+      "tracker": "uk-finance",
+      "type": "pre-university",
+      "season": "2027",
+      "url": "https://fa-ewgu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/jobs?keyword=apprenticeship&mode=location&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027&iis=Trackr&sType=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/pre-university",
+      "opening_date": "2026-10-19T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-11T00:35:44.068Z"
+    },
     {
       "id": "8o5m66nteg",
       "company": "Pernod Ricard",
