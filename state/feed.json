@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-11T09:35:46.443Z",
+  "updated_at": "2026-11-11T10:55:47.012Z",
   "items": [
+    {
+      "id": "4jjgd88krm",
+      "company": "Tidal Partners",
+      "name": "2028 Summer Analyst",
+      "tracker": "us-finance",
+      "type": "summer-internships",
+      "season": "2028",
+      "url": null,
+      "trackr_url": "https://app.the-trackr.com/us-finance-2028/summer-internships",
+      "opening_date": "2026-11-11T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-11T10:55:47.012Z"
+    },
     {
       "id": "lq8cdk7tn5",
       "company": "Insight Partners",
