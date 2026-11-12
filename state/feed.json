@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-12T00:00:48.289Z",
+  "updated_at": "2026-11-12T00:55:48.669Z",
   "items": [
+    {
+      "id": "m2nzmvflfp",
+      "company": "ExodusPoint",
+      "name": "Rates Internship",
+      "tracker": "hong-kong-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://job-boards.greenhouse.io/exoduspoint/jobs/8938482002?utm_source=Trackr&utm_medium=tracker&utm_campaign=Hong_Kong_Finance_2027&gh_src=Trackr",
+      "trackr_url": "https://app.the-trackr.com/hong-kong-finance/off-cycle-internships",
+      "opening_date": "2026-11-12T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-12T00:55:48.669Z"
+    },
     {
       "id": "1up6j9477q",
       "company": "ICONIQ Capital",
@@ -3883,19 +3896,6 @@
       "type": "graduate-programmes",
       "season": "2027",
       "url": "https://jobs.worley.com/careers/job/1133916338270?microsite=graduates&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
-      "opening_date": "2026-10-14T00:00:00.000Z",
-      "closing_date": "2026-11-30T00:00:00.000Z",
-      "opened_at": "2026-10-31T18:55:47.880Z"
-    },
-    {
-      "id": "l8az0f5kp1",
-      "company": "Worley Consulting",
-      "name": "2027 Graduate Position - Mechanical & Piping (M&P) Engineer",
-      "tracker": "uk-engineering",
-      "type": "graduate-programmes",
-      "season": "2027",
-      "url": "https://jobs.worley.com/careers/job/1133916335025?microsite=graduates&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
       "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
       "opening_date": "2026-10-14T00:00:00.000Z",
       "closing_date": "2026-11-30T00:00:00.000Z",
