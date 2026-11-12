@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-12T00:55:48.669Z",
+  "updated_at": "2026-11-12T10:35:49.082Z",
   "items": [
+    {
+      "id": "jtxp7vszcg",
+      "company": "Nomura",
+      "name": "2027 - Global Markets - NAIM FSOPS - 6 Month Off Cycle Internship",
+      "tracker": "france-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/candidate/so/pm/1/pl/1/opp/1580-2027-Global-Markets-NAIM-FSOPS-6-Month-Off-Cycle-Internship-Paris/en-GB?utm_source=Trackr&utm_medium=tracker&utm_campaign=France_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/france-finance/off-cycle-internships",
+      "opening_date": "2026-11-12T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-12T10:35:49.082Z"
+    },
     {
       "id": "m2nzmvflfp",
       "company": "ExodusPoint",
@@ -3887,19 +3900,6 @@
       "opening_date": "2026-10-01T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-10-31T19:00:51.178Z"
-    },
-    {
-      "id": "xh6genycq9",
-      "company": "Worley Consulting",
-      "name": "2027 Graduate Position - Process Engineer",
-      "tracker": "uk-engineering",
-      "type": "graduate-programmes",
-      "season": "2027",
-      "url": "https://jobs.worley.com/careers/job/1133916338270?microsite=graduates&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
-      "opening_date": "2026-10-14T00:00:00.000Z",
-      "closing_date": "2026-11-30T00:00:00.000Z",
-      "opened_at": "2026-10-31T18:55:47.880Z"
     }
   ]
 }
