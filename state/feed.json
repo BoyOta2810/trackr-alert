@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-12T12:50:45.733Z",
+  "updated_at": "2026-11-12T13:50:45.357Z",
   "items": [
+    {
+      "id": "opdyj72fo7",
+      "company": "Visa",
+      "name": "Software Engineer Intern",
+      "tracker": "uk-tech",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa_Early_Careers?q=%22software+engineer+intern%22&jobFamily=2745bc1368021016a99151158b7a3a64&locationCountry=29247e57dbaf46fb855b224e03170bc7&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/summer-internships",
+      "opening_date": "2026-11-12T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-12T13:50:45.357Z"
+    },
     {
       "id": "ekmfaifbzg",
       "company": "G-Research",
@@ -3887,19 +3900,6 @@
       "opening_date": "2026-10-31T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-10-31T19:05:44.761Z"
-    },
-    {
-      "id": "x2cirh9g5p",
-      "company": "KLA Corporation",
-      "name": "Graduate Product Management Engineer",
-      "tracker": "uk-engineering",
-      "type": "graduate-programmes",
-      "season": "2027",
-      "url": "https://kla.wd1.myworkdayjobs.com/en-US/Search/job/Newport-United-Kingdom/Graduate-Product-Management-Engineer_2640082?q=graduate&Country=29247e57dbaf46fb855b224e03170bc7&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027&source=Trackr",
-      "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
-      "opening_date": "2026-10-01T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-10-31T19:00:51.178Z"
     }
   ]
 }
