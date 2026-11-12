@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-12T18:10:49.356Z",
+  "updated_at": "2026-11-12T21:25:46.311Z",
   "items": [
+    {
+      "id": "6zjatswxof",
+      "company": "Jacobs",
+      "name": "2027 - 2028 TRU Year in Industry Placement - Rail (York)",
+      "tracker": "uk-engineering",
+      "type": "industrial-placements",
+      "season": "2027",
+      "url": "https://careers.jacobs.com/en_US/careers/JobDetail/2027-2028-TRU-Year-in-Industry-Placement-Rail-York/46702?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-engineering/industrial-placements",
+      "opening_date": "2026-11-01T00:00:00.000Z",
+      "closing_date": "2026-11-22T00:00:00.000Z",
+      "opened_at": "2026-11-12T21:25:46.311Z"
+    },
     {
       "id": "eaxsin3gh7",
       "company": "Harris Williams",
@@ -3885,19 +3898,6 @@
       "url": "https://careers.textron.com/ipswich-gbr/design-engineer-graduate/FFB7B2015E8749049D3AB0B4DAC723C4/job/?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
       "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
       "opening_date": "2026-10-30T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-10-31T19:15:48.691Z"
-    },
-    {
-      "id": "4l06egnb0n",
-      "company": "Stemtech",
-      "name": "Associate Validation Engineer – High-Speed Validation & Signal Integrity",
-      "tracker": "uk-engineering",
-      "type": "graduate-programmes",
-      "season": "2027",
-      "url": "https://semtech.wd1.myworkdayjobs.com/en-US/SemtechCareers/job/GBR---Bristol/Associate-Validation-Engineer_REQ3508?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027&source=Trackr",
-      "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
-      "opening_date": "2026-10-28T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-10-31T19:15:48.691Z"
     }
