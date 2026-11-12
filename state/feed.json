@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-12T21:25:46.311Z",
+  "updated_at": "2026-11-12T21:30:46.704Z",
   "items": [
+    {
+      "id": "71fiych7gg",
+      "company": "Jacobs",
+      "name": "Engineering Intern 2027",
+      "tracker": "uk-engineering",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://careers.jacobs.com/en_US/careers/SearchEarlyCareers/engineering%20intern?4182=%5B76514%5D&4182_format=4422&listFilterMode=1&jobRecordsPerPage=10&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-engineering/summer-internships",
+      "opening_date": "2026-11-01T00:00:00.000Z",
+      "closing_date": "2026-11-16T00:00:00.000Z",
+      "opened_at": "2026-11-12T21:30:46.704Z"
+    },
     {
       "id": "6zjatswxof",
       "company": "Jacobs",
@@ -3887,19 +3900,6 @@
       "opening_date": "2026-11-01T00:00:00.000Z",
       "closing_date": "2027-05-03T00:00:00.000Z",
       "opened_at": "2026-11-01T00:00:45.076Z"
-    },
-    {
-      "id": "ofmie1scpz",
-      "company": "Textron",
-      "name": "Design Engineer Graduate",
-      "tracker": "uk-engineering",
-      "type": "graduate-programmes",
-      "season": "2027",
-      "url": "https://careers.textron.com/ipswich-gbr/design-engineer-graduate/FFB7B2015E8749049D3AB0B4DAC723C4/job/?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
-      "opening_date": "2026-10-30T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-10-31T19:15:48.691Z"
     }
   ]
 }
