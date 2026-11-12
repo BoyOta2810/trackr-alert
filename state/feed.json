@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-12T13:50:45.357Z",
+  "updated_at": "2026-11-12T17:25:48.345Z",
   "items": [
+    {
+      "id": "kobgvip1bb",
+      "company": "Crowdstrike",
+      "name": "Intelligence Launch Intern - Summer 2027",
+      "tracker": "uk-tech",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/United-Kingdom---Reading/Intelligence-Launch-Intern---Summer-2027_R30500?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/summer-internships",
+      "opening_date": "2026-11-12T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-12T17:25:48.345Z"
+    },
     {
       "id": "opdyj72fo7",
       "company": "Visa",
@@ -3887,19 +3900,6 @@
       "opening_date": "2026-10-20T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-10-31T19:10:47.886Z"
-    },
-    {
-      "id": "bj8tmx4f8p",
-      "company": "NCR Atleos",
-      "name": "Graduate Mechanical Design Engineer",
-      "tracker": "uk-engineering",
-      "type": "graduate-programmes",
-      "season": "2027",
-      "url": "https://ncratleos.wd1.myworkdayjobs.com/en-US/ext_non_usalteos/job/DUNDEE-GBR/Graduate-Mechanical-Design-Engineer_R1154670-3?Location_Country=29247e57dbaf46fb855b224e03170bc7&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027&source=Trackr",
-      "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
-      "opening_date": "2026-10-31T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-10-31T19:05:44.761Z"
     }
   ]
 }
