@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-12T12:40:45.237Z",
+  "updated_at": "2026-11-12T12:50:45.733Z",
   "items": [
+    {
+      "id": "ekmfaifbzg",
+      "company": "G-Research",
+      "name": "Quantitative Analyst",
+      "tracker": "uk-finance",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://gresearch.wd103.myworkdayjobs.com/en-US/G-Research/job/London-UK/Quantitative-Analyst_R2633?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/graduate-programmes",
+      "opening_date": "2026-11-12T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-12T12:50:45.733Z"
+    },
     {
       "id": "b20ckw7gnk",
       "company": "EDF Trading",
@@ -3883,19 +3896,6 @@
       "type": "graduate-programmes",
       "season": "2027",
       "url": "https://kla.wd1.myworkdayjobs.com/en-US/Search/job/Newport-United-Kingdom/Graduate-Product-Management-Engineer_2640082?q=graduate&Country=29247e57dbaf46fb855b224e03170bc7&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027&source=Trackr",
-      "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
-      "opening_date": "2026-10-01T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-10-31T19:00:51.178Z"
-    },
-    {
-      "id": "vgmsjt059w",
-      "company": "KLA Corporation",
-      "name": "Graduate Electrical / Electronic Engineer",
-      "tracker": "uk-engineering",
-      "type": "graduate-programmes",
-      "season": "2027",
-      "url": "https://kla.wd1.myworkdayjobs.com/en-US/Search/job/Newport-United-Kingdom/Graduate-Electrical---Electronic-Engineer_2640080?q=graduate&Country=29247e57dbaf46fb855b224e03170bc7&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027&source=Trackr",
       "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
       "opening_date": "2026-10-01T00:00:00.000Z",
       "closing_date": null,
