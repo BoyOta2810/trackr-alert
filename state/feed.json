@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-12T21:30:46.704Z",
+  "updated_at": "2026-11-13T01:05:45.328Z",
   "items": [
+    {
+      "id": "gfn71n7ya6",
+      "company": "Fidelity International",
+      "name": "2027 Women in Investment Management Spring Insight Programme ",
+      "tracker": "uk-finance",
+      "type": "spring-weeks",
+      "season": "2027",
+      "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/candidate/so/pm/1/pl/1/opp/1452-2027-Women-in-Investment-Management-Spring-Insight-Programme-London-UK/en-GB?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/spring-weeks",
+      "opening_date": "2026-11-13T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-13T01:05:45.328Z"
+    },
+    {
+      "id": "gc3t7cws1y",
+      "company": "Fidelity International",
+      "name": "2027 Spring Insight Programme",
+      "tracker": "uk-finance",
+      "type": "spring-weeks",
+      "season": "2027",
+      "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/candidate/so/pm/1/pl/1/opp/1451-2027-Spring-Insight-Programme-London-UK/en-GB?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/spring-weeks",
+      "opening_date": "2026-11-13T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-13T01:05:45.328Z"
+    },
     {
       "id": "71fiych7gg",
       "company": "Jacobs",
@@ -3873,32 +3899,6 @@
       "trackr_url": "https://app.the-trackr.com/uk-law/training-contracts",
       "opening_date": "2026-11-01T00:00:00.000Z",
       "closing_date": "2027-03-31T00:00:00.000Z",
-      "opened_at": "2026-11-01T00:00:45.076Z"
-    },
-    {
-      "id": "hqsk17rb4m",
-      "company": "Farrer & Co",
-      "name": "Training Contract 2029",
-      "tracker": "uk-law",
-      "type": "training-contracts",
-      "season": "2027",
-      "url": "https://www.farrer.co.uk/careers/early-careers/training-contracts/?utm_source=Trackr&utm_medium=tracker&utm_campaign=uk_law_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-law/training-contracts",
-      "opening_date": "2026-11-01T00:00:00.000Z",
-      "closing_date": "2027-03-12T00:00:00.000Z",
-      "opened_at": "2026-11-01T00:00:45.076Z"
-    },
-    {
-      "id": "9chf18ik8a",
-      "company": "Wedlake Bell",
-      "name": "Training Contract",
-      "tracker": "uk-law",
-      "type": "training-contracts",
-      "season": "2027",
-      "url": "https://wedlakebell.app.candidats.io/roles?utm_source=Trackr&utm_medium=tracker&utm_campaign=uk_law_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-law/training-contracts",
-      "opening_date": "2026-11-01T00:00:00.000Z",
-      "closing_date": "2027-05-03T00:00:00.000Z",
       "opened_at": "2026-11-01T00:00:45.076Z"
     }
   ]
