@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-13T09:50:43.757Z",
+  "updated_at": "2026-11-13T10:10:49.167Z",
   "items": [
+    {
+      "id": "yz4982ag2b",
+      "company": "Neuberger Berman",
+      "name": "Intern",
+      "tracker": "hong-kong-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://nb.wd1.myworkdayjobs.com/en-US/NBCareers/job/Hong-Kong/Intern_R0012540?utm_source=Trackr&utm_medium=tracker&utm_campaign=Hong_Kong_Finance_2027&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/hong-kong-finance/off-cycle-internships",
+      "opening_date": "2026-11-13T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-13T10:10:49.167Z"
+    },
     {
       "id": "zecnu8t6mw",
       "company": "Apple",
@@ -3886,19 +3899,6 @@
       "trackr_url": "https://app.the-trackr.com/uk-law/vacation-schemes",
       "opening_date": "2026-11-01T00:00:00.000Z",
       "closing_date": "2027-03-31T00:00:00.000Z",
-      "opened_at": "2026-11-01T00:00:45.076Z"
-    },
-    {
-      "id": "7myl2xcomu",
-      "company": "Farrer & Co",
-      "name": "Vacation Schemes 2027",
-      "tracker": "uk-law",
-      "type": "vacation-schemes",
-      "season": "2027",
-      "url": "https://www.farrer.co.uk/careers/early-careers/vacation-scheme/?utm_source=Trackr&utm_medium=tracker&utm_campaign=uk_law_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-law/vacation-schemes",
-      "opening_date": "2026-11-01T00:00:00.000Z",
-      "closing_date": "2026-12-18T00:00:00.000Z",
       "opened_at": "2026-11-01T00:00:45.076Z"
     }
   ]
