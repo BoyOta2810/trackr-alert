@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-13T10:10:49.167Z",
+  "updated_at": "2026-11-13T10:45:47.726Z",
   "items": [
+    {
+      "id": "0h27v7lqcs",
+      "company": "Castleton Commodities International",
+      "name": "Commodities Trading Summer Analyst Internship Program 2028",
+      "tracker": "us-finance",
+      "type": "summer-internships",
+      "season": "2028",
+      "url": "https://osv-cci.wd1.myworkdayjobs.com/en-US/CCICareers/job/Stamford/Commodities-Trading-Summer-Analyst-Internship-Program--Summer-2028-Internship-_R1417?utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2028&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/us-finance-2028/summer-internships",
+      "opening_date": "2026-11-12T00:00:00.000Z",
+      "closing_date": "2027-01-03T00:00:00.000Z",
+      "opened_at": "2026-11-13T10:45:47.726Z"
+    },
+    {
+      "id": "we02sc45ng",
+      "company": "MFS",
+      "name": "Summer 2027 Global Client Service Intern",
+      "tracker": "uk-finance",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://mfs.wd1.myworkdayjobs.com/en-US/MFS-Careers/job/Summer-MFS-2027-Global-Client-Service-Intern_MFS-232025?locations=2c191d673ad410363966d1a6941a340c&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/summer-internships",
+      "opening_date": "2026-11-12T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-13T10:45:47.726Z"
+    },
     {
       "id": "yz4982ag2b",
       "company": "Neuberger Berman",
@@ -3873,32 +3899,6 @@
       "trackr_url": "https://app.the-trackr.com/uk-law/vacation-schemes",
       "opening_date": "2026-11-01T00:00:00.000Z",
       "closing_date": "2027-01-11T00:00:00.000Z",
-      "opened_at": "2026-11-01T00:00:45.076Z"
-    },
-    {
-      "id": "oxlak9tqw7",
-      "company": "Farrer & Co",
-      "name": "Insight Vacation Scheme",
-      "tracker": "uk-law",
-      "type": "vacation-schemes",
-      "season": "2027",
-      "url": "https://www.farrer.co.uk/careers/early-careers/vacation-scheme/?utm_source=Trackr&utm_medium=tracker&utm_campaign=uk_law_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-law/vacation-schemes",
-      "opening_date": "2026-11-01T00:00:00.000Z",
-      "closing_date": "2026-12-18T00:00:00.000Z",
-      "opened_at": "2026-11-01T00:00:45.076Z"
-    },
-    {
-      "id": "9ablz1kcfp",
-      "company": "Ashfords",
-      "name": "Summer Scheme 2027",
-      "tracker": "uk-law",
-      "type": "vacation-schemes",
-      "season": "2027",
-      "url": "https://www.ashfords.co.uk/careers/early-careers/trainee-opportunities?utm_source=Trackr&utm_medium=tracker&utm_campaign=uk_law_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-law/vacation-schemes",
-      "opening_date": "2026-11-01T00:00:00.000Z",
-      "closing_date": "2027-03-31T00:00:00.000Z",
       "opened_at": "2026-11-01T00:00:45.076Z"
     }
   ]
