@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-13T16:25:55.721Z",
+  "updated_at": "2026-11-13T16:30:45.701Z",
   "items": [
+    {
+      "id": "lpiuoaabvx",
+      "company": "BGC Group",
+      "name": "2027 Technology Summer Internship Programme - Infrastructure",
+      "tracker": "uk-tech",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://hdow.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/250538/?utm_medium=tracker&utm_source=Trackr&utm_campaign=UK_Tech_2027&iis=Trackr&sType=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/summer-internships",
+      "opening_date": "2026-11-13T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-13T16:30:45.701Z"
+    },
+    {
+      "id": "aeh7n3k27d",
+      "company": "BGC Group",
+      "name": "2027 Technology Summer Internship Programme - Development",
+      "tracker": "uk-tech",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://hdow.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/250537/?utm_medium=tracker&utm_source=Trackr&utm_campaign=UK_Tech_2027&iis=Trackr&sType=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/summer-internships",
+      "opening_date": "2026-11-13T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-13T16:30:45.701Z"
+    },
     {
       "id": "j8c8e4w1a3",
       "company": "Roark Capital Group",
@@ -3874,32 +3900,6 @@
       "opening_date": "2026-11-01T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-11-01T22:20:45.515Z"
-    },
-    {
-      "id": "vjr9hf6j3e",
-      "company": "Ashfords",
-      "name": "Virtual Insight Afternoon",
-      "tracker": "uk-law",
-      "type": "first-year-schemes",
-      "season": "2027",
-      "url": "https://www.ashfords.co.uk/careers/early-careers/trainee-opportunities?utm_source=Trackr&utm_medium=tracker&utm_campaign=uk_law_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-law/first-year-schemes",
-      "opening_date": "2026-11-01T00:00:00.000Z",
-      "closing_date": "2027-02-24T00:00:00.000Z",
-      "opened_at": "2026-11-01T00:00:45.076Z"
-    },
-    {
-      "id": "3lgc55o9s5",
-      "company": "Wedlake Bell",
-      "name": "Open Day",
-      "tracker": "uk-law",
-      "type": "first-year-schemes",
-      "season": "2027",
-      "url": "https://wedlakebell.app.candidats.io/roles?utm_source=Trackr&utm_medium=tracker&utm_campaign=uk_law_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-law/first-year-schemes",
-      "opening_date": "2026-11-01T00:00:00.000Z",
-      "closing_date": "2026-11-16T00:00:00.000Z",
-      "opened_at": "2026-11-01T00:00:45.076Z"
     }
   ]
 }
