@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-13T01:05:45.328Z",
+  "updated_at": "2026-11-13T09:50:43.757Z",
   "items": [
+    {
+      "id": "zecnu8t6mw",
+      "company": "Apple",
+      "name": "Internship - Pro Apps Machine Learning Ecosystem Engineer",
+      "tracker": "uk-tech",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://jobs.apple.com/en-us/details/200694490-2114/internship-pro-apps-machine-learning-ecosystem-engineer?board=17682&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/summer-internships",
+      "opening_date": "2026-11-12T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-13T09:50:43.757Z"
+    },
+    {
+      "id": "ot9fn8ilmy",
+      "company": "Apple",
+      "name": "Camera Software (Intern)",
+      "tracker": "uk-tech",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://jobs.apple.com/en-us/details/200694477-1251/camera-software-intern?board=Trackr&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/summer-internships",
+      "opening_date": "2026-11-12T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-13T09:50:43.757Z"
+    },
     {
       "id": "gfn71n7ya6",
       "company": "Fidelity International",
@@ -3873,32 +3899,6 @@
       "trackr_url": "https://app.the-trackr.com/uk-law/vacation-schemes",
       "opening_date": "2026-11-01T00:00:00.000Z",
       "closing_date": "2026-12-18T00:00:00.000Z",
-      "opened_at": "2026-11-01T00:00:45.076Z"
-    },
-    {
-      "id": "sp0svaaygk",
-      "company": "K&L Gates",
-      "name": "Training Contract",
-      "tracker": "uk-law",
-      "type": "training-contracts",
-      "season": "2027",
-      "url": "https://www.klgates.com/uk-trainee-solicitor?utm_source=Trackr&utm_medium=tracker&utm_campaign=uk_law_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-law/training-contracts",
-      "opening_date": "2026-11-01T00:00:00.000Z",
-      "closing_date": "2027-07-31T00:00:00.000Z",
-      "opened_at": "2026-11-01T00:00:45.076Z"
-    },
-    {
-      "id": "mq94hj3cnn",
-      "company": "Ashfords",
-      "name": "Training Contract",
-      "tracker": "uk-law",
-      "type": "training-contracts",
-      "season": "2027",
-      "url": "https://www.ashfords.co.uk/careers/early-careers/trainee-opportunities?utm_source=Trackr&utm_medium=tracker&utm_campaign=uk_law_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-law/training-contracts",
-      "opening_date": "2026-11-01T00:00:00.000Z",
-      "closing_date": "2027-03-31T00:00:00.000Z",
       "opened_at": "2026-11-01T00:00:45.076Z"
     }
   ]
