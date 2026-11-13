@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-13T12:25:50.188Z",
+  "updated_at": "2026-11-13T16:25:55.721Z",
   "items": [
+    {
+      "id": "j8c8e4w1a3",
+      "company": "Roark Capital Group",
+      "name": "2028 Summer Analyst",
+      "tracker": "us-finance",
+      "type": "summer-internships",
+      "season": "2028",
+      "url": "https://job-boards.greenhouse.io/roarkcapitalgroup/jobs/5442468008?utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2028&gh_src=Trackr",
+      "trackr_url": "https://app.the-trackr.com/us-finance-2028/summer-internships",
+      "opening_date": "2026-11-13T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-13T16:25:55.721Z"
+    },
     {
       "id": "l4uvforswb",
       "company": "J.P. Morgan",
@@ -3886,19 +3899,6 @@
       "trackr_url": "https://app.the-trackr.com/uk-law/first-year-schemes",
       "opening_date": "2026-11-01T00:00:00.000Z",
       "closing_date": "2026-11-16T00:00:00.000Z",
-      "opened_at": "2026-11-01T00:00:45.076Z"
-    },
-    {
-      "id": "u9qnm8xznh",
-      "company": "Farrer & Co",
-      "name": "Vacation Schemes 2027",
-      "tracker": "uk-law",
-      "type": "vacation-schemes",
-      "season": "2027",
-      "url": "https://www.farrer.co.uk/careers/early-careers/vacation-scheme/?utm_source=Trackr&utm_medium=tracker&utm_campaign=uk_law_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-law/vacation-schemes",
-      "opening_date": "2026-11-01T00:00:00.000Z",
-      "closing_date": "2026-12-18T00:00:00.000Z",
       "opened_at": "2026-11-01T00:00:45.076Z"
     }
   ]
