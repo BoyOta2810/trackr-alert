@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-13T16:30:45.701Z",
+  "updated_at": "2026-11-13T17:30:47.288Z",
   "items": [
+    {
+      "id": "svx4anr7pi",
+      "company": "BMLL",
+      "name": "Internship - Junior Quantitative Analyst",
+      "tracker": "uk-finance",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://apply.workable.com/bmlltech/j/685458148E/?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/summer-internships",
+      "opening_date": "2026-11-13T00:00:00.000Z",
+      "closing_date": "2026-11-19T00:00:00.000Z",
+      "opened_at": "2026-11-13T17:30:47.288Z"
+    },
     {
       "id": "lpiuoaabvx",
       "company": "BGC Group",
@@ -3887,19 +3900,6 @@
       "opening_date": "2026-11-01T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-11-01T22:30:45.137Z"
-    },
-    {
-      "id": "kuc1n2wzgy",
-      "company": "Peel Hunt",
-      "name": "Trainee Traders Programme 2027",
-      "tracker": "uk-finance",
-      "type": "pre-university",
-      "season": "2027",
-      "url": "https://apptrkr.io/peel-hunt/execution-services-trainee-traders-programme-2027?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-finance/pre-university",
-      "opening_date": "2026-11-01T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-01T22:20:45.515Z"
     }
   ]
 }
