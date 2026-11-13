@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-13T10:45:47.726Z",
+  "updated_at": "2026-11-13T12:25:50.188Z",
   "items": [
+    {
+      "id": "l4uvforswb",
+      "company": "J.P. Morgan",
+      "name": "2027 Global Markets Off-Cycle Internship",
+      "tracker": "uk-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210802065/?keyword=Internship&location=LONDON%252C+United+Kingdom&locationId=300000057005324&locationLevel=state&mode=location&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027&iis=Trackr&sType=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/off-cycle-internships",
+      "opening_date": "2026-11-13T00:00:00.000Z",
+      "closing_date": "2026-11-29T00:00:00.000Z",
+      "opened_at": "2026-11-13T12:25:50.188Z"
+    },
+    {
+      "id": "8po2cqnj6s",
+      "company": "J.P. Morgan",
+      "name": "2027 Sales Off-cycle Internship",
+      "tracker": "uk-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210802421/?keyword=Internship&location=LONDON%252C+United+Kingdom&locationId=300000057005324&locationLevel=state&mode=location&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027&iis=Trackr&sType=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/off-cycle-internships",
+      "opening_date": "2026-11-13T00:00:00.000Z",
+      "closing_date": "2026-11-29T00:00:00.000Z",
+      "opened_at": "2026-11-13T12:25:50.188Z"
+    },
     {
       "id": "0h27v7lqcs",
       "company": "Castleton Commodities International",
@@ -3873,32 +3899,6 @@
       "trackr_url": "https://app.the-trackr.com/uk-law/vacation-schemes",
       "opening_date": "2026-11-01T00:00:00.000Z",
       "closing_date": "2026-12-18T00:00:00.000Z",
-      "opened_at": "2026-11-01T00:00:45.076Z"
-    },
-    {
-      "id": "tdhl1j5wmv",
-      "company": "K&L Gates",
-      "name": "Vacation Scheme",
-      "tracker": "uk-law",
-      "type": "vacation-schemes",
-      "season": "2027",
-      "url": "https://www.klgates.com/Legal-Work-Placement?utm_source=Trackr&utm_medium=tracker&utm_campaign=uk_law_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-law/vacation-schemes",
-      "opening_date": "2026-11-01T00:00:00.000Z",
-      "closing_date": "2027-01-31T00:00:00.000Z",
-      "opened_at": "2026-11-01T00:00:45.076Z"
-    },
-    {
-      "id": "s13cnipfdr",
-      "company": "Wedlake Bell",
-      "name": "Summer Vacation Scheme",
-      "tracker": "uk-law",
-      "type": "vacation-schemes",
-      "season": "2027",
-      "url": "https://wedlakebell.app.candidats.io/roles?utm_source=Trackr&utm_medium=tracker&utm_campaign=uk_law_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-law/vacation-schemes",
-      "opening_date": "2026-11-01T00:00:00.000Z",
-      "closing_date": "2027-01-11T00:00:00.000Z",
       "opened_at": "2026-11-01T00:00:45.076Z"
     }
   ]
