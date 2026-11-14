@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-13T17:45:50.568Z",
+  "updated_at": "2026-11-14T12:45:46.878Z",
   "items": [
+    {
+      "id": "grleau53pp",
+      "company": "Balyasny Asset Management",
+      "name": "Catalyst Equities Associate (Summer 2028 Internship)",
+      "tracker": "us-finance",
+      "type": "summer-internships",
+      "season": "2028",
+      "url": "https://bambusdev.my.site.com/s/details?jobReq=Catalyst-Equities-Associate-Summer-Intern-Program--Summer-2028-Internship-_REQ8715&utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2028",
+      "trackr_url": "https://app.the-trackr.com/us-finance-2028/summer-internships",
+      "opening_date": "2026-11-12T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-14T12:45:46.878Z"
+    },
+    {
+      "id": "8t139ne1fo",
+      "company": "FT Partners",
+      "name": "2028 Summer Analyst, Investment Banking",
+      "tracker": "us-finance",
+      "type": "summer-internships",
+      "season": "2028",
+      "url": "https://job-boards.greenhouse.io/financialtechnologypartners?keyword=2028+summer+analyst&utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2028&gh_src=Trackr",
+      "trackr_url": "https://app.the-trackr.com/us-finance-2028/summer-internships",
+      "opening_date": "2026-11-13T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-14T12:45:46.878Z"
+    },
     {
       "id": "e0y8d4kb6u",
       "company": "Texas Capital Bank",
@@ -3874,32 +3900,6 @@
       "opening_date": "2026-11-01T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-11-01T22:55:49.793Z"
-    },
-    {
-      "id": "tsbcnh787h",
-      "company": "BlockTech",
-      "name": "Junior Quantitative Trader | Crypto Options",
-      "tracker": "uk-finance",
-      "type": "graduate-programmes",
-      "season": "2027",
-      "url": "https://jobs.ashbyhq.com/blocktech/b62d71ac-b0c1-4383-8d9a-a687a4a723e3?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-finance/graduate-programmes",
-      "opening_date": "2026-11-01T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-01T22:50:50.812Z"
-    },
-    {
-      "id": "wzcfzki9yb",
-      "company": "Jefferies",
-      "name": "2028 Summer Analyst - Private Credit",
-      "tracker": "us-finance",
-      "type": "summer-internships",
-      "season": "2028",
-      "url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/2/adv/?f_Item_Opportunity_84825_lk=749&f_Item_Opportunity_60426_lk=520145&f_Item_Opportunity_59801_lk=523744&utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2028",
-      "trackr_url": "https://app.the-trackr.com/us-finance-2028/summer-internships",
-      "opening_date": "2026-11-01T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-01T22:30:45.137Z"
     }
   ]
 }
