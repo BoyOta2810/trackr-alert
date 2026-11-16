@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-16T10:46:06.185Z",
+  "updated_at": "2026-11-16T10:55:48.614Z",
   "items": [
+    {
+      "id": "e5q4ghmi76",
+      "company": "J.P. Morgan",
+      "name": "2027 Commercial & Investment Banking - Global Markets - Off-cycle Internship",
+      "tracker": "france-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210802076?utm_medium=tracker&utm_source=Trackr&utm_campaign=France_Finance_2027&iis=Trackr&sType=Trackr",
+      "trackr_url": "https://app.the-trackr.com/france-finance/off-cycle-internships",
+      "opening_date": "2026-11-16T00:00:00.000Z",
+      "closing_date": "2026-11-29T00:00:00.000Z",
+      "opened_at": "2026-11-16T10:55:48.614Z"
+    },
     {
       "id": "ue3ronbjao",
       "company": "Volitility",
@@ -3887,19 +3900,6 @@
       "opening_date": "2026-11-02T00:00:00.000Z",
       "closing_date": "2026-11-30T00:00:00.000Z",
       "opened_at": "2026-11-02T10:40:46.866Z"
-    },
-    {
-      "id": "k4og1fiyi9",
-      "company": "Carlsquare",
-      "name": "Debt Advisory Internship Q2 2027",
-      "tracker": "germany-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://carlsquare-gmbh.jobs.personio.de/job/2870880?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
-      "opening_date": "2026-11-02T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-02T09:25:55.359Z"
     }
   ]
 }
