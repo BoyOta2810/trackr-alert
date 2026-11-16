@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-16T18:00:53.945Z",
+  "updated_at": "2026-11-16T19:05:59.192Z",
   "items": [
+    {
+      "id": "li06lij8u1",
+      "company": "Five Rings",
+      "name": "QT Connect 2027",
+      "tracker": "uk-finance",
+      "type": "spring-weeks",
+      "season": "2027",
+      "url": "https://job-boards.greenhouse.io/fiveringsllc/jobs/5473153008?gh_src=Trackr&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/spring-weeks",
+      "opening_date": "2026-11-16T00:00:00.000Z",
+      "closing_date": "2027-01-18T00:00:00.000Z",
+      "opened_at": "2026-11-16T19:05:59.192Z"
+    },
     {
       "id": "2aw7r22n6r",
       "company": "Bloomberg",
@@ -3884,19 +3897,6 @@
       "season": "2027",
       "url": "https://www.janestreet.com/join-jane-street/position/8651323002/?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
       "trackr_url": "https://app.the-trackr.com/uk-engineering/summer-internships",
-      "opening_date": "2026-11-02T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-02T21:00:48.032Z"
-    },
-    {
-      "id": "05xf1ykx92",
-      "company": "Jane Street",
-      "name": "Hardware Engineer (FPGA/ASIC)",
-      "tracker": "uk-engineering",
-      "type": "graduate-programmes",
-      "season": "2027",
-      "url": "https://www.janestreet.com/join-jane-street/position/8651405002/?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
       "opening_date": "2026-11-02T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-11-02T21:00:48.032Z"
