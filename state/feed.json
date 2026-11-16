@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-16T17:30:46.899Z",
+  "updated_at": "2026-11-16T17:35:44.847Z",
   "items": [
+    {
+      "id": "6mbsldj6ti",
+      "company": "UBS",
+      "name": "2027 Off-Cycle Internship - Global Banking DCM",
+      "tracker": "uk-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://jobs.ubs.com/TGNewUI/Search/Home/HomeWithPreLoad?partnerid=25008&siteid=5176&PageType=JobDetails&jobid=354148&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027#jobDetails=354148_5176",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/off-cycle-internships",
+      "opening_date": "2026-11-16T00:00:00.000Z",
+      "closing_date": "2026-11-30T00:00:00.000Z",
+      "opened_at": "2026-11-16T17:35:44.847Z"
+    },
     {
       "id": "7xjjjlagcd",
       "company": "D11Z. Ventures",
@@ -3883,19 +3896,6 @@
       "type": "industrial-placements",
       "season": "2027",
       "url": "https://jobdetails.nestle.com/job/York-Product-Developer-Placement-YN-YO91-1XY/1450260533/?feedId=256801&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-engineering/industrial-placements",
-      "opening_date": "2026-11-02T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-02T18:25:49.401Z"
-    },
-    {
-      "id": "s1wgfosrnh",
-      "company": "Nestlé",
-      "name": "Nestlé Research & Development Digital & Automation Engineering Graduate",
-      "tracker": "uk-engineering",
-      "type": "industrial-placements",
-      "season": "2027",
-      "url": "https://jobdetails.nestle.com/job/York-Nestl%C3%A9-Research-&-Development-Digital-&-Automation-Engineering-Graduate-YN-YO91-1XY/1450145433/?feedId=256801&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
       "trackr_url": "https://app.the-trackr.com/uk-engineering/industrial-placements",
       "opening_date": "2026-11-02T00:00:00.000Z",
       "closing_date": null,
