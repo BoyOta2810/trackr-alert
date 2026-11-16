@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-16T21:53:03.914Z",
+  "updated_at": "2026-11-16T21:55:49.502Z",
   "items": [
+    {
+      "id": "kc816otzdc",
+      "company": "MBDA",
+      "name": "Summer Placement 2027. 2nd Release",
+      "tracker": "uk-engineering",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "http://summer%20placement%202027.%201st%20release/?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-engineering/summer-internships",
+      "opening_date": "2026-11-16T00:00:00.000Z",
+      "closing_date": "2027-01-04T00:00:00.000Z",
+      "opened_at": "2026-11-16T21:55:49.502Z"
+    },
     {
       "id": "gqthn9mcp9",
       "company": "Cummins",
@@ -3883,19 +3896,6 @@
       "type": "pre-university",
       "season": "2027",
       "url": "https://careers.bbc.co.uk/search/?q=%22AI+%26+Automation+Practitioner%22&locationsearch=&searchResultView=LIST&markerViewed=&carouselIndex=&facetFilters=%7B%7D&pageNumber=0&sortBy=&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-tech/pre-university",
-      "opening_date": "2026-11-03T00:00:00.000Z",
-      "closing_date": "2026-11-24T00:00:00.000Z",
-      "opened_at": "2026-11-03T11:15:48.507Z"
-    },
-    {
-      "id": "tpb1u0yh1f",
-      "company": "BBC",
-      "name": "Software Engineering Apprenticeship - Level 6",
-      "tracker": "uk-tech",
-      "type": "pre-university",
-      "season": "2027",
-      "url": "https://careers.bbc.co.uk/search/?q=%22Software+Engineering+Apprenticeship%22&locationsearch=&searchResultView=LIST&markerViewed=&carouselIndex=&facetFilters=%7B%7D&pageNumber=0&sortBy=&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
       "trackr_url": "https://app.the-trackr.com/uk-tech/pre-university",
       "opening_date": "2026-11-03T00:00:00.000Z",
       "closing_date": "2026-11-24T00:00:00.000Z",
