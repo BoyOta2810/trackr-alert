@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-16T21:55:49.502Z",
+  "updated_at": "2026-11-16T22:00:50.614Z",
   "items": [
+    {
+      "id": "xbrrlaed44",
+      "company": "AtkinsRéalis",
+      "name": "Degree Apprenticeship - Engineering",
+      "tracker": "uk-engineering",
+      "type": "apprenticeships",
+      "season": "2027",
+      "url": "https://atkinsrealis.groupgti.com/VacancyPosting/Search?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027#!/?facet_field=facetstring_VacancyDetail_Programme_Text:Apprentices",
+      "trackr_url": "https://app.the-trackr.com/uk-engineering/apprenticeships",
+      "opening_date": "2026-11-16T00:00:00.000Z",
+      "closing_date": "2027-02-25T00:00:00.000Z",
+      "opened_at": "2026-11-16T22:00:50.614Z"
+    },
+    {
+      "id": "oxwjp31x6n",
+      "company": "MBDA",
+      "name": "Engineer Undergraduate Placement 2027. 2nd Release",
+      "tracker": "uk-engineering",
+      "type": "industrial-placements",
+      "season": "2027",
+      "url": "https://mbda.wd3.myworkdayjobs.com/en-US/MBDA-UK/jobs?q=undergraduate&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-engineering/industrial-placements",
+      "opening_date": "2026-11-16T00:00:00.000Z",
+      "closing_date": "2027-01-04T00:00:00.000Z",
+      "opened_at": "2026-11-16T22:00:50.614Z"
+    },
     {
       "id": "kc816otzdc",
       "company": "MBDA",
@@ -3874,32 +3900,6 @@
       "opening_date": "2026-11-03T00:00:00.000Z",
       "closing_date": "2026-12-01T00:00:00.000Z",
       "opened_at": "2026-11-03T11:35:45.496Z"
-    },
-    {
-      "id": "yy44j3ie79",
-      "company": "BBC",
-      "name": "Data Analyst Apprenticeship - Level 4",
-      "tracker": "uk-tech",
-      "type": "pre-university",
-      "season": "2027",
-      "url": "https://careers.bbc.co.uk/search/?q=%22Data+Analyst+Apprenticeship%22&locationsearch=&searchResultView=LIST&markerViewed=&carouselIndex=&facetFilters=%7B%7D&pageNumber=0&sortBy=&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-tech/pre-university",
-      "opening_date": "2026-11-03T00:00:00.000Z",
-      "closing_date": "2026-11-24T00:00:00.000Z",
-      "opened_at": "2026-11-03T11:15:48.507Z"
-    },
-    {
-      "id": "uwpa9pohlc",
-      "company": "BBC",
-      "name": "AI & Automation Practitioner - Level 4",
-      "tracker": "uk-tech",
-      "type": "pre-university",
-      "season": "2027",
-      "url": "https://careers.bbc.co.uk/search/?q=%22AI+%26+Automation+Practitioner%22&locationsearch=&searchResultView=LIST&markerViewed=&carouselIndex=&facetFilters=%7B%7D&pageNumber=0&sortBy=&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-tech/pre-university",
-      "opening_date": "2026-11-03T00:00:00.000Z",
-      "closing_date": "2026-11-24T00:00:00.000Z",
-      "opened_at": "2026-11-03T11:15:48.507Z"
     }
   ]
 }

@@ -2568,7 +2568,9 @@
     "li06lij8u1": "2026-11-16T19:05:59.192Z",
     "azua58jeru": "2026-11-16T19:10:48.318Z",
     "gqthn9mcp9": "2026-11-16T21:53:03.914Z",
-    "kc816otzdc": "2026-11-16T21:55:49.502Z"
+    "kc816otzdc": "2026-11-16T21:55:49.502Z",
+    "oxwjp31x6n": "2026-11-16T22:00:50.614Z",
+    "xbrrlaed44": "2026-11-16T22:00:50.614Z"
   },
   "telegram": {
     "offset": 909628752,
@@ -2612,10 +2614,5 @@
     "germany-finance/graduate-programmes": true,
     "hong-kong-finance/summer-internships": true,
     "hong-kong-finance/off-cycle-internships": true
-  },
-  "failure": {
-    "since": "2026-11-16T21:52:31.771Z",
-    "lastAlert": 1794865951771,
-    "reason": "1 Trackr tab(s) failed: page.waitForResponse: Timeout 45000ms exceeded while waiting for event \"response\""
   }
 }
