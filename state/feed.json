@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-16T11:00:52.364Z",
+  "updated_at": "2026-11-16T11:40:46.161Z",
   "items": [
+    {
+      "id": "eb4zgd2vk4",
+      "company": "PA Consulting",
+      "name": "2027 PA Futures - Women in Tech",
+      "tracker": "uk-tech",
+      "type": "spring-weeks",
+      "season": "2027",
+      "url": "https://jobs.smartrecruiters.com/PAConsulting/744000161778040-2026-pa-futures-women-in-tech-london-?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027&trid=Trackr&dcr_ci=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/spring-weeks",
+      "opening_date": "2026-11-16T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-16T11:40:46.161Z"
+    },
+    {
+      "id": "hkmxv6n33r",
+      "company": "PA Consulting",
+      "name": "2027 PA Futures - Women in Consulting",
+      "tracker": "uk-finance",
+      "type": "spring-weeks",
+      "season": "2027",
+      "url": "https://jobs.smartrecruiters.com/PAConsulting/744000161775508-2027-pa-futures-women-in-consulting-london?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027&trid=Trackr&dcr_ci=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/spring-weeks",
+      "opening_date": "2026-11-16T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-16T11:40:46.161Z"
+    },
     {
       "id": "9us9x3q4dw",
       "company": "HSBC",
@@ -3873,32 +3899,6 @@
       "trackr_url": "https://app.the-trackr.com/uk-tech/pre-university",
       "opening_date": "2026-11-02T00:00:00.000Z",
       "closing_date": "2026-11-30T00:00:00.000Z",
-      "opened_at": "2026-11-02T10:40:46.866Z"
-    },
-    {
-      "id": "f5whbx9a9b",
-      "company": "Accenture",
-      "name": "Unlocking Potential: Social Impact Week 2027",
-      "tracker": "uk-tech",
-      "type": "pre-university",
-      "season": "2027",
-      "url": "https://accenture.pinpointhq.com/en/postings/36e7b14b-37e6-4f81-bd2c-37ff530ff084?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-tech/pre-university",
-      "opening_date": "2026-11-02T00:00:00.000Z",
-      "closing_date": "2026-11-30T00:00:00.000Z",
-      "opened_at": "2026-11-02T10:40:46.866Z"
-    },
-    {
-      "id": "v6hhmht9op",
-      "company": "Accenture",
-      "name": "Unlocking Potential: Social Impact Week 2027",
-      "tracker": "uk-finance",
-      "type": "pre-university",
-      "season": "2027",
-      "url": "https://accenture.pinpointhq.com/en/postings/2aacb162-1e05-455e-b96b-287f4881eacc?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-finance/pre-university",
-      "opening_date": "2026-11-02T00:00:00.000Z",
-      "closing_date": "2026-11-22T00:00:00.000Z",
       "opened_at": "2026-11-02T10:40:46.866Z"
     }
   ]
