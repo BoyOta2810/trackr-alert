@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-16T10:55:48.614Z",
+  "updated_at": "2026-11-16T11:00:52.364Z",
   "items": [
+    {
+      "id": "9us9x3q4dw",
+      "company": "HSBC",
+      "name": "Investment Banking Intern - Debt Capital Markets",
+      "tracker": "germany-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://portal.careers.hsbc.com/careers?pid=563774612636844&domain=hsbc.com&jobPipeline=LinkedIn&utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
+      "opening_date": "2026-11-13T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-16T11:00:52.364Z"
+    },
     {
       "id": "e5q4ghmi76",
       "company": "J.P. Morgan",
@@ -3886,19 +3899,6 @@
       "trackr_url": "https://app.the-trackr.com/uk-finance/pre-university",
       "opening_date": "2026-11-02T00:00:00.000Z",
       "closing_date": "2026-11-22T00:00:00.000Z",
-      "opened_at": "2026-11-02T10:40:46.866Z"
-    },
-    {
-      "id": "tf774jnm4j",
-      "company": "Accenture",
-      "name": "Consulting Degree Apprenticeship 2027",
-      "tracker": "uk-finance",
-      "type": "pre-university",
-      "season": "2027",
-      "url": "https://accenture.pinpointhq.com/en/united-kingdom?search=consulting+degree+apprenticeship&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-finance/pre-university",
-      "opening_date": "2026-11-02T00:00:00.000Z",
-      "closing_date": "2026-11-30T00:00:00.000Z",
       "opened_at": "2026-11-02T10:40:46.866Z"
     }
   ]
