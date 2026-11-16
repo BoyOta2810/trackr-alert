@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-16T09:55:49.423Z",
+  "updated_at": "2026-11-16T10:25:58.605Z",
   "items": [
+    {
+      "id": "qgx99yvp9w",
+      "company": "Castleton Commodities International",
+      "name": "Commodities Trading Analyst Programme",
+      "tracker": "uk-finance",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://osv-cci.wd1.myworkdayjobs.com/en-US/CCICareers/job/London-UK/Commodities-Trading-Analyst-Programme--Rolling-Application-for-0-3-Years-Experience-_R1419?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/graduate-programmes",
+      "opening_date": "2026-11-16T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-16T10:25:58.605Z"
+    },
     {
       "id": "sbm813qax5",
       "company": "Benefact Group",
@@ -3886,19 +3899,6 @@
       "trackr_url": "https://app.the-trackr.com/us-finance-2028/summer-internships",
       "opening_date": "2026-11-01T00:00:00.000Z",
       "closing_date": "2026-12-31T00:00:00.000Z",
-      "opened_at": "2026-11-01T23:05:51.087Z"
-    },
-    {
-      "id": "1jjqnez0ui",
-      "company": "Dodge & Cox",
-      "name": "2028 Investment Associate Internship",
-      "tracker": "us-finance",
-      "type": "summer-internships",
-      "season": "2028",
-      "url": "https://dodgeandcox.wd5.myworkdayjobs.com/en-US/Dodgecox/job/San-Francisco-Office/XMLNAME-2028-Investment-Associate-Internship_R0000676?utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2028&source=Trackr",
-      "trackr_url": "https://app.the-trackr.com/us-finance-2028/summer-internships",
-      "opening_date": "2026-11-01T00:00:00.000Z",
-      "closing_date": "2026-11-15T00:00:00.000Z",
       "opened_at": "2026-11-01T23:05:51.087Z"
     }
   ]
