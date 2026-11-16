@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-16T10:25:58.605Z",
+  "updated_at": "2026-11-16T10:30:47.218Z",
   "items": [
+    {
+      "id": "qcv9k9dl5t",
+      "company": "Cisco",
+      "name": "IT Degree Apprentice (Level 6)",
+      "tracker": "uk-tech",
+      "type": "pre-university",
+      "season": "2027",
+      "url": "https://careers.cisco.com/global/en/job/2031877/Cisco-IT-Degree-Apprentice-Level-6?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/pre-university",
+      "opening_date": "2026-11-16T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-16T10:30:47.218Z"
+    },
     {
       "id": "qgx99yvp9w",
       "company": "Castleton Commodities International",
@@ -3887,19 +3900,6 @@
       "opening_date": "2026-11-02T00:00:00.000Z",
       "closing_date": "2027-01-14T00:00:00.000Z",
       "opened_at": "2026-11-02T00:00:44.530Z"
-    },
-    {
-      "id": "1pp2mpnto1",
-      "company": "RBC Capital Markets",
-      "name": "2028 Summer Analyst",
-      "tracker": "us-finance",
-      "type": "summer-internships",
-      "season": "2028",
-      "url": "https://jobs.rbc.com/ca/en/search-results?keywords=2028+summer+analyst&utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2028",
-      "trackr_url": "https://app.the-trackr.com/us-finance-2028/summer-internships",
-      "opening_date": "2026-11-01T00:00:00.000Z",
-      "closing_date": "2026-12-31T00:00:00.000Z",
-      "opened_at": "2026-11-01T23:05:51.087Z"
     }
   ]
 }
