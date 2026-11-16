@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-16T13:00:50.598Z",
+  "updated_at": "2026-11-16T15:15:45.551Z",
   "items": [
+    {
+      "id": "hd7b4setiy",
+      "company": "MBDA",
+      "name": "Software Work Experience Bristol - 2027",
+      "tracker": "uk-tech",
+      "type": "pre-university",
+      "season": "2027",
+      "url": "https://mbda.wd3.myworkdayjobs.com/en-US/MBDA-UK/job/Bristol/Software-Work-Experience-Bristol---2027_R40569?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/pre-university",
+      "opening_date": "2026-11-16T00:00:00.000Z",
+      "closing_date": "2026-12-16T00:00:00.000Z",
+      "opened_at": "2026-11-16T15:15:45.551Z"
+    },
     {
       "id": "ovz9c0vgx3",
       "company": "St James's Place",
@@ -3887,19 +3900,6 @@
       "opening_date": "2026-11-02T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-11-02T18:20:51.060Z"
-    },
-    {
-      "id": "zvptmxkpfr",
-      "company": "Ashtons Legal",
-      "name": "Training Contract - 2028 & 2029",
-      "tracker": "uk-law",
-      "type": "training-contracts",
-      "season": "2027",
-      "url": "https://www.ashtonslegal.co.uk/careers/current-vacancies/?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Law_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-law/training-contracts",
-      "opening_date": "2026-11-01T00:00:00.000Z",
-      "closing_date": "2027-01-01T00:00:00.000Z",
-      "opened_at": "2026-11-02T17:45:49.908Z"
     }
   ]
 }
