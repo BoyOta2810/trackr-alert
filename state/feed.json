@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-16T11:50:45.279Z",
+  "updated_at": "2026-11-16T12:56:06.839Z",
   "items": [
+    {
+      "id": "9lnktlwn9h",
+      "company": "St James's Place",
+      "name": "2027 Investment Internship Programme",
+      "tracker": "uk-finance",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://clientsites.sanctuarygraduates.co.uk/sjp2026/roles/620916?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/summer-internships",
+      "opening_date": "2026-11-16T00:00:00.000Z",
+      "closing_date": "2027-01-08T00:00:00.000Z",
+      "opened_at": "2026-11-16T12:56:06.839Z"
+    },
     {
       "id": "xhm09m7gos",
       "company": "SEFE",
@@ -3883,19 +3896,6 @@
       "type": "spring-weeks",
       "season": "2027",
       "url": "https://careers.db.com/students-graduates/Search-Programmes/?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027#/graduate/results/?location=71&division=152",
-      "trackr_url": "https://app.the-trackr.com/uk-finance/spring-weeks",
-      "opening_date": "2026-11-02T00:00:00.000Z",
-      "closing_date": "2026-11-29T00:00:00.000Z",
-      "opened_at": "2026-11-02T17:15:52.403Z"
-    },
-    {
-      "id": "hnck3ezgua",
-      "company": "Deutsche Bank",
-      "name": "Spring into Fixed Income & Currencies",
-      "tracker": "uk-finance",
-      "type": "spring-weeks",
-      "season": "2027",
-      "url": "https://careers.db.com/students-graduates/Search-Programmes/?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027#/graduate/results/?location=71&division=168",
       "trackr_url": "https://app.the-trackr.com/uk-finance/spring-weeks",
       "opening_date": "2026-11-02T00:00:00.000Z",
       "closing_date": "2026-11-29T00:00:00.000Z",
