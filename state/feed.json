@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-16T16:55:45.482Z",
+  "updated_at": "2026-11-16T17:30:46.899Z",
   "items": [
+    {
+      "id": "7xjjjlagcd",
+      "company": "D11Z. Ventures",
+      "name": "Internship (Investment Team)",
+      "tracker": "germany-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://www.linkedin.com/jobs/view/4489795579/?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
+      "opening_date": "2026-11-16T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-16T17:30:46.899Z"
+    },
+    {
+      "id": "rvrbh9ocvu",
+      "company": "Fidelity International",
+      "name": "Real Estate Transactions Intern Programme 2027",
+      "tracker": "france-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://fidelityinternational.tal.net/vx/lang-en-GB/mobile-0/brand-5/candidate/so/pm/1/pl/1/opp/1453-Real-Estate-Transactions-Intern-Programme-2027-Paris/en-GB?utm_source=Trackr&utm_medium=tracker&utm_campaign=France_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/france-finance/off-cycle-internships",
+      "opening_date": "2026-11-16T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-16T17:30:46.899Z"
+    },
     {
       "id": "sjyshzvoue",
       "company": "Mediobanca",
@@ -3874,32 +3900,6 @@
       "opening_date": "2026-11-02T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-11-02T18:25:49.401Z"
-    },
-    {
-      "id": "cce6kgc5mo",
-      "company": "Nestlé",
-      "name": "Engineering Placement",
-      "tracker": "uk-engineering",
-      "type": "industrial-placements",
-      "season": "2027",
-      "url": "https://jobdetails.nestle.com/job/York-Engineering-Placement-YN-YO91-1XY/1450042333/?feedId=256801&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-engineering/industrial-placements",
-      "opening_date": "2026-11-02T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-02T18:25:49.401Z"
-    },
-    {
-      "id": "qox3o1p0un",
-      "company": "Nestlé",
-      "name": "Technical Leadership Graduate",
-      "tracker": "uk-engineering",
-      "type": "graduate-programmes",
-      "season": "2027",
-      "url": "https://jobdetails.nestle.com/job/York-Technical-Leadership-Graduate-YN-YO91-1XY/1450210233/?feedId=256801&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
-      "opening_date": "2026-11-02T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-02T18:20:51.060Z"
     }
   ]
 }
