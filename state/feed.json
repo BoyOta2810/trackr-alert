@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-14T17:55:45.482Z",
+  "updated_at": "2026-11-16T09:55:49.423Z",
   "items": [
+    {
+      "id": "sbm813qax5",
+      "company": "Benefact Group",
+      "name": "Actuarial Undergraduate Placement",
+      "tracker": "uk-finance",
+      "type": "industrial-placements",
+      "season": "2027",
+      "url": "https://careers.benefactgroup.com/jobs/8688072-actuarial-undergraduate-placement?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/industrial-placements",
+      "opening_date": "2026-11-16T00:00:00.000Z",
+      "closing_date": "2027-01-08T00:00:00.000Z",
+      "opened_at": "2026-11-16T09:55:49.423Z"
+    },
     {
       "id": "im2xk71u8q",
       "company": "Jacobs",
@@ -3887,19 +3900,6 @@
       "opening_date": "2026-11-01T00:00:00.000Z",
       "closing_date": "2026-11-15T00:00:00.000Z",
       "opened_at": "2026-11-01T23:05:51.087Z"
-    },
-    {
-      "id": "6lbgt2xmdp",
-      "company": "Trustventure",
-      "name": "Praktikum | Junior Consultant",
-      "tracker": "germany-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://www.linkedin.com/jobs/view/4483927992/?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
-      "opening_date": "2026-11-01T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-01T23:00:47.540Z"
     }
   ]
 }
