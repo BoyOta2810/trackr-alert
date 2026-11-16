@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-16T17:35:44.847Z",
+  "updated_at": "2026-11-16T18:00:53.945Z",
   "items": [
+    {
+      "id": "2aw7r22n6r",
+      "company": "Bloomberg",
+      "name": "2027 Apprenticeship: Data Science Level 6",
+      "tracker": "uk-tech",
+      "type": "pre-university",
+      "season": "2027",
+      "url": "https://bloomberg.avature.net/careers/Private?jobId=44992&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027&source=Trackr#",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/pre-university",
+      "opening_date": "2026-11-16T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-16T18:00:53.945Z"
+    },
     {
       "id": "6mbsldj6ti",
       "company": "UBS",
@@ -3887,19 +3900,6 @@
       "opening_date": "2026-11-02T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-11-02T21:00:48.032Z"
-    },
-    {
-      "id": "vs4aa9d5y3",
-      "company": "Nestlé",
-      "name": "Product Developer Placement",
-      "tracker": "uk-engineering",
-      "type": "industrial-placements",
-      "season": "2027",
-      "url": "https://jobdetails.nestle.com/job/York-Product-Developer-Placement-YN-YO91-1XY/1450260533/?feedId=256801&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-engineering/industrial-placements",
-      "opening_date": "2026-11-02T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-02T18:25:49.401Z"
     }
   ]
 }
