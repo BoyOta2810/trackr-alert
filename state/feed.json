@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-16T12:56:06.839Z",
+  "updated_at": "2026-11-16T13:00:50.598Z",
   "items": [
+    {
+      "id": "ovz9c0vgx3",
+      "company": "St James's Place",
+      "name": "Technology Summer Internship Programme",
+      "tracker": "uk-tech",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://clientsites.sanctuarygraduates.co.uk/sjp2026/roles/620913?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/summer-internships",
+      "opening_date": "2026-11-16T00:00:00.000Z",
+      "closing_date": "2027-01-08T00:00:00.000Z",
+      "opened_at": "2026-11-16T13:00:50.598Z"
+    },
+    {
+      "id": "h09z175evi",
+      "company": "Bank of England",
+      "name": "2027 Summer Internship Programme",
+      "tracker": "uk-finance",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://eoff.fa.em1.ukg.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/jobs?keyword=%222027+summer+internship%22&mode=location&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027&iis=Trackr&sType=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/summer-internships",
+      "opening_date": "2026-11-16T00:00:00.000Z",
+      "closing_date": "2026-12-04T00:00:00.000Z",
+      "opened_at": "2026-11-16T13:00:50.598Z"
+    },
     {
       "id": "9lnktlwn9h",
       "company": "St James's Place",
@@ -3874,32 +3900,6 @@
       "opening_date": "2026-11-01T00:00:00.000Z",
       "closing_date": "2027-01-01T00:00:00.000Z",
       "opened_at": "2026-11-02T17:45:49.908Z"
-    },
-    {
-      "id": "ujk4tl44wr",
-      "company": "Deutsche Bank",
-      "name": "Spring into Technology, Data & Innovation 2027",
-      "tracker": "uk-tech",
-      "type": "spring-weeks",
-      "season": "2027",
-      "url": "https://careers.db.com/students-graduates/Search-Programmes/?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027#/graduate/results/?location=71&division=165",
-      "trackr_url": "https://app.the-trackr.com/uk-tech/spring-weeks",
-      "opening_date": "2026-11-02T00:00:00.000Z",
-      "closing_date": "2026-11-29T00:00:00.000Z",
-      "opened_at": "2026-11-02T17:15:52.403Z"
-    },
-    {
-      "id": "mcvvxyc2c7",
-      "company": "Deutsche Bank",
-      "name": "Spring Into Banking Programme 2027",
-      "tracker": "uk-finance",
-      "type": "spring-weeks",
-      "season": "2027",
-      "url": "https://careers.db.com/students-graduates/Search-Programmes/?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027#/graduate/results/?location=71&division=152",
-      "trackr_url": "https://app.the-trackr.com/uk-finance/spring-weeks",
-      "opening_date": "2026-11-02T00:00:00.000Z",
-      "closing_date": "2026-11-29T00:00:00.000Z",
-      "opened_at": "2026-11-02T17:15:52.403Z"
     }
   ]
 }
