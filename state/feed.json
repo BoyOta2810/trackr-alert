@@ -1,6 +1,45 @@
 {
-  "updated_at": "2026-11-16T22:00:50.614Z",
+  "updated_at": "2026-11-17T10:20:47.827Z",
   "items": [
+    {
+      "id": "52niwnen5s",
+      "company": "Instil Software",
+      "name": "Graduate Agentic Software Engineer - 2027",
+      "tracker": "uk-tech",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://jobs.ashbyhq.com/instil/5d2b8cc5-1276-4993-a407-ed502cd79fc8?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/graduate-programmes",
+      "opening_date": "2026-11-17T00:00:00.000Z",
+      "closing_date": "2026-12-11T00:00:00.000Z",
+      "opened_at": "2026-11-17T10:20:47.827Z"
+    },
+    {
+      "id": "0vadjwumfv",
+      "company": "Instil Software",
+      "name": "Placement Agentic Software Engineer - 2027",
+      "tracker": "uk-tech",
+      "type": "industrial-placements",
+      "season": "2027",
+      "url": "https://jobs.ashbyhq.com/instil/b1be07e8-60de-432c-82ff-6ffb220ce563?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/industrial-placements",
+      "opening_date": "2026-11-17T00:00:00.000Z",
+      "closing_date": "2026-12-11T00:00:00.000Z",
+      "opened_at": "2026-11-17T10:20:47.827Z"
+    },
+    {
+      "id": "wf9xd2juz3",
+      "company": "CME Group",
+      "name": "Data Analytics Summer Internship",
+      "tracker": "uk-tech",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://cmegroup.wd1.myworkdayjobs.com/en-US/cme_careers/job/Data-Analytics-Summer-Internship_35048-1?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/summer-internships",
+      "opening_date": "2026-11-16T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-17T10:20:47.827Z"
+    },
     {
       "id": "xbrrlaed44",
       "company": "AtkinsRéalis",
@@ -3861,45 +3900,6 @@
       "opening_date": "2026-11-03T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-11-03T11:40:47.622Z"
-    },
-    {
-      "id": "akfuwa1b0n",
-      "company": "Arch Insurance International",
-      "name": "Technology & Change Graduate Programme 2027",
-      "tracker": "uk-tech",
-      "type": "graduate-programmes",
-      "season": "2027",
-      "url": "https://archgroup.wd1.myworkdayjobs.com/en-US/Careers/job/Technology---Change-Graduate-Programme-2027_R26_1213?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027&source=Trackr",
-      "trackr_url": "https://app.the-trackr.com/uk-tech/graduate-programmes",
-      "opening_date": "2026-11-03T00:00:00.000Z",
-      "closing_date": "2026-12-01T00:00:00.000Z",
-      "opened_at": "2026-11-03T11:35:45.496Z"
-    },
-    {
-      "id": "xbi29z1nkr",
-      "company": "Arch Insurance International",
-      "name": "Tax Graduate Programme 2027",
-      "tracker": "uk-finance",
-      "type": "graduate-programmes",
-      "season": "2027",
-      "url": "https://archgroup.wd1.myworkdayjobs.com/en-US/Careers/job/Tax-Graduate-Programme-2027_R26_1212?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027&source=Trackr",
-      "trackr_url": "https://app.the-trackr.com/uk-finance/graduate-programmes",
-      "opening_date": "2026-11-03T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-03T11:35:45.496Z"
-    },
-    {
-      "id": "tjm45wt1ka",
-      "company": "Arch Insurance International",
-      "name": "Actuarial Summer Internship - 2027",
-      "tracker": "uk-finance",
-      "type": "summer-internships",
-      "season": "2027",
-      "url": "https://archgroup.wd1.myworkdayjobs.com/en-US/Careers/job/Actuarial-Summer-Internship---2027_R26_1214?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027&source=Trackr",
-      "trackr_url": "https://app.the-trackr.com/uk-finance/summer-internships",
-      "opening_date": "2026-11-03T00:00:00.000Z",
-      "closing_date": "2026-12-01T00:00:00.000Z",
-      "opened_at": "2026-11-03T11:35:45.496Z"
     }
   ]
 }
