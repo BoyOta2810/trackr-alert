@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-17T12:06:08.687Z",
+  "updated_at": "2026-11-17T12:10:47.642Z",
   "items": [
+    {
+      "id": "ii4eu1ur5n",
+      "company": "Gatwick Airport",
+      "name": "Engineering Graduate",
+      "tracker": "uk-engineering",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://jobs.gatwickairport.com/jobs/vacancy/engineering-graduate-4808/4834/description/?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
+      "opening_date": "2026-11-17T00:00:00.000Z",
+      "closing_date": "2026-12-14T00:00:00.000Z",
+      "opened_at": "2026-11-17T12:10:47.642Z"
+    },
     {
       "id": "vbpjybwi61",
       "company": "Solid Solutions",
@@ -3883,19 +3896,6 @@
       "type": "summer-internships",
       "season": "2028",
       "url": "https://bwelcome.hr.bnpparibas/en_US/externalcareers/JobDetails?jobId=114293&source=Trackr&site=group.bnpparibas&campaignReal=0&src=Trackr&offerID=1234567890100124462&entityID=94&utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2028",
-      "trackr_url": "https://app.the-trackr.com/us-finance-2028/summer-internships",
-      "opening_date": "2026-11-03T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-03T11:45:48.674Z"
-    },
-    {
-      "id": "e71dil7954",
-      "company": "BNP Paribas",
-      "name": "2028 Summer Analyst – Global Banking, Asset Finance & Securitization",
-      "tracker": "us-finance",
-      "type": "summer-internships",
-      "season": "2028",
-      "url": "https://bwelcome.hr.bnpparibas/en_US/externalcareers/JobDetails?jobId=114263&source=Trackr&site=group.bnpparibas&campaignReal=0&src=Trackr&offerID=1234567890100124440&entityID=94&utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2028",
       "trackr_url": "https://app.the-trackr.com/us-finance-2028/summer-internships",
       "opening_date": "2026-11-03T00:00:00.000Z",
       "closing_date": null,
