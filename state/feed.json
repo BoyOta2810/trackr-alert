@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-17T10:40:46.458Z",
+  "updated_at": "2026-11-17T11:05:45.894Z",
   "items": [
+    {
+      "id": "7nd6blcclw",
+      "company": "Canaccord Genuity",
+      "name": "IB Advisory Off-Cycle Internship Programme 2027",
+      "tracker": "uk-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://canaccordgenuityltd.peoplehr.net/Pages/JobBoard/Opening.aspx?v=924cf136-7f26-441e-b436-311bd0664d40&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/off-cycle-internships",
+      "opening_date": "2026-11-17T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-17T11:05:45.894Z"
+    },
     {
       "id": "lh6mlnq34z",
       "company": "Gatwick Airport",
@@ -3887,19 +3900,6 @@
       "opening_date": "2026-11-03T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-11-03T11:45:48.674Z"
-    },
-    {
-      "id": "rh4xokfjyy",
-      "company": "Bessemer Venture Partners",
-      "name": "Summer Analyst 2028",
-      "tracker": "us-finance",
-      "type": "summer-internships",
-      "season": "2028",
-      "url": "https://job-boards.greenhouse.io/bvpanalyst/jobs/4748559005?utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2028&gh_src=Trackr",
-      "trackr_url": "https://app.the-trackr.com/us-finance-2028/summer-internships",
-      "opening_date": "2026-11-03T00:00:00.000Z",
-      "closing_date": "2026-11-30T00:00:00.000Z",
-      "opened_at": "2026-11-03T11:40:47.622Z"
     }
   ]
 }
