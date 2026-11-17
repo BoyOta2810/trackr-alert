@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-17T13:15:49.539Z",
+  "updated_at": "2026-11-17T13:20:45.553Z",
   "items": [
+    {
+      "id": "wls47hgwjg",
+      "company": "Reply",
+      "name": "2027 Graduate Programme",
+      "tracker": "uk-tech",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://career012.successfactors.eu/career?company=C0004534147P&career_ns=job_listing_summary&navBarLevel=JOB_SEARCH&_s.crb=UwS9vpl2SucQ2djIU0bSnCtLd9KjKb%2FhRnwUwVhuaJ4%3D&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/graduate-programmes",
+      "opening_date": "2026-10-05T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-17T13:20:45.553Z"
+    },
     {
       "id": "p2tfiak64s",
       "company": "AVEVA",
@@ -3886,19 +3899,6 @@
       "trackr_url": "https://app.the-trackr.com/uk-finance/summer-internships",
       "opening_date": "2026-11-03T00:00:00.000Z",
       "closing_date": "2026-12-20T00:00:00.000Z",
-      "opened_at": "2026-11-03T11:55:46.495Z"
-    },
-    {
-      "id": "fiopvw973y",
-      "company": "Lloyds Banking Group",
-      "name": "Actuarial Intern",
-      "tracker": "uk-finance",
-      "type": "summer-internships",
-      "season": "2027",
-      "url": "https://lbg.wd3.myworkdayjobs.com/en-US/Undergraduate_careers/jobs?q=%27actuarial+intern%27&workerSubType=373443f4ecb00150c36b500fe411f00e&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027&source=Trackr",
-      "trackr_url": "https://app.the-trackr.com/uk-finance/summer-internships",
-      "opening_date": "2026-11-03T00:00:00.000Z",
-      "closing_date": "2027-02-01T00:00:00.000Z",
       "opened_at": "2026-11-03T11:55:46.495Z"
     }
   ]
