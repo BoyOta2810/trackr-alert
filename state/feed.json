@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-17T12:10:47.642Z",
+  "updated_at": "2026-11-17T12:15:48.919Z",
   "items": [
+    {
+      "id": "qycv37ynkz",
+      "company": "St James's Place",
+      "name": "Apprenticeship Programme",
+      "tracker": "uk-finance",
+      "type": "pre-university",
+      "season": "2027",
+      "url": "https://clientsites.sanctuarygraduates.co.uk/sjp2026?source=Trackr&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027#opportunities",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/pre-university",
+      "opening_date": "2026-11-16T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-17T12:15:48.919Z"
+    },
     {
       "id": "ii4eu1ur5n",
       "company": "Gatwick Airport",
@@ -3883,19 +3896,6 @@
       "type": "summer-internships",
       "season": "2028",
       "url": "https://bwelcome.hr.bnpparibas/en_US/externalcareers/JobDetails?jobId=114296&source=Trackr&site=group.bnpparibas&campaignReal=0&src=Trackr&offerID=1234567890100124465&entityID=94&utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2028",
-      "trackr_url": "https://app.the-trackr.com/us-finance-2028/summer-internships",
-      "opening_date": "2026-11-03T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-03T11:45:48.674Z"
-    },
-    {
-      "id": "f3wzugsav2",
-      "company": "BNP Paribas",
-      "name": "2028 Summer Analyst – Global Markets, Sales",
-      "tracker": "us-finance",
-      "type": "summer-internships",
-      "season": "2028",
-      "url": "https://bwelcome.hr.bnpparibas/en_US/externalcareers/JobDetails?jobId=114293&source=Trackr&site=group.bnpparibas&campaignReal=0&src=Trackr&offerID=1234567890100124462&entityID=94&utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2028",
       "trackr_url": "https://app.the-trackr.com/us-finance-2028/summer-internships",
       "opening_date": "2026-11-03T00:00:00.000Z",
       "closing_date": null,
