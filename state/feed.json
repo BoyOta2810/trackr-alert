@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-18T08:56:01.601Z",
+  "updated_at": "2026-11-18T11:01:04.689Z",
   "items": [
+    {
+      "id": "t0z4i9o1xr",
+      "company": "Morgan Properties",
+      "name": "2027 Acquisitions & Investment Summer Analyst",
+      "tracker": "us-finance",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://jobs.dayforcehcm.com/en-US/morganprop/confidential/jobs/22746?utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/us-finance-2027/summer-internships",
+      "opening_date": "2026-11-17T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-18T11:01:04.689Z"
+    },
     {
       "id": "bs46tqc01y",
       "company": "D.E. Shaw",
@@ -3884,19 +3897,6 @@
       "season": "2027",
       "url": "https://lbg.wd3.myworkdayjobs.com/en-US/LBG_Careers/details/Applied-Data-and-AI-Apprentice---Bristol_165590?source=Trackr&workerSubType=319644ebbab801324520d7ed5f3b1cfa&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
       "trackr_url": "https://app.the-trackr.com/uk-tech/pre-university",
-      "opening_date": "2026-11-03T00:00:00.000Z",
-      "closing_date": "2026-12-16T00:00:00.000Z",
-      "opened_at": "2026-11-03T11:55:46.495Z"
-    },
-    {
-      "id": "t91qv182ad",
-      "company": "Lloyds Banking Group",
-      "name": "Professional Apprenticeship Programme",
-      "tracker": "uk-finance",
-      "type": "pre-university",
-      "season": "2027",
-      "url": "https://lbg.wd3.myworkdayjobs.com/en-US/LBG_Careers?source=Trackr&workerSubType=319644ebbab801324520d7ed5f3b1cfa&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-finance/pre-university",
       "opening_date": "2026-11-03T00:00:00.000Z",
       "closing_date": "2026-12-16T00:00:00.000Z",
       "opened_at": "2026-11-03T11:55:46.495Z"
