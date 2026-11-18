@@ -1,6 +1,45 @@
 {
-  "updated_at": "2026-11-18T11:01:04.689Z",
+  "updated_at": "2026-11-18T21:05:44.987Z",
   "items": [
+    {
+      "id": "ugumh08v4c",
+      "company": "Greenhill",
+      "name": "January & March 2027 | Off-cycle M&A 6-month Internship",
+      "tracker": "france-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://www.sainoo.com/jobs/10668?utm_source=Trackr&utm_medium=tracker&utm_campaign=France_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/france-finance/off-cycle-internships",
+      "opening_date": "2026-11-18T00:00:00.000Z",
+      "closing_date": "2026-11-30T00:00:00.000Z",
+      "opened_at": "2026-11-18T21:05:44.987Z"
+    },
+    {
+      "id": "ye6ywqni43",
+      "company": "UVIMCO",
+      "name": "2028 Summer Investment Intern",
+      "tracker": "us-finance",
+      "type": "summer-internships",
+      "season": "2028",
+      "url": "https://job-boards.greenhouse.io/uvimco/jobs/5486467008?utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2028&gh_src=Trackr",
+      "trackr_url": "https://app.the-trackr.com/us-finance-2028/summer-internships",
+      "opening_date": "2026-11-18T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-18T21:05:44.987Z"
+    },
+    {
+      "id": "3p96ymfw33",
+      "company": "Evercore",
+      "name": "Off-Cycle Internship Programme – Private Capital Advisory – LP Advisory",
+      "tracker": "uk-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://jobs.smartrecruiters.com/Wiser/744000162283414-off-cycle-internship-programme-private-capital-advisory-lp-advisory-evercore?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027&trid=Trackr&dcr_ci=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/off-cycle-internships",
+      "opening_date": "2026-11-18T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-18T21:05:44.987Z"
+    },
     {
       "id": "t0z4i9o1xr",
       "company": "Morgan Properties",
@@ -3861,45 +3900,6 @@
       "opening_date": "2026-11-02T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-11-03T13:40:47.534Z"
-    },
-    {
-      "id": "h8cpmpd9us",
-      "company": "Marsh McLennan",
-      "name": "Placement Intern (6-Month Full Time Internship)",
-      "tracker": "hong-kong-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://careers.marsh.com/global/en/job/R_371525/Placement-Intern-6-Month-Full-Time-Internship?utm_source=Trackr&utm_medium=tracker&utm_campaign=Hong_Kong_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/hong-kong-finance/off-cycle-internships",
-      "opening_date": "2026-11-03T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-03T12:00:52.554Z"
-    },
-    {
-      "id": "s1ynxz4fye",
-      "company": "PKF Smith Cooper",
-      "name": "Work Experience 2027",
-      "tracker": "uk-finance",
-      "type": "pre-university",
-      "season": "2027",
-      "url": "https://pkfsmithcooper.teamtailor.com/jobs/8571164-work-experience-2027?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-finance/pre-university",
-      "opening_date": "2026-11-03T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-03T12:00:52.554Z"
-    },
-    {
-      "id": "awtz2needf",
-      "company": "Lloyds Banking Group",
-      "name": "Professional Apprenticeship Programme",
-      "tracker": "uk-tech",
-      "type": "pre-university",
-      "season": "2027",
-      "url": "https://lbg.wd3.myworkdayjobs.com/en-US/LBG_Careers/details/Applied-Data-and-AI-Apprentice---Bristol_165590?source=Trackr&workerSubType=319644ebbab801324520d7ed5f3b1cfa&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-tech/pre-university",
-      "opening_date": "2026-11-03T00:00:00.000Z",
-      "closing_date": "2026-12-16T00:00:00.000Z",
-      "opened_at": "2026-11-03T11:55:46.495Z"
     }
   ]
 }
