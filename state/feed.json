@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-18T21:41:01.148Z",
+  "updated_at": "2026-11-18T21:46:04.423Z",
   "items": [
+    {
+      "id": "p5q3y2knd8",
+      "company": "Network Rail",
+      "name": "Level 6 Rail & Rail Systems Engineering Apprenticeship",
+      "tracker": "uk-engineering",
+      "type": "apprenticeships",
+      "season": "2027",
+      "url": "https://www.earlycareers.networkrail.co.uk/programme/level-6-rail-rail-systems-engineer/?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-engineering/apprenticeships",
+      "opening_date": "2026-11-18T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-18T21:46:04.423Z"
+    },
     {
       "id": "o1p9okkxw7",
       "company": "Thornton Tomasetti",
@@ -3887,19 +3900,6 @@
       "opening_date": "2026-11-03T00:00:00.000Z",
       "closing_date": "2026-12-04T00:00:00.000Z",
       "opened_at": "2026-11-03T14:15:46.438Z"
-    },
-    {
-      "id": "gkddpbsfrt",
-      "company": "L.E.K. Consulting",
-      "name": "Strategy Associate Consultant, Generalist",
-      "tracker": "uk-finance",
-      "type": "graduate-programmes",
-      "season": "2027",
-      "url": "https://lek.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/candidate/so/pm/1/pl/1/opp/4147-Strategy-Associate-Consultant-Generalist-M-F-D-Hybrid-Arrangement/en-GB?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-finance/graduate-programmes",
-      "opening_date": "2026-11-03T00:00:00.000Z",
-      "closing_date": "2026-12-04T00:00:00.000Z",
-      "opened_at": "2026-11-03T14:05:48.352Z"
     }
   ]
 }
