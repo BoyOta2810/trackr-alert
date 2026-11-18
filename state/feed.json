@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-17T14:31:00.006Z",
+  "updated_at": "2026-11-18T08:56:01.601Z",
   "items": [
+    {
+      "id": "bs46tqc01y",
+      "company": "D.E. Shaw",
+      "name": "London Insight Programme 2027",
+      "tracker": "uk-finance",
+      "type": "spring-weeks",
+      "season": "2027",
+      "url": "https://apply.deshaw.com/ProgramApplicationPage.html?entity=DESCO&jobs=6428&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/spring-weeks",
+      "opening_date": "2026-11-18T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-18T08:56:01.601Z"
+    },
     {
       "id": "ifg1enmhh9",
       "company": "Southern Water",
@@ -3886,19 +3899,6 @@
       "trackr_url": "https://app.the-trackr.com/uk-finance/pre-university",
       "opening_date": "2026-11-03T00:00:00.000Z",
       "closing_date": "2026-12-16T00:00:00.000Z",
-      "opened_at": "2026-11-03T11:55:46.495Z"
-    },
-    {
-      "id": "k5bi599khv",
-      "company": "Lloyds Banking Group",
-      "name": "Business & Commercial Banking Internship",
-      "tracker": "uk-finance",
-      "type": "summer-internships",
-      "season": "2027",
-      "url": "https://lbg.wd3.myworkdayjobs.com/en-US/Undergraduate_careers/jobs/details/Business---Commercial-Banking-Internship--Bristol-_164859?q=%22business+&+commercial+banking%22=&workerSubType=373443f4ecb00150c36b500fe411f00e&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027&source=Trackr",
-      "trackr_url": "https://app.the-trackr.com/uk-finance/summer-internships",
-      "opening_date": "2026-11-03T00:00:00.000Z",
-      "closing_date": "2027-02-01T00:00:00.000Z",
       "opened_at": "2026-11-03T11:55:46.495Z"
     }
   ]
