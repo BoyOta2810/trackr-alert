@@ -1,6 +1,45 @@
 {
-  "updated_at": "2026-11-18T21:10:47.471Z",
+  "updated_at": "2026-11-18T21:35:47.010Z",
   "items": [
+    {
+      "id": "mfndvolsk0",
+      "company": "Thornton Tomasetti",
+      "name": "Engineer (Summer 2027)",
+      "tracker": "uk-engineering",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://careers.thorntontomasetti.com/gb/en/job/TTWTTZUSR7568EXTERNALENGB/Engineer-Summer-2027?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
+      "opening_date": "2026-11-18T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-18T21:35:47.010Z"
+    },
+    {
+      "id": "at4355pwtq",
+      "company": "Thornton Tomasetti",
+      "name": "Graduate Electronic Security Designer (Summer 2027)",
+      "tracker": "uk-engineering",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://careers.thorntontomasetti.com/gb/en/job/TTWTTZUSR7580EXTERNALENGB/Graduate-Electronic-Security-Designer-Summer-2027?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
+      "opening_date": "2026-11-18T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-18T21:35:47.010Z"
+    },
+    {
+      "id": "7pfjgekz4g",
+      "company": "Thornton Tomasetti",
+      "name": "Graduate Structural Engineer (Summer 2027)",
+      "tracker": "uk-engineering",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://careers.thorntontomasetti.com/gb/en/job/TTWTTZUSR7579EXTERNALENGB/Graduate-Structural-Engineer-Summer-2027?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
+      "opening_date": "2026-11-18T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-18T21:35:47.010Z"
+    },
     {
       "id": "m32qho65zd",
       "company": "Morgan Stanley",
@@ -3861,45 +3900,6 @@
       "opening_date": "2026-03-02T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-11-03T13:45:51.912Z"
-    },
-    {
-      "id": "c0jbk2xpy3",
-      "company": "SLB",
-      "name": "Early Carreers - Wellsite Engineer Trainee",
-      "tracker": "uk-engineering",
-      "type": "graduate-programmes",
-      "season": "2027",
-      "url": "https://careers.slb.com/jobdescription.aspx?id=EF12073-en+7&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
-      "opening_date": "2026-11-02T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-03T13:40:47.534Z"
-    },
-    {
-      "id": "44jcjybaqf",
-      "company": "SLB",
-      "name": "Field Engineer",
-      "tracker": "uk-engineering",
-      "type": "graduate-programmes",
-      "season": "2027",
-      "url": "https://careers.slb.com/jobdescription.aspx?id=87372&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
-      "opening_date": "2026-11-02T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-03T13:40:47.534Z"
-    },
-    {
-      "id": "1gclt490rt",
-      "company": "SLB",
-      "name": "Field Engineer Trainee (Completions & Well Intervention)",
-      "tracker": "uk-engineering",
-      "type": "graduate-programmes",
-      "season": "2027",
-      "url": "https://careers.slb.com/jobdescription.aspx?id=87373&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
-      "opening_date": "2026-11-02T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-03T13:40:47.534Z"
     }
   ]
 }
