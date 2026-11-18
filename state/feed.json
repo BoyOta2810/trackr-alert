@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-18T21:05:44.987Z",
+  "updated_at": "2026-11-18T21:10:47.471Z",
   "items": [
+    {
+      "id": "m32qho65zd",
+      "company": "Morgan Stanley",
+      "name": "2027 Operations Off-Cycle Analyst Programme",
+      "tracker": "uk-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/user-5764832/candidate/so/pm/1/pl/1/opp/21477-2027-Operations-Off-Cycle-Analyst-Programme-Glasgow/en-GB?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/off-cycle-internships",
+      "opening_date": "2026-11-18T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-18T21:10:47.471Z"
+    },
     {
       "id": "ugumh08v4c",
       "company": "Greenhill",
@@ -3883,19 +3896,6 @@
       "type": "graduate-programmes",
       "season": "2027",
       "url": "https://careers.slb.com/jobdescription.aspx?id=87373&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
-      "opening_date": "2026-11-02T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-03T13:40:47.534Z"
-    },
-    {
-      "id": "0ekg8sbm43",
-      "company": "SLB",
-      "name": "Early Careers-Geoscience&Petrotechnical",
-      "tracker": "uk-engineering",
-      "type": "graduate-programmes",
-      "season": "2027",
-      "url": "https://careers.slb.com/jobdescription.aspx?id=EF12075-en_US+3&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
       "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
       "opening_date": "2026-11-02T00:00:00.000Z",
       "closing_date": null,
