@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-19T16:36:04.036Z",
+  "updated_at": "2026-11-19T17:15:51.919Z",
   "items": [
+    {
+      "id": "kqwo6w8iwo",
+      "company": "Arm",
+      "name": "Graduate ML Software Engineer",
+      "tracker": "uk-tech",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://careers.arm.com/job/galway/graduate-ml-software-engineer/33099/102806620832?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/graduate-programmes",
+      "opening_date": "2026-11-19T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-19T17:15:51.919Z"
+    },
     {
       "id": "bacuqm9e0l",
       "company": "TPP",
@@ -3884,19 +3897,6 @@
       "season": "2027",
       "url": "https://www.russell-cooke.co.uk/careers/graduate-recruitment/our-vacation-scheme?utm_source=Trackr&utm_medium=tracker&utm_campaign=uk_law_2027",
       "trackr_url": "https://app.the-trackr.com/uk-law/vacation-schemes",
-      "opening_date": "2026-11-04T00:00:00.000Z",
-      "closing_date": "2027-02-03T00:00:00.000Z",
-      "opened_at": "2026-11-04T00:00:49.109Z"
-    },
-    {
-      "id": "9fab40lxsv",
-      "company": "Russell-Cooke",
-      "name": "Training Contract",
-      "tracker": "uk-law",
-      "type": "training-contracts",
-      "season": "2027",
-      "url": "https://www.russell-cooke.co.uk/careers/graduate-recruitment/our-training-contract?utm_source=Trackr&utm_medium=tracker&utm_campaign=uk_law_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-law/training-contracts",
       "opening_date": "2026-11-04T00:00:00.000Z",
       "closing_date": "2027-02-03T00:00:00.000Z",
       "opened_at": "2026-11-04T00:00:49.109Z"
