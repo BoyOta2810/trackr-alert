@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-19T19:20:52.772Z",
+  "updated_at": "2026-11-19T19:25:46.038Z",
   "items": [
+    {
+      "id": "gmks6mnew2",
+      "company": "Codan",
+      "name": "Graduate Engineer",
+      "tracker": "uk-engineering",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://careers.codan.com.au/job/Whiteley-Graduate-Engineer-Unit/1368424466/?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
+      "opening_date": "2026-11-19T00:00:00.000Z",
+      "closing_date": "2026-12-06T00:00:00.000Z",
+      "opened_at": "2026-11-19T19:25:46.038Z"
+    },
+    {
+      "id": "6d9rr08r23",
+      "company": "Artemis Investment Management",
+      "name": "2027 Graduate Scheme",
+      "tracker": "uk-finance",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://apptrkr.io/artemis/artemis-investment-management-llp-2027/artemis-investment-management-llp-2027-graduate-scheme?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/graduate-programmes",
+      "opening_date": "2026-11-19T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-19T19:25:46.038Z"
+    },
     {
       "id": "una60hieed",
       "company": "Codan",
@@ -3874,32 +3900,6 @@
       "opening_date": "2026-11-03T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-11-04T00:20:47.729Z"
-    },
-    {
-      "id": "twwwd5dcrz",
-      "company": "S&W",
-      "name": "Internship Programme - July 2027",
-      "tracker": "uk-finance",
-      "type": "summer-internships",
-      "season": "2027",
-      "url": "https://careers.smartrecruiters.com/SWGroup?search=%22internship+programme%22&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027&trid=Trackr&dcr_ci=Trackr",
-      "trackr_url": "https://app.the-trackr.com/uk-finance/summer-internships",
-      "opening_date": "2026-11-04T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-04T00:15:46.085Z"
-    },
-    {
-      "id": "imfvsniqf4",
-      "company": "Russell-Cooke",
-      "name": "Vacation Scheme 2",
-      "tracker": "uk-law",
-      "type": "vacation-schemes",
-      "season": "2027",
-      "url": "https://www.russell-cooke.co.uk/careers/graduate-recruitment/our-vacation-scheme?utm_source=Trackr&utm_medium=tracker&utm_campaign=uk_law_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-law/vacation-schemes",
-      "opening_date": "2026-11-04T00:00:00.000Z",
-      "closing_date": "2027-02-03T00:00:00.000Z",
-      "opened_at": "2026-11-04T00:00:49.109Z"
     }
   ]
 }
