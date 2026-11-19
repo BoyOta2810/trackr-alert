@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-19T17:15:51.919Z",
+  "updated_at": "2026-11-19T19:20:52.772Z",
   "items": [
+    {
+      "id": "una60hieed",
+      "company": "Codan",
+      "name": "Engineering Industrial Placement",
+      "tracker": "uk-engineering",
+      "type": "industrial-placements",
+      "season": "2027",
+      "url": "https://careers.codan.com.au/job/Whiteley-Engineering-Industrial-Placement-Unit/1368424566/?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-engineering/industrial-placements",
+      "opening_date": "2026-11-19T00:00:00.000Z",
+      "closing_date": "2026-12-06T00:00:00.000Z",
+      "opened_at": "2026-11-19T19:20:52.772Z"
+    },
     {
       "id": "kqwo6w8iwo",
       "company": "Arm",
@@ -3879,19 +3892,6 @@
       "id": "imfvsniqf4",
       "company": "Russell-Cooke",
       "name": "Vacation Scheme 2",
-      "tracker": "uk-law",
-      "type": "vacation-schemes",
-      "season": "2027",
-      "url": "https://www.russell-cooke.co.uk/careers/graduate-recruitment/our-vacation-scheme?utm_source=Trackr&utm_medium=tracker&utm_campaign=uk_law_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-law/vacation-schemes",
-      "opening_date": "2026-11-04T00:00:00.000Z",
-      "closing_date": "2027-02-03T00:00:00.000Z",
-      "opened_at": "2026-11-04T00:00:49.109Z"
-    },
-    {
-      "id": "e05p21cfi8",
-      "company": "Russell-Cooke",
-      "name": "Vacation scheme 1",
       "tracker": "uk-law",
       "type": "vacation-schemes",
       "season": "2027",
