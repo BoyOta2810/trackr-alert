@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-19T09:46:00.617Z",
+  "updated_at": "2026-11-19T13:35:56.214Z",
   "items": [
+    {
+      "id": "za5yorx57u",
+      "company": "Cadence",
+      "name": "Intern Software Engineer, Summer 2027",
+      "tracker": "uk-tech",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://cadence.wd1.myworkdayjobs.com/en-US/External_Careers/details/Intern-Software-Engineer--Summer-2027--Three-Month-Duration----_R57170?q=%22Intern+Software+Engineer%2C+Summer+2027%22&workerSubType=631f97c41c2749729ac5abe683f281d0&locations=d993e3bd1fae0182df7479cdb7015b9e&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/summer-internships",
+      "opening_date": "2026-11-19T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-19T13:35:56.214Z"
+    },
     {
       "id": "xxw9gare85",
       "company": "Marshall Wace",
@@ -3887,19 +3900,6 @@
       "opening_date": "2026-11-02T00:00:00.000Z",
       "closing_date": "2026-12-10T00:00:00.000Z",
       "opened_at": "2026-11-03T14:50:51.446Z"
-    },
-    {
-      "id": "vzjx7id1x4",
-      "company": "BMO Capital Markets",
-      "name": "Summer 2028 Internship",
-      "tracker": "us-finance",
-      "type": "summer-internships",
-      "season": "2028",
-      "url": "https://bmo.wd3.myworkdayjobs.com/en-US/Campus?q=%22summer+2028+internship%22&utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2028&source=Trackr",
-      "trackr_url": "https://app.the-trackr.com/us-finance-2028/summer-internships",
-      "opening_date": "2026-11-03T00:00:00.000Z",
-      "closing_date": "2027-01-03T00:00:00.000Z",
-      "opened_at": "2026-11-03T14:25:48.635Z"
     }
   ]
 }
