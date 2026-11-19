@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-19T16:26:12.264Z",
+  "updated_at": "2026-11-19T16:31:02.089Z",
   "items": [
+    {
+      "id": "fpc5os2nnr",
+      "company": "Akuna Capital",
+      "name": "Trading Sneak Peek Program",
+      "tracker": "us-finance",
+      "type": "insight-programs",
+      "season": "2028",
+      "url": "https://job-boards.greenhouse.io/embed/job_board?for=akunacapital&keyword=sneak+peek&utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2028&gh_src=Trackr",
+      "trackr_url": "https://app.the-trackr.com/us-finance-2028/insight-programs",
+      "opening_date": "2026-11-19T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-19T16:31:02.089Z"
+    },
     {
       "id": "s8r8xs66sb",
       "company": "Mediobanca",
@@ -3887,19 +3900,6 @@
       "opening_date": "2026-11-03T00:00:00.000Z",
       "closing_date": "2026-11-08T00:00:00.000Z",
       "opened_at": "2026-11-03T16:40:49.762Z"
-    },
-    {
-      "id": "l9dizhs80d",
-      "company": "Boehringer Ingelheim",
-      "name": "University Intern - Finance",
-      "tracker": "uk-finance",
-      "type": "industrial-placements",
-      "season": "2027",
-      "url": "https://jobs.boehringer-ingelheim.com/job/Winnersh-University-Intern-Finance-Unit/1444601333/?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-finance/industrial-placements",
-      "opening_date": "2026-11-03T00:00:00.000Z",
-      "closing_date": "2026-11-06T00:00:00.000Z",
-      "opened_at": "2026-11-03T16:15:50.864Z"
     }
   ]
 }
