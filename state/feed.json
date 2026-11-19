@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-19T14:46:01.273Z",
+  "updated_at": "2026-11-19T16:26:12.264Z",
   "items": [
+    {
+      "id": "s8r8xs66sb",
+      "company": "Mediobanca",
+      "name": "M&A FIG Internship | Fluent in French",
+      "tracker": "uk-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://mediobanca.intervieweb.it/jobs/ma_fig_internship__london__fluent_in_french_201/it/?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/off-cycle-internships",
+      "opening_date": "2026-11-19T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-19T16:26:12.264Z"
+    },
     {
       "id": "kyx8n7y9yz",
       "company": "Markel",
@@ -3887,19 +3900,6 @@
       "opening_date": "2026-11-03T00:00:00.000Z",
       "closing_date": "2026-11-06T00:00:00.000Z",
       "opened_at": "2026-11-03T16:15:50.864Z"
-    },
-    {
-      "id": "ap5ilx7ksf",
-      "company": "Financial Conduct Authority",
-      "name": "2027 Cyber Graduate Programme",
-      "tracker": "uk-tech",
-      "type": "graduate-programmes",
-      "season": "2027",
-      "url": "https://fca.wd3.myworkdayjobs.com/en-US/FCA_earlycareers/job/XMLNAME-2027-Cyber-Graduate-Programme---London_JR0022766?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027&source=Trackr",
-      "trackr_url": "https://app.the-trackr.com/uk-tech/graduate-programmes",
-      "opening_date": "2026-11-03T00:00:00.000Z",
-      "closing_date": "2026-11-30T00:00:00.000Z",
-      "opened_at": "2026-11-03T15:20:49.220Z"
     }
   ]
 }
