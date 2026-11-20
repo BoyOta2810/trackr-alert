@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-20T16:45:44.991Z",
+  "updated_at": "2026-11-20T18:25:56.715Z",
   "items": [
+    {
+      "id": "ys5rptcp9v",
+      "company": "Neuberger Berman",
+      "name": "Intern - Germany Institutional",
+      "tracker": "germany-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://nb.wd1.myworkdayjobs.com/en-US/NBCareers/job/Frankfurt/Intern---Germany-Institutional_R0012846?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
+      "opening_date": "2026-11-20T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-20T18:25:56.715Z"
+    },
+    {
+      "id": "bz7pa7l0iu",
+      "company": "Lincoln International",
+      "name": "Capital Advisory Internship - Q1 2027",
+      "tracker": "germany-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://www.lincolninternational.com/greenhouse/?gh_jid=8029854&utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027&gh_src=Trackr",
+      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
+      "opening_date": "2026-11-20T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-20T18:25:56.715Z"
+    },
     {
       "id": "tq0xkqhwn9",
       "company": "Bain Capital",
@@ -3874,32 +3900,6 @@
       "opening_date": "2026-11-04T00:00:00.000Z",
       "closing_date": "2026-11-22T00:00:00.000Z",
       "opened_at": "2026-11-04T23:25:59.195Z"
-    },
-    {
-      "id": "fzhah1donp",
-      "company": "Swiss Re",
-      "name": "Group Underwriting Intern",
-      "tracker": "uk-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://www.swissre.com/careers/job/Group-Underwriting-Intern/1454217433?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-finance/off-cycle-internships",
-      "opening_date": "2026-11-04T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-04T23:25:59.195Z"
-    },
-    {
-      "id": "f48nfqocxc",
-      "company": "J.P. Morgan",
-      "name": "2028 Summer Analyst Program",
-      "tracker": "us-finance",
-      "type": "summer-internships",
-      "season": "2028",
-      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210805837?utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2028&iis=Trackr&sType=Trackr",
-      "trackr_url": "https://app.the-trackr.com/us-finance-2028/summer-internships",
-      "opening_date": "2026-11-04T00:00:00.000Z",
-      "closing_date": "2026-11-09T00:00:00.000Z",
-      "opened_at": "2026-11-04T23:20:52.698Z"
     }
   ]
 }
