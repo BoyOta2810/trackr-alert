@@ -1,6 +1,45 @@
 {
-  "updated_at": "2026-11-20T10:20:49.818Z",
+  "updated_at": "2026-11-20T10:25:56.958Z",
   "items": [
+    {
+      "id": "jodthah4oq",
+      "company": "Schonfeld",
+      "name": "2027 Equity Middle Office Intern",
+      "tracker": "hong-kong-finance",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8346895?utm_source=Trackr&utm_medium=tracker&utm_campaign=Hong_Kong_Finance_2027&gh_src=Trackr",
+      "trackr_url": "https://app.the-trackr.com/hong-kong-finance/summer-internships",
+      "opening_date": "2026-11-20T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-20T10:25:56.958Z"
+    },
+    {
+      "id": "rf46zhw6xj",
+      "company": "Bank of America",
+      "name": "2027 Spring Insight – Operations, Technology & Finance – Chester",
+      "tracker": "uk-tech",
+      "type": "spring-weeks",
+      "season": "2027",
+      "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/15299-2027-Spring-Insight-Operations-Technology-Finance-Chester/en-GB?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/spring-weeks",
+      "opening_date": "2026-11-20T00:00:00.000Z",
+      "closing_date": "2026-12-06T00:00:00.000Z",
+      "opened_at": "2026-11-20T10:25:56.958Z"
+    },
+    {
+      "id": "o5zu39lwpj",
+      "company": "Bank of America",
+      "name": "2027 Spring Insight – Global Technology – Dublin",
+      "tracker": "uk-tech",
+      "type": "spring-weeks",
+      "season": "2027",
+      "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/15297-2027-Spring-Insight-Global-Technology-Dublin/en-GB?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/spring-weeks",
+      "opening_date": "2026-11-20T00:00:00.000Z",
+      "closing_date": "2026-12-06T00:00:00.000Z",
+      "opened_at": "2026-11-20T10:25:56.958Z"
+    },
     {
       "id": "chyx37lqrt",
       "company": "Lead Edge Capital",
@@ -3861,45 +3900,6 @@
       "opening_date": "2026-11-04T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-11-04T14:00:46.707Z"
-    },
-    {
-      "id": "lkg80j1197",
-      "company": "Netcraft",
-      "name": "Software Engineering Intern",
-      "tracker": "uk-tech",
-      "type": "summer-internships",
-      "season": "2027",
-      "url": "https://job-boards.eu.greenhouse.io/netcraft/jobs/4975674101?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027&gh_src=Trackr",
-      "trackr_url": "https://app.the-trackr.com/uk-tech/summer-internships",
-      "opening_date": "2026-11-04T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-04T14:00:46.707Z"
-    },
-    {
-      "id": "4vf3kxd8tk",
-      "company": "Morgan Stanley",
-      "name": "2027 Spring Insight: Finance, Risk & Business Services (Glasgow)",
-      "tracker": "uk-finance",
-      "type": "spring-weeks",
-      "season": "2027",
-      "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/user-5764832/candidate/so/pm/1/pl/2/opp/22388-2027-Spring-Insight-Careers-Across-Finance-Risk-Business-Services-Glasgow/en-GB?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-finance/spring-weeks",
-      "opening_date": "2026-11-04T00:00:00.000Z",
-      "closing_date": "2027-03-21T00:00:00.000Z",
-      "opened_at": "2026-11-04T14:00:46.707Z"
-    },
-    {
-      "id": "8wbnrudih8",
-      "company": "Waterland Private Equity",
-      "name": "Praktikant Investment Team | Q2/2027",
-      "tracker": "germany-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://www.waterlandpe.com/career/praktikant-m-w-d-muenchen/?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
-      "opening_date": "2026-11-04T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-04T13:55:50.524Z"
     }
   ]
 }
