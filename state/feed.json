@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-20T21:40:44.733Z",
+  "updated_at": "2026-11-20T21:55:45.550Z",
   "items": [
+    {
+      "id": "ya1y4b5162",
+      "company": "Rolls-Royce",
+      "name": "FPGA Summer Internship - Glasgow, UK",
+      "tracker": "uk-engineering",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://careers.rolls-royce.com/en/jobs/fpga-summer-internship-glasgow-uk/JR6163435?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-engineering/summer-internships",
+      "opening_date": "2026-11-20T00:00:00.000Z",
+      "closing_date": "2026-12-13T00:00:00.000Z",
+      "opened_at": "2026-11-20T21:55:45.550Z"
+    },
     {
       "id": "hwrsiat7bg",
       "company": "Mace",
@@ -3883,19 +3896,6 @@
       "type": "off-cycle-internships",
       "season": "2027",
       "url": "https://www.linkedin.com/jobs/view/4486391261/?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-finance/off-cycle-internships",
-      "opening_date": "2026-11-05T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-05T00:05:44.846Z"
-    },
-    {
-      "id": "nnsnz73mbl",
-      "company": "Aries Global",
-      "name": "Investment Intern",
-      "tracker": "uk-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://jobs.ashbyhq.com/ariesglobal/4935cc12-4173-42bd-985d-4ff6b37582e8?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
       "trackr_url": "https://app.the-trackr.com/uk-finance/off-cycle-internships",
       "opening_date": "2026-11-05T00:00:00.000Z",
       "closing_date": null,
