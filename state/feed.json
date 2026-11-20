@@ -1,6 +1,71 @@
 {
-  "updated_at": "2026-11-19T19:25:46.038Z",
+  "updated_at": "2026-11-20T10:10:49.671Z",
   "items": [
+    {
+      "id": "fnpuyz3vod",
+      "company": "Lumin Wealth Management",
+      "name": "Academy 2027",
+      "tracker": "uk-finance",
+      "type": "pre-university",
+      "season": "2027",
+      "url": "https://luminwealth.pinpointhq.com/en/postings/144752ff-4313-4030-8e86-f975244f2f1d?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/pre-university",
+      "opening_date": "2026-11-20T00:00:00.000Z",
+      "closing_date": "2027-01-08T00:00:00.000Z",
+      "opened_at": "2026-11-20T10:10:49.671Z"
+    },
+    {
+      "id": "p4aekzayl1",
+      "company": "Bank of America",
+      "name": "2027 Spring Insight - Global Markets",
+      "tracker": "uk-finance",
+      "type": "spring-weeks",
+      "season": "2027",
+      "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/15295-2027-Spring-Insight-Global-Markets-London/en-GB?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/spring-weeks",
+      "opening_date": "2026-11-20T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-20T10:10:49.671Z"
+    },
+    {
+      "id": "j7om55n2re",
+      "company": "Bank of America",
+      "name": "2027 Spring Insight – Global Corporate & Investment Banking",
+      "tracker": "uk-finance",
+      "type": "spring-weeks",
+      "season": "2027",
+      "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/15294-2027-Spring-Insight-Global-Corporate-Investment-Banking-London/en-GB?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/spring-weeks",
+      "opening_date": "2026-11-20T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-20T10:10:49.671Z"
+    },
+    {
+      "id": "hh9xcx75g9",
+      "company": "Bank of America",
+      "name": "2027 Spring Insight - Operations, Technology & Finance - Chester",
+      "tracker": "uk-finance",
+      "type": "spring-weeks",
+      "season": "2027",
+      "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/15299-2027-Spring-Insight-Operations-Technology-Finance-Chester/en-GB?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/spring-weeks",
+      "opening_date": "2026-11-20T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-20T10:10:49.671Z"
+    },
+    {
+      "id": "ea1ueewuzr",
+      "company": "Bank of America",
+      "name": "2027 Spring Insight – Global Payments Solutions & Enterprise Credit",
+      "tracker": "uk-finance",
+      "type": "spring-weeks",
+      "season": "2027",
+      "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/15298-2027-Spring-Insight-Global-Payments-Solutions-Enterprise-Credit-London/en-GB?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/spring-weeks",
+      "opening_date": "2026-11-20T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-20T10:10:49.671Z"
+    },
     {
       "id": "gmks6mnew2",
       "company": "Codan",
@@ -3835,71 +3900,6 @@
       "opening_date": "2026-11-04T00:00:00.000Z",
       "closing_date": "2026-12-31T00:00:00.000Z",
       "opened_at": "2026-11-04T13:55:50.524Z"
-    },
-    {
-      "id": "6zgtpdzitd",
-      "company": "Partners Group",
-      "name": "3-6 month Internship - Private Equity Directs, Industrial and Consumer",
-      "tracker": "uk-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://jobs.partnersgroup.com/job/London-3-6-month-Internship-Private-Equity-Directs%2C-Industrial-and-Consumer-%28London%29/1454116033/?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-finance/off-cycle-internships",
-      "opening_date": "2026-11-04T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-04T10:40:48.752Z"
-    },
-    {
-      "id": "g0ybbmlvy8",
-      "company": "Roku",
-      "name": "Summer 2027 - AI Engineering Internship Program",
-      "tracker": "uk-tech",
-      "type": "summer-internships",
-      "season": "2027",
-      "url": "https://www.weareroku.com/jobs/search?page=1&country_codes%5B%5D=GB&query=%22summer+2027%22&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-tech/summer-internships",
-      "opening_date": "2026-11-04T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-04T10:25:52.014Z"
-    },
-    {
-      "id": "637t4ee2qs",
-      "company": "Databricks",
-      "name": "Software Engineer - New Grad (2027 Start)",
-      "tracker": "uk-tech",
-      "type": "graduate-programmes",
-      "season": "2027",
-      "url": "https://www.databricks.com/company/careers/university-recruiting---engineering/software-engineer---new-grad-2027-start---london-8847747002?gh_src=Trackr&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-tech/graduate-programmes",
-      "opening_date": "2026-11-04T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-04T09:25:59.751Z"
-    },
-    {
-      "id": "r9vq3v0od1",
-      "company": "bp",
-      "name": "2027 Apprenticeship Programme - Supply, Trading & Shipping",
-      "tracker": "uk-finance",
-      "type": "pre-university",
-      "season": "2027",
-      "url": "https://careers.bp.com/early-careers/apprenticeships?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-finance/pre-university",
-      "opening_date": "2026-11-04T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-04T09:20:45.528Z"
-    },
-    {
-      "id": "q5ofgx13a4",
-      "company": "S&W",
-      "name": "12-Month Placement Programme, Audit",
-      "tracker": "uk-finance",
-      "type": "industrial-placements",
-      "season": "2027",
-      "url": "https://careers.smartrecruiters.com/SWGroup?search=%22placement+programme%22&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027&trid=Trackr&dcr_ci=Trackr",
-      "trackr_url": "https://app.the-trackr.com/uk-finance/industrial-placements",
-      "opening_date": "2026-11-03T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-04T00:20:47.729Z"
     }
   ]
 }
