@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-21T13:15:52.816Z",
+  "updated_at": "2026-11-21T13:20:48.174Z",
   "items": [
+    {
+      "id": "3qg6g4okks",
+      "company": "Optiver",
+      "name": "FutureFocus: Quants (Trading & Research) 2027",
+      "tracker": "us-finance",
+      "type": "insight-programs",
+      "season": "2028",
+      "url": "https://www.optiver.com/join-us/jobs/trading/chicago/futurefocus-quants-trading-and-research-2027/?gh_jid=8843445002&utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2028&gh_src=Trackr",
+      "trackr_url": "https://app.the-trackr.com/us-finance-2028/insight-programs",
+      "opening_date": "2026-11-21T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-21T13:20:48.174Z"
+    },
+    {
+      "id": "bnlrzgh5e5",
+      "company": "Morgan Stanley",
+      "name": "2027 Off-Cycle Internship - UK Institutional Sales",
+      "tracker": "uk-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/user-5764832/xf-27ae6f5d3480/candidate/so/pm/1/pl/1/opp/22192-2027-Investment-Management-Off-Cycle-Internship-UK-Institutional-Sales-London/en-GB?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/off-cycle-internships",
+      "opening_date": "2026-09-21T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-21T13:20:48.174Z"
+    },
     {
       "id": "9625uqsxd8",
       "company": "GCM Grosvenor",
@@ -3874,32 +3900,6 @@
       "opening_date": "2026-11-05T00:00:00.000Z",
       "closing_date": "2027-01-10T00:00:00.000Z",
       "opened_at": "2026-11-05T11:16:19.410Z"
-    },
-    {
-      "id": "ymu5cwti74",
-      "company": "AlphaSights",
-      "name": "Insight Days, Client Service, 2027",
-      "tracker": "uk-finance",
-      "type": "summer-internships",
-      "season": "2027",
-      "url": "https://grnh.se/o5drnprz1us",
-      "trackr_url": "https://app.the-trackr.com/uk-finance/summer-internships",
-      "opening_date": "2026-11-05T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-05T11:05:45.093Z"
-    },
-    {
-      "id": "bg2fuib18w",
-      "company": "PJT Partners",
-      "name": "2028 Summer Analyst - Strategic Advisory",
-      "tracker": "us-finance",
-      "type": "summer-internships",
-      "season": "2028",
-      "url": "https://pjtpartners.wd1.myworkdayjobs.com/en-US/Students/job/Houston/XMLNAME-2028-Summer-Analyst---Strategic-Advisory--Houston-_R0003592?utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2028&source=Trackr",
-      "trackr_url": "https://app.the-trackr.com/us-finance-2028/summer-internships",
-      "opening_date": "2026-11-04T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-05T09:00:49.741Z"
     }
   ]
 }
