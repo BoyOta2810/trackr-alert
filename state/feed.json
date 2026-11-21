@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-21T14:45:46.311Z",
+  "updated_at": "2026-11-21T15:50:46.326Z",
   "items": [
+    {
+      "id": "emfblyrfzt",
+      "company": "Citi",
+      "name": "Corporate Banking, Financial Institutions Group, Full Time Analyst",
+      "tracker": "germany-finance",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://jobs.citi.com/job/frankfurt-am-main/banking-corporate-banking-financial-institutions-group-fig-full-time-analyst-frankfurt-germany-2027/287/103466391088?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/germany-finance/graduate-programmes",
+      "opening_date": "2026-11-18T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-21T15:50:46.326Z"
+    },
     {
       "id": "ix18ps76dz",
       "company": "Balyasny Asset Management",
@@ -3879,19 +3892,6 @@
       "id": "xrs7i1exsd",
       "company": "PA Consulting",
       "name": "2027 Apprentice - Digital (Data and Decision Intelligence) ",
-      "tracker": "uk-tech",
-      "type": "pre-university",
-      "season": "2027",
-      "url": "https://careers.smartrecruiters.com/PAConsulting?keyword=%222027+apprentice%22&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027&trid=Trackr&dcr_ci=Trackr",
-      "trackr_url": "https://app.the-trackr.com/uk-tech/pre-university",
-      "opening_date": "2026-11-05T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-05T11:16:19.410Z"
-    },
-    {
-      "id": "fgjsmxkhmg",
-      "company": "PA Consulting",
-      "name": "2027 Apprentice - Digital (Software Development)",
       "tracker": "uk-tech",
       "type": "pre-university",
       "season": "2027",
