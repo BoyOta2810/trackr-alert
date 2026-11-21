@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-21T13:20:48.174Z",
+  "updated_at": "2026-11-21T14:35:48.285Z",
   "items": [
+    {
+      "id": "ycyfbtrmuf",
+      "company": "Balyasny Asset Management",
+      "name": "Quantitative Researcher (Summer Internship)",
+      "tracker": "hong-kong-finance",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://bambusdev.my.site.com/s/details?jobReq=Quantitative-Researcher--Summer-Internship-_REQ8057&utm_source=Trackr&utm_medium=tracker&utm_campaign=HK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/hong-kong-finance/summer-internships",
+      "opening_date": "2026-06-19T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-21T14:35:48.285Z"
+    },
     {
       "id": "3qg6g4okks",
       "company": "Optiver",
@@ -3886,19 +3899,6 @@
       "trackr_url": "https://app.the-trackr.com/uk-tech/graduate-programmes",
       "opening_date": "2026-11-05T00:00:00.000Z",
       "closing_date": null,
-      "opened_at": "2026-11-05T11:16:19.410Z"
-    },
-    {
-      "id": "owa8qhuvp2",
-      "company": "Morgan Stanley",
-      "name": "2027 Step In, Step Up - Empowering Women",
-      "tracker": "uk-finance",
-      "type": "pre-university",
-      "season": "2027",
-      "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/candidate/so/pm/1/pl/1/opp/22357-2027-Step-In-Step-Up-Empowering-Women-Career-Pathways-Programmme/en-GB?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-finance/pre-university",
-      "opening_date": "2026-11-05T00:00:00.000Z",
-      "closing_date": "2027-01-10T00:00:00.000Z",
       "opened_at": "2026-11-05T11:16:19.410Z"
     }
   ]
