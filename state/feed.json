@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-20T21:55:45.550Z",
+  "updated_at": "2026-11-21T13:15:52.816Z",
   "items": [
+    {
+      "id": "9625uqsxd8",
+      "company": "GCM Grosvenor",
+      "name": "2027 Credit Summer Intern",
+      "tracker": "us-finance",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://job-boards.greenhouse.io/gcmgrosvenor/jobs/8208687003?utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2027&gh_src=Trackr",
+      "trackr_url": "https://app.the-trackr.com/us-finance-2027/summer-internships",
+      "opening_date": "2026-11-21T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-21T13:15:52.816Z"
+    },
+    {
+      "id": "jwst5gscw3",
+      "company": "Axon",
+      "name": "2027 Software Engineering Internship",
+      "tracker": "uk-tech",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://job-boards.greenhouse.io/axontalentcommunity/jobs/8159006003?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027&gh_src=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/summer-internships",
+      "opening_date": "2026-11-20T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-21T13:15:52.816Z"
+    },
     {
       "id": "ya1y4b5162",
       "company": "Rolls-Royce",
@@ -3874,32 +3900,6 @@
       "opening_date": "2026-11-04T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-11-05T09:00:49.741Z"
-    },
-    {
-      "id": "66wwsvb3zv",
-      "company": "Vista Equity Partners",
-      "name": "2028 Private Equity Summer Analyst",
-      "tracker": "us-finance",
-      "type": "summer-internships",
-      "season": "2028",
-      "url": "https://www.vistaequitypartners.com/careers/vista-career-opportunities/job-posting/?id=3048&utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2028",
-      "trackr_url": "https://app.the-trackr.com/us-finance-2028/summer-internships",
-      "opening_date": "2026-11-05T00:00:00.000Z",
-      "closing_date": "2026-11-17T00:00:00.000Z",
-      "opened_at": "2026-11-05T09:00:49.741Z"
-    },
-    {
-      "id": "pipmny14fu",
-      "company": "National Bank of Canada",
-      "name": "Markets Internship",
-      "tracker": "uk-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://www.linkedin.com/jobs/view/4486391261/?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-finance/off-cycle-internships",
-      "opening_date": "2026-11-05T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-05T00:05:44.846Z"
     }
   ]
 }
