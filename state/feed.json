@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-21T15:50:46.326Z",
+  "updated_at": "2026-11-22T18:30:51.582Z",
   "items": [
+    {
+      "id": "etpr8cn8rs",
+      "company": "RSM",
+      "name": "Internship 2027",
+      "tracker": "uk-finance",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://www.rsmuk.com/careers/jobs?q=&page=1&filter.role-type=job-type%3Ainternship&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/summer-internships",
+      "opening_date": "2026-11-20T00:00:00.000Z",
+      "closing_date": "2026-12-18T00:00:00.000Z",
+      "opened_at": "2026-11-22T18:30:51.582Z"
+    },
     {
       "id": "emfblyrfzt",
       "company": "Citi",
@@ -3887,19 +3900,6 @@
       "opening_date": "2026-11-05T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-11-05T12:30:49.879Z"
-    },
-    {
-      "id": "xrs7i1exsd",
-      "company": "PA Consulting",
-      "name": "2027 Apprentice - Digital (Data and Decision Intelligence) ",
-      "tracker": "uk-tech",
-      "type": "pre-university",
-      "season": "2027",
-      "url": "https://careers.smartrecruiters.com/PAConsulting?keyword=%222027+apprentice%22&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027&trid=Trackr&dcr_ci=Trackr",
-      "trackr_url": "https://app.the-trackr.com/uk-tech/pre-university",
-      "opening_date": "2026-11-05T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-05T11:16:19.410Z"
     }
   ]
 }
