@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-23T15:11:05.683Z",
+  "updated_at": "2026-11-23T15:15:59.418Z",
   "items": [
+    {
+      "id": "rphr2xk51x",
+      "company": "Citi",
+      "name": "Debt Capital Markets, Placement Analyst, 2027",
+      "tracker": "uk-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://jobs.citi.com/job/london/banking-financing-debt-capital-markets-placement-analyst-london-united-kingdom-2027/287/103687435696",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/off-cycle-internships",
+      "opening_date": "2026-11-23T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-23T15:15:59.418Z"
+    },
     {
       "id": "bquymgqwyk",
       "company": "Cantor Fitzgerald",
@@ -3887,19 +3900,6 @@
       "opening_date": "2026-10-29T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-11-09T10:35:46.583Z"
-    },
-    {
-      "id": "s4o0uptsun",
-      "company": "Bankhaus Metzler",
-      "name": "Intern Mergers & Acquisitions - Q2 2027",
-      "tracker": "germany-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://www.metzler.com/en/karriere/offene-stellen/praktikant-mergers-acquisitions-mwd-q2-2027?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
-      "opening_date": "2026-11-03T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-09T10:30:46.627Z"
     }
   ]
 }
