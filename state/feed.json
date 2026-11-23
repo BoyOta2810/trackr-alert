@@ -1,6 +1,71 @@
 {
-  "updated_at": "2026-11-23T10:05:46.463Z",
+  "updated_at": "2026-11-23T10:20:46.251Z",
   "items": [
+    {
+      "id": "qmb83hpjci",
+      "company": "Barclays",
+      "name": "Equity Research Analyst Summer Internship Program 2028",
+      "tracker": "us-finance",
+      "type": "summer-internships",
+      "season": "2028",
+      "url": "https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays/job/Equity-Research-Analyst-Summer-Internship-Program-2028-New-York_JR-0000139045?utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2028&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/us-finance-2028/summer-internships",
+      "opening_date": "2026-11-23T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-23T10:20:46.251Z"
+    },
+    {
+      "id": "dgom09je16",
+      "company": "Barclays",
+      "name": "Sales, Trading and Structuring Summer Internship Program 2028",
+      "tracker": "us-finance",
+      "type": "summer-internships",
+      "season": "2028",
+      "url": "https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays/job/Sales--Trading-and-Structuring-Analyst-Summer-Internship-Program-2028-New-York_JR-0000139050?utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2028&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/us-finance-2028/summer-internships",
+      "opening_date": "2026-11-23T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-23T10:20:46.251Z"
+    },
+    {
+      "id": "7m6qz6d8yf",
+      "company": "Barclays",
+      "name": "Credit Research Analyst Summer Internship Program 2028",
+      "tracker": "us-finance",
+      "type": "summer-internships",
+      "season": "2028",
+      "url": "https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays/job/Credit-Research-Analyst-Summer-Internship-Program-2028-New-York_JR-0000139046?utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2028&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/us-finance-2028/summer-internships",
+      "opening_date": "2026-11-23T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-23T10:20:46.251Z"
+    },
+    {
+      "id": "5pvin8fy6v",
+      "company": "Barclays",
+      "name": "Markets Quantitative Analyst Summer Internship Program 2028",
+      "tracker": "us-finance",
+      "type": "summer-internships",
+      "season": "2028",
+      "url": "https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays/job/Markets-Quantitative-Analyst-Summer-Internship-Program-2028-New-York_JR-0000139049?utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2028&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/us-finance-2028/summer-internships",
+      "opening_date": "2026-11-23T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-23T10:20:46.251Z"
+    },
+    {
+      "id": "kdpyk9asnr",
+      "company": "Capital One",
+      "name": "Technology Summer Internship",
+      "tracker": "uk-tech",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/Technology-Summer-Internship_R999269?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/summer-internships",
+      "opening_date": "2026-08-27T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-23T10:20:46.251Z"
+    },
     {
       "id": "jljb00i9sx",
       "company": "BMO Capital Markets",
@@ -3835,71 +3900,6 @@
       "opening_date": "2026-11-05T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-11-05T17:30:46.298Z"
-    },
-    {
-      "id": "j53vy4vnlx",
-      "company": "iwoca",
-      "name": "M&A Intern",
-      "tracker": "uk-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://jobs.ashbyhq.com/iwoca.co.uk/f55a390e-e684-4cd6-a77d-899b5f0efa51?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-finance/off-cycle-internships",
-      "opening_date": "2026-11-05T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-05T17:10:54.603Z"
-    },
-    {
-      "id": "y9ahr927t6",
-      "company": "Baringa",
-      "name": "Summer Internship 2027 - Solutions AI LAB",
-      "tracker": "uk-tech",
-      "type": "summer-internships",
-      "season": "2027",
-      "url": "https://job-boards.eu.greenhouse.io/baringa/jobs/5028472101?gh_src=Trackr&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-tech/summer-internships",
-      "opening_date": "2026-11-05T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-05T17:05:53.413Z"
-    },
-    {
-      "id": "r4tbx8lzgp",
-      "company": "FT Partners",
-      "name": "2027 Internship - Private Capital Markets & Financial Sponsor Coverage",
-      "tracker": "uk-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://job-boards.greenhouse.io/financialtechnologypartners/jobs/8931713002?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027&gh_src=Trackr",
-      "trackr_url": "https://app.the-trackr.com/uk-finance/off-cycle-internships",
-      "opening_date": "2026-11-05T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-05T15:15:47.187Z"
-    },
-    {
-      "id": "pfttoisdit",
-      "company": "Ultra I&C",
-      "name": "Graduate Software Engineer",
-      "tracker": "uk-tech",
-      "type": "graduate-programmes",
-      "season": "2027",
-      "url": "https://ultra.wd3.myworkdayjobs.com/en-US/ultra-careers/job/Graduate-Software-Engineer_REQ-12499-2?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027&source=Trackr",
-      "trackr_url": "https://app.the-trackr.com/uk-tech/graduate-programmes",
-      "opening_date": "2026-11-05T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-05T15:05:49.511Z"
-    },
-    {
-      "id": "j6wakqno99",
-      "company": "Pexip",
-      "name": "Summer internship - Software Engineers",
-      "tracker": "uk-tech",
-      "type": "summer-internships",
-      "season": "2027",
-      "url": "https://pexip.bamboohr.com/careers/641?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027&source=Trackr",
-      "trackr_url": "https://app.the-trackr.com/uk-tech/summer-internships",
-      "opening_date": "2026-11-05T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-05T13:20:46.882Z"
     }
   ]
 }
