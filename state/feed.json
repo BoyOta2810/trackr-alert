@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-23T15:20:47.913Z",
+  "updated_at": "2026-11-23T17:05:51.854Z",
   "items": [
+    {
+      "id": "h9nabdasz6",
+      "company": "AJ Bell",
+      "name": "Software Development Degree Apprenticeship",
+      "tracker": "uk-tech",
+      "type": "pre-university",
+      "season": "2027",
+      "url": "https://jobs.smartrecruiters.com/AJBell1/744000163277029-software-development-degree-apprenticeship?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027&trid=Trackr&dcr_ci=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/pre-university",
+      "opening_date": "2026-11-23T00:00:00.000Z",
+      "closing_date": "2027-02-28T00:00:00.000Z",
+      "opened_at": "2026-11-23T17:05:51.854Z"
+    },
     {
       "id": "xo4ufrffxk",
       "company": "Evercore",
@@ -3885,19 +3898,6 @@
       "url": "https://recrutement.altays-progiciels.com/oddo/en/offres/praktikant-werkstudent-mwd-investment-banking-ma-2799576.html?motsClefs=M%26A&ecart=3&utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
       "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
       "opening_date": "2026-02-04T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-09T10:45:47.152Z"
-    },
-    {
-      "id": "c4963me15y",
-      "company": "ParkView Partners",
-      "name": "Intern Investment Banking / M&A",
-      "tracker": "germany-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://jobapplication.hrworks.de/de?companyId=bm285d6e&id=ad1da3&utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
-      "opening_date": "2026-08-26T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-11-09T10:45:47.152Z"
     }
