@@ -1,6 +1,45 @@
 {
-  "updated_at": "2026-11-23T13:01:00.671Z",
+  "updated_at": "2026-11-23T13:05:59.096Z",
   "items": [
+    {
+      "id": "nakizs53d8",
+      "company": "Teledyne Technologies",
+      "name": "Graduate Manufacturing Technician",
+      "tracker": "uk-engineering",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://flir.wd1.myworkdayjobs.com/en-GB/flircareers/job/UK---Lincoln/Graduate-Manufacturing-Technician_REQ37557?q=graduate&locations=06e4ddafd2f3100211b32a3fad790000&locations=79a6d1ee640a1001a85cd4b863690000&locations=06e4ddafd2f3100211b3321be7090000&locations=39d17c13c0fb4856a291932acdb02783&locations=615aea441482430c95145cbca7872e1a&locations=7093c6209f0e01a2c0a16705f401245a&locations=2c29a4f72df701607c59aa281901a51d&locations=345b6d4f93e610010de1613754380000&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
+      "opening_date": "2026-11-20T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-23T13:05:59.096Z"
+    },
+    {
+      "id": "bynv3zhsvl",
+      "company": "Teledyne Technologies",
+      "name": "Graduate Electronic Engineer",
+      "tracker": "uk-engineering",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://flir.wd1.myworkdayjobs.com/en-GB/flircareers/job/UK---St-Asaph/Graduate-Electronic-Engineer_REQ36110?q=graduate&locations=06e4ddafd2f3100211b32a3fad790000&locations=79a6d1ee640a1001a85cd4b863690000&locations=06e4ddafd2f3100211b3321be7090000&locations=39d17c13c0fb4856a291932acdb02783&locations=615aea441482430c95145cbca7872e1a&locations=7093c6209f0e01a2c0a16705f401245a&locations=2c29a4f72df701607c59aa281901a51d&locations=345b6d4f93e610010de1613754380000&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
+      "opening_date": "2026-11-20T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-23T13:05:59.096Z"
+    },
+    {
+      "id": "8aanbqz92z",
+      "company": "Teledyne Technologies",
+      "name": "Graduate Test Engineer",
+      "tracker": "uk-engineering",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://flir.wd1.myworkdayjobs.com/en-GB/flircareers/job/UK---St-Asaph/Graduate-Test-Engineer_REQ37875?q=graduate&locations=06e4ddafd2f3100211b32a3fad790000&locations=79a6d1ee640a1001a85cd4b863690000&locations=06e4ddafd2f3100211b3321be7090000&locations=39d17c13c0fb4856a291932acdb02783&locations=615aea441482430c95145cbca7872e1a&locations=7093c6209f0e01a2c0a16705f401245a&locations=2c29a4f72df701607c59aa281901a51d&locations=345b6d4f93e610010de1613754380000&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
+      "opening_date": "2026-11-20T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-23T13:05:59.096Z"
+    },
     {
       "id": "me5sdl5blh",
       "company": "Severn Trent",
@@ -3861,45 +3900,6 @@
       "opening_date": "2026-11-06T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-11-08T20:15:46.396Z"
-    },
-    {
-      "id": "v7zlkcaxjt",
-      "company": "Amazon",
-      "name": "Software Developer Engineer Apprentice",
-      "tracker": "uk-tech",
-      "type": "pre-university",
-      "season": "2027",
-      "url": "https://amazon.jobs/en/search?offset=0&result_limit=10&sort=relevant&category%5B%5D=software-development&distanceType=Mi&radius=24km&latitude=51.50643&longitude=-0.12721&loc_group_id=&loc_query=gbr&base_query=apprenticeship&city=&country=GBR&region=&county=&query_options=&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-tech/pre-university",
-      "opening_date": "2026-11-06T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-07T15:40:47.331Z"
-    },
-    {
-      "id": "rczdi6kt4v",
-      "company": "Amazon",
-      "name": "Data Analyst Apprentice",
-      "tracker": "uk-tech",
-      "type": "pre-university",
-      "season": "2027",
-      "url": "https://amazon.jobs/en/search?offset=0&result_limit=10&sort=relevant&category%5B%5D=data-science&distanceType=Mi&radius=24km&latitude=51.50643&longitude=-0.12721&loc_group_id=&loc_query=gbr&base_query=apprenticeship&city=&country=GBR&region=&county=&query_options=&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-tech/pre-university",
-      "opening_date": "2026-11-06T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-07T15:40:47.331Z"
-    },
-    {
-      "id": "kefcj8bryo",
-      "company": "Amazon",
-      "name": "DevOps Apprentice",
-      "tracker": "uk-tech",
-      "type": "pre-university",
-      "season": "2027",
-      "url": "https://amazon.jobs/en/search?offset=0&result_limit=10&sort=relevant&category%5B%5D=systems-quality-security-engineering&distanceType=Mi&radius=24km&latitude=51.50643&longitude=-0.12721&loc_group_id=&loc_query=gbr&base_query=apprenticeship&city=&country=GBR&region=&county=&query_options=&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-tech/pre-university",
-      "opening_date": "2026-11-06T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-07T15:40:47.331Z"
     }
   ]
 }
