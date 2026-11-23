@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-23T17:05:51.854Z",
+  "updated_at": "2026-11-23T20:41:04.542Z",
   "items": [
+    {
+      "id": "s9q3e6a4xa",
+      "company": "Citadel",
+      "name": "Fixed Income and Macro Central Bank Challenge",
+      "tracker": "us-finance",
+      "type": "insight-programs",
+      "season": "2028",
+      "url": "https://www.citadel.com/careers/programs-and-events/the-fixed-income-macro-central-bank-challenge/?utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2028",
+      "trackr_url": "https://app.the-trackr.com/us-finance-2028/insight-programs",
+      "opening_date": "2026-11-23T00:00:00.000Z",
+      "closing_date": "2027-01-14T00:00:00.000Z",
+      "opened_at": "2026-11-23T20:41:04.542Z"
+    },
+    {
+      "id": "ofsc5sf9sj",
+      "company": "Citadel",
+      "name": "Fixed Income and Macro Central Bank Challenge",
+      "tracker": "uk-finance",
+      "type": "spring-weeks",
+      "season": "2027",
+      "url": "https://www.citadel.com/careers/programs-and-events/the-fixed-income-macro-central-bank-challenge/?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/spring-weeks",
+      "opening_date": "2026-11-23T00:00:00.000Z",
+      "closing_date": "2027-01-29T00:00:00.000Z",
+      "opened_at": "2026-11-23T20:41:04.542Z"
+    },
     {
       "id": "h9nabdasz6",
       "company": "AJ Bell",
@@ -3874,32 +3900,6 @@
       "opening_date": "2026-10-30T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-11-09T11:40:47.044Z"
-    },
-    {
-      "id": "sfa9eo731l",
-      "company": "Oakley Capital",
-      "name": "Investment Team Internship - Q3/Q4 2027 ",
-      "tracker": "germany-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://lnkd.in/p/eu7zpnYZ?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
-      "opening_date": "2026-10-29T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-09T11:35:49.890Z"
-    },
-    {
-      "id": "ux2qw5dnqg",
-      "company": "ODDO BHF",
-      "name": "Praktikant/ Werkstudent (m/w/d) - Investment Banking/ M&A",
-      "tracker": "germany-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://recrutement.altays-progiciels.com/oddo/en/offres/praktikant-werkstudent-mwd-investment-banking-ma-2799576.html?motsClefs=M%26A&ecart=3&utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
-      "opening_date": "2026-02-04T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-09T10:45:47.152Z"
     }
   ]
 }
