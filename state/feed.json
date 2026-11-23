@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-23T13:25:46.051Z",
+  "updated_at": "2026-11-23T13:30:56.861Z",
   "items": [
+    {
+      "id": "ogbc3gg3ob",
+      "company": "National Grid",
+      "name": "Engineering Apprentice",
+      "tracker": "uk-engineering",
+      "type": "apprenticeships",
+      "season": "2027",
+      "url": "http://jobs.nationalgrid.com/uk/jobs?countries=United+Kingdom&experience=Advanced+Apprentice&experience=Higher+Apprentice&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-engineering/apprenticeships",
+      "opening_date": "2026-11-17T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-23T13:30:56.861Z"
+    },
+    {
+      "id": "t0uezwot6w",
+      "company": "SAFE Fire Engineering Consultants",
+      "name": "Graduate Fire Engineer",
+      "tracker": "uk-engineering",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://safeltd.uk/graduates/?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
+      "opening_date": "2026-11-23T00:00:00.000Z",
+      "closing_date": "2026-12-24T00:00:00.000Z",
+      "opened_at": "2026-11-23T13:30:56.861Z"
+    },
     {
       "id": "zypd20cpw0",
       "company": "National Grid",
@@ -3874,32 +3900,6 @@
       "opening_date": "2026-11-05T00:00:00.000Z",
       "closing_date": "2027-01-15T00:00:00.000Z",
       "opened_at": "2026-11-08T22:10:48.532Z"
-    },
-    {
-      "id": "9xc1k1uf7m",
-      "company": "Skidmore, Owings & Merrill",
-      "name": "Summer Intern - Engineer",
-      "tracker": "uk-engineering",
-      "type": "summer-internships",
-      "season": "2027",
-      "url": "https://som.wd5.myworkdayjobs.com/External/3/refreshFacet/318c8bb6f553100021d223d9780d30be?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027&source=Trackr",
-      "trackr_url": "https://app.the-trackr.com/uk-engineering/summer-internships",
-      "opening_date": "2026-11-05T00:00:00.000Z",
-      "closing_date": "2027-01-19T00:00:00.000Z",
-      "opened_at": "2026-11-08T22:05:47.876Z"
-    },
-    {
-      "id": "p4fhqcnadf",
-      "company": "Cobham Ultra group",
-      "name": "Engineering Graduate 2027",
-      "tracker": "uk-engineering",
-      "type": "graduate-programmes",
-      "season": "2027",
-      "url": "https://ultra.wd3.myworkdayjobs.com/en-US/ultra-careers?workerSubType=8f0ebc00023701d3fd2a9c004d018911&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027&source=Trackr",
-      "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
-      "opening_date": "2026-11-05T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-08T22:00:48.765Z"
     }
   ]
 }
