@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-23T15:15:59.418Z",
+  "updated_at": "2026-11-23T15:20:47.913Z",
   "items": [
+    {
+      "id": "xo4ufrffxk",
+      "company": "Evercore",
+      "name": "2027 Off-Cycle Intern, Communications & Digital Infrastructure Team",
+      "tracker": "france-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://evercore.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-6/candidate/so/pm/1/pl/2/opp/3528-EMEA-2027-Off-Cycle-Intern-Communications-Digital-Infrastructure-Team-Paris-July-Start/en-GB?utm_source=Trackr&utm_medium=tracker&utm_campaign=France_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/france-finance/off-cycle-internships",
+      "opening_date": "2026-11-23T00:00:00.000Z",
+      "closing_date": "2027-01-01T00:00:00.000Z",
+      "opened_at": "2026-11-23T15:20:47.913Z"
+    },
+    {
+      "id": "rbluqt9mzu",
+      "company": "Financial Conduct Authority",
+      "name": "2027 Data, Digital & Technology Summer Internship",
+      "tracker": "uk-tech",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://fca.wd3.myworkdayjobs.com/en-US/FCA_earlycareers?q=2027+Data%2C+Digital+&+Technology+Summer+Internship=&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/summer-internships",
+      "opening_date": "2026-11-23T00:00:00.000Z",
+      "closing_date": "2027-02-01T00:00:00.000Z",
+      "opened_at": "2026-11-23T15:20:47.913Z"
+    },
     {
       "id": "rphr2xk51x",
       "company": "Citi",
@@ -3874,32 +3900,6 @@
       "opening_date": "2026-08-26T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-11-09T10:45:47.152Z"
-    },
-    {
-      "id": "y0gk3b4nhp",
-      "company": "Oaklins",
-      "name": "M&A (Small-Cap, drei Monate)",
-      "tracker": "germany-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://www.oaklins.com/de/en/career/praktikum-ma-small-cap-drei-monate-jan-mrz-apr-jun-2027/?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
-      "opening_date": "2026-10-29T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-09T10:35:46.583Z"
-    },
-    {
-      "id": "pklxseo029",
-      "company": "Oaklins",
-      "name": "Debt Advisory (drei Monate)",
-      "tracker": "germany-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://www.oaklins.com/de/de/career/praktikumda/?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
-      "opening_date": "2026-10-29T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-09T10:35:46.583Z"
     }
   ]
 }
