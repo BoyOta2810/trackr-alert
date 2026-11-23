@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-23T14:20:48.251Z",
+  "updated_at": "2026-11-23T15:06:02.352Z",
   "items": [
+    {
+      "id": "4jog28rg5l",
+      "company": "Seymour Taylor",
+      "name": "Trainee Accountant - Level 7 Apprenticeship",
+      "tracker": "uk-finance",
+      "type": "pre-university",
+      "season": "2027",
+      "url": "https://stca.co.uk/careers/?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027#1792584028784-a15be2ba-ae0c",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/pre-university",
+      "opening_date": "2026-11-23T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-23T15:06:02.352Z"
+    },
     {
       "id": "sx3slcx7f4",
       "company": "ODDO BHF",
@@ -3883,19 +3896,6 @@
       "type": "spring-weeks",
       "season": "2027",
       "url": "https://apply.deloitte.co.uk/UKEarlyCareers/JobDetail/Spring-into-Deloitte-Advisory/25353?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-finance/spring-weeks",
-      "opening_date": "2026-11-09T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-09T09:25:45.456Z"
-    },
-    {
-      "id": "duhqbdk1pp",
-      "company": "Deloitte",
-      "name": "Spring into Deloitte: Finance (Inspiring Women)",
-      "tracker": "uk-finance",
-      "type": "spring-weeks",
-      "season": "2027",
-      "url": "https://apply.deloitte.co.uk/UKEarlyCareers/JobDetail/Spring-into-Deloitte-Finance-Inspiring-Women/25354?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
       "trackr_url": "https://app.the-trackr.com/uk-finance/spring-weeks",
       "opening_date": "2026-11-09T00:00:00.000Z",
       "closing_date": null,
