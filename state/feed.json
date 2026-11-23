@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-22T18:30:51.582Z",
+  "updated_at": "2026-11-23T10:05:46.463Z",
   "items": [
+    {
+      "id": "jljb00i9sx",
+      "company": "BMO Capital Markets",
+      "name": "Global Markets Summer Analyst Program",
+      "tracker": "uk-finance",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://www.linkedin.com/jobs/view/4493742314/?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/summer-internships",
+      "opening_date": "2026-11-23T00:00:00.000Z",
+      "closing_date": "2026-11-25T00:00:00.000Z",
+      "opened_at": "2026-11-23T10:05:46.463Z"
+    },
     {
       "id": "etpr8cn8rs",
       "company": "RSM",
@@ -3887,19 +3900,6 @@
       "opening_date": "2026-11-05T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-11-05T13:20:46.882Z"
-    },
-    {
-      "id": "hu8v22yf7w",
-      "company": "Armira",
-      "name": "Growth Investment Intern",
-      "tracker": "germany-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://armira-beteiligungen-gmbh-co-kg.jobs.personio.de/job/2876802?language=en&utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
-      "opening_date": "2026-11-05T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-05T12:30:49.879Z"
     }
   ]
 }
