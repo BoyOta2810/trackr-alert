@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-23T15:06:02.352Z",
+  "updated_at": "2026-11-23T15:11:05.683Z",
   "items": [
+    {
+      "id": "bquymgqwyk",
+      "company": "Cantor Fitzgerald",
+      "name": "2028 Internship Program: Investment Banking",
+      "tracker": "us-finance",
+      "type": "summer-internships",
+      "season": "2028",
+      "url": "https://hdow.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/jobs?keyword=2028+internship+program&mode=location&utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2028&iis=Trackr&sType=Trackr",
+      "trackr_url": "https://app.the-trackr.com/us-finance-2028/summer-internships",
+      "opening_date": "2026-11-23T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-23T15:11:05.683Z"
+    },
     {
       "id": "4jog28rg5l",
       "company": "Seymour Taylor",
@@ -3887,19 +3900,6 @@
       "opening_date": "2026-11-03T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-11-09T10:30:46.627Z"
-    },
-    {
-      "id": "wqgjka7t5w",
-      "company": "Deloitte",
-      "name": "Spring Into Deloitte: Advisory",
-      "tracker": "uk-finance",
-      "type": "spring-weeks",
-      "season": "2027",
-      "url": "https://apply.deloitte.co.uk/UKEarlyCareers/JobDetail/Spring-into-Deloitte-Advisory/25353?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-finance/spring-weeks",
-      "opening_date": "2026-11-09T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-09T09:25:45.456Z"
     }
   ]
 }
