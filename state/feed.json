@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-23T10:20:46.251Z",
+  "updated_at": "2026-11-23T10:25:46.293Z",
   "items": [
+    {
+      "id": "6lu31sruv5",
+      "company": "DWS",
+      "name": "2027 Summer Internship - Client Coverage",
+      "tracker": "hong-kong-finance",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite/job/Hong-Kong-Intl-Commerce-Ctr/XMLNAME-2027-Summer-Internship---Client-Coverage--Xtrackers---Private-Wealth-Sales----Hong-Kong-SAR_R0445556-1?utm_source=Trackr&utm_medium=tracker&utm_campaign=Hong_Kong_Finance_2027&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/hong-kong-finance/summer-internships",
+      "opening_date": "2026-11-23T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-23T10:25:46.293Z"
+    },
+    {
+      "id": "fnybb5x6y8",
+      "company": "Capital One",
+      "name": "Technology Graduate",
+      "tracker": "uk-tech",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/Technology-Graduate_R999267?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/graduate-programmes",
+      "opening_date": "2026-08-27T00:00:00.000Z",
+      "closing_date": "2026-11-30T00:00:00.000Z",
+      "opened_at": "2026-11-23T10:25:46.293Z"
+    },
     {
       "id": "qmb83hpjci",
       "company": "Barclays",
@@ -3874,32 +3900,6 @@
       "opening_date": "2026-11-05T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-11-05T17:40:56.003Z"
-    },
-    {
-      "id": "hevibqy8on",
-      "company": "P&G",
-      "name": "Commercial Internship Week 2027 (North)",
-      "tracker": "uk-finance",
-      "type": "spring-weeks",
-      "season": "2027",
-      "url": "https://pg.wd5.myworkdayjobs.com/en-GB/1000/job/Harrogate/Commercial-Internship-Week-2027--North--Event_R000162326?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027&source=Trackr",
-      "trackr_url": "https://app.the-trackr.com/uk-finance/spring-weeks",
-      "opening_date": "2026-11-05T00:00:00.000Z",
-      "closing_date": "2027-01-15T00:00:00.000Z",
-      "opened_at": "2026-11-05T17:35:45.770Z"
-    },
-    {
-      "id": "d316o7aml5",
-      "company": "Bank of America",
-      "name": "Investment Banking Summer Analyst Program 2028",
-      "tracker": "us-finance",
-      "type": "summer-internships",
-      "season": "2028",
-      "url": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/candidate/so/pm/1/pl/1/opp/15270-Global-Investment-Banking-Summer-Analyst-Program-2028-Energy-Houston/en-GB?utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2028",
-      "trackr_url": "https://app.the-trackr.com/us-finance-2028/summer-internships",
-      "opening_date": "2026-11-05T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-05T17:30:46.298Z"
     }
   ]
 }
