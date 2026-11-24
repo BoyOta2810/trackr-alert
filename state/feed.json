@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-24T14:01:00.945Z",
+  "updated_at": "2026-11-24T14:35:46.334Z",
   "items": [
+    {
+      "id": "a4f0hws2s1",
+      "company": "AXA",
+      "name": "2027 Summer Internship",
+      "tracker": "uk-finance",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://careers.axa.com/careers-home/jobs?country=United+Kingdom&page=1&keywords=intern&sortBy=relevance&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/summer-internships",
+      "opening_date": "2026-11-24T00:00:00.000Z",
+      "closing_date": "2026-12-06T00:00:00.000Z",
+      "opened_at": "2026-11-24T14:35:46.334Z"
+    },
     {
       "id": "a453f5b484",
       "company": "BNP Paribas",
@@ -3887,19 +3900,6 @@
       "opening_date": "2026-09-18T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-11-09T12:25:46.875Z"
-    },
-    {
-      "id": "51qv80ajra",
-      "company": "Palladio Partners",
-      "name": "Werkstudent Asset Management Controlling",
-      "tracker": "germany-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://www.palladio-partners.com/de/karriere/?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027#c153",
-      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
-      "opening_date": "2026-10-29T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-09T12:20:49.047Z"
     }
   ]
 }
