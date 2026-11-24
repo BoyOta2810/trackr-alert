@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-24T15:50:52.003Z",
+  "updated_at": "2026-11-24T15:56:01.235Z",
   "items": [
+    {
+      "id": "2zj9c4u37k",
+      "company": "Capgemini",
+      "name": "Work Experience",
+      "tracker": "uk-tech",
+      "type": "pre-university",
+      "season": "2027",
+      "url": "https://www.capgemini.com/gb-en/careers/join-capgemini/job-search/?page=1&size=11&experience_level=Students%2FGraduates%E2%80%8B&country_code=gb-en&keyword=%22work+experience%22&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/pre-university",
+      "opening_date": "2026-11-24T00:00:00.000Z",
+      "closing_date": "2026-12-08T00:00:00.000Z",
+      "opened_at": "2026-11-24T15:56:01.235Z"
+    },
     {
       "id": "jok3sddnb4",
       "company": "Capgemini",
@@ -3887,19 +3900,6 @@
       "opening_date": "2026-10-14T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-11-09T12:40:49.631Z"
-    },
-    {
-      "id": "4ysyvlas5o",
-      "company": "Deutsche Private Equity",
-      "name": "Finance and Valuation Intern | Q2-Q3 2027",
-      "tracker": "germany-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://dpe-investment.jobs.personio.de/job/2732668?language=de&utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
-      "opening_date": "2026-09-06T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-09T12:30:48.819Z"
     }
   ]
 }
