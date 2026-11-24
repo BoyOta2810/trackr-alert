@@ -1,6 +1,58 @@
 {
-  "updated_at": "2026-11-24T10:40:58.004Z",
+  "updated_at": "2026-11-24T10:46:00.148Z",
   "items": [
+    {
+      "id": "kpmv1awufx",
+      "company": "Mace Construct",
+      "name": "2027 Data Analytics Apprenticeship",
+      "tracker": "uk-tech",
+      "type": "pre-university",
+      "season": "2027",
+      "url": "https://macegroup.engageats.co.uk/Vacancies/W/5737/0/477089/22130/2027-data-analytics-apprenticeship-london?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/pre-university",
+      "opening_date": "2026-11-24T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-24T10:46:00.148Z"
+    },
+    {
+      "id": "f1cxckr1gn",
+      "company": "Mace Construct",
+      "name": "2027 AI Solutions Apprenticeship",
+      "tracker": "uk-tech",
+      "type": "pre-university",
+      "season": "2027",
+      "url": "https://macegroup.engageats.co.uk/Vacancies/W/1136/0/477138/22130/2027-artificial-intelligence-ai-solutions-apprenticeship-london?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/pre-university",
+      "opening_date": "2026-11-24T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-24T10:46:00.148Z"
+    },
+    {
+      "id": "nt0flvg9jb",
+      "company": "Mace Construct",
+      "name": "2027 AI Solutions Graduate",
+      "tracker": "uk-tech",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://macegroup.engageats.co.uk/Vacancies/W/1084/0/477136/22130/2027-artificial-intelligence-ai-solutions-graduate-london?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/graduate-programmes",
+      "opening_date": "2026-11-24T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-24T10:46:00.148Z"
+    },
+    {
+      "id": "075t6qs4zt",
+      "company": "Mace Construct",
+      "name": "2027 Data Analytics Graduate",
+      "tracker": "uk-tech",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://macegroup.engageats.co.uk/Vacancies/W/5811/0/477124/22130/2027-data-analytics-graduate-london?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/graduate-programmes",
+      "opening_date": "2026-11-24T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-24T10:46:00.148Z"
+    },
     {
       "id": "fnkohmj14s",
       "company": "Mace Construct",
@@ -3848,58 +3900,6 @@
       "opening_date": "2026-10-23T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-11-09T12:15:46.358Z"
-    },
-    {
-      "id": "oq8ri0vjq5",
-      "company": " NORD Holding",
-      "name": "Praktikant – Investor Relations",
-      "tracker": "germany-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://www.nordholding.de/stellenangebote/praktikum-investor-relations?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
-      "opening_date": "2026-09-29T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-09T12:05:45.480Z"
-    },
-    {
-      "id": "fnavqo15k4",
-      "company": " NORD Holding",
-      "name": "Praktikant – Primary, Secondary und Co-Investments",
-      "tracker": "germany-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://www.nordholding.de/stellenangebote/praktikum-primary-secondary-co-investments?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
-      "opening_date": "2026-09-29T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-09T12:05:45.480Z"
-    },
-    {
-      "id": "9xrmbbt2hr",
-      "company": " NORD Holding",
-      "name": "Praktikant – Direct Investments Mid Cap",
-      "tracker": "germany-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://www.nordholding.de/stellenangebote?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
-      "opening_date": "2026-09-29T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-09T12:05:45.480Z"
-    },
-    {
-      "id": "ylu32mmfrr",
-      "company": "Afinum",
-      "name": "Praktikum im Investment Team - ab Januar 2027",
-      "tracker": "germany-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://afinum-management-gmbh.jobs.personio.de/job/2857051?language=de&utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
-      "opening_date": "2026-10-07T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-09T12:00:45.684Z"
     }
   ]
 }
