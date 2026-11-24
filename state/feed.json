@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-23T20:41:04.542Z",
+  "updated_at": "2026-11-24T09:40:59.823Z",
   "items": [
+    {
+      "id": "qcr4884j6j",
+      "company": "AJ Bell",
+      "name": "Cyber Security Degree Apprenticeship",
+      "tracker": "uk-tech",
+      "type": "pre-university",
+      "season": "2027",
+      "url": "https://jobs.smartrecruiters.com/AJBell1/744000163407430-cyber-security-degree-apprenticeship?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027&trid=Trackr&dcr_ci=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/pre-university",
+      "opening_date": "2026-11-24T00:00:00.000Z",
+      "closing_date": "2027-02-28T00:00:00.000Z",
+      "opened_at": "2026-11-24T09:40:59.823Z"
+    },
     {
       "id": "s9q3e6a4xa",
       "company": "Citadel",
@@ -3887,19 +3900,6 @@
       "opening_date": "2026-11-09T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-11-09T11:45:52.373Z"
-    },
-    {
-      "id": "e73b6ma2xi",
-      "company": "Tikehau Capital",
-      "name": "Internship - Private Debt and Private Equity - Frankfurt - January 2027",
-      "tracker": "germany-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://tikehau-capital-career.talentview.io/jobs/lqb6h4?source=Trackr&utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
-      "opening_date": "2026-10-30T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-09T11:40:47.044Z"
     }
   ]
 }
