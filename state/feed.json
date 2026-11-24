@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-24T14:35:46.334Z",
+  "updated_at": "2026-11-24T15:50:52.003Z",
   "items": [
+    {
+      "id": "jok3sddnb4",
+      "company": "Capgemini",
+      "name": "Work Experience",
+      "tracker": "uk-finance",
+      "type": "pre-university",
+      "season": "2027",
+      "url": "https://www.capgemini.com/gb-en/careers/join-capgemini/job-search/?page=1&size=11&experience_level=Students%2FGraduates%E2%80%8B&country_code=gb-en&keyword=%22work+experience%22&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/pre-university",
+      "opening_date": "2026-11-24T00:00:00.000Z",
+      "closing_date": "2026-12-08T00:00:00.000Z",
+      "opened_at": "2026-11-24T15:50:52.003Z"
+    },
     {
       "id": "a4f0hws2s1",
       "company": "AXA",
@@ -3887,19 +3900,6 @@
       "opening_date": "2026-09-06T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-11-09T12:30:48.819Z"
-    },
-    {
-      "id": "o0d3nl5y0z",
-      "company": "DBAG",
-      "name": "Praktikum - Investment Advisory Team",
-      "tracker": "germany-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://dbag.careers.hibob.com/jobs/7f247281-1cd2-47df-8f39-a828a640d137?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
-      "opening_date": "2026-09-18T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-09T12:25:46.875Z"
     }
   ]
 }
