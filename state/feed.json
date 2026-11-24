@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-24T10:00:49.814Z",
+  "updated_at": "2026-11-24T10:40:58.004Z",
   "items": [
+    {
+      "id": "fnkohmj14s",
+      "company": "Mace Construct",
+      "name": "2027 Data Analytics Industrial Placement",
+      "tracker": "uk-tech",
+      "type": "industrial-placements",
+      "season": "2027",
+      "url": "https://macegroup.engageats.co.uk/Vacancies/W/1314/0/477129/22130/2027-data-analytics-industrial-placement-london?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/industrial-placements",
+      "opening_date": "2026-11-24T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-24T10:40:58.004Z"
+    },
     {
       "id": "udlo9e02zq",
       "company": "Runna",
@@ -3887,19 +3900,6 @@
       "opening_date": "2026-10-07T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-11-09T12:00:45.684Z"
-    },
-    {
-      "id": "kq9p1521nt",
-      "company": "Bregal Unternehmerkapital",
-      "name": "Private Equity Intern",
-      "tracker": "germany-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://www.bu-partners.de/karriere/private-equity-intern-2d75ae/?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
-      "opening_date": "2026-10-08T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-09T11:50:47.275Z"
     }
   ]
 }
