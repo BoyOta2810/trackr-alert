@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-25T09:05:57.743Z",
+  "updated_at": "2026-11-25T09:10:46.273Z",
   "items": [
+    {
+      "id": "3yxchr7cjg",
+      "company": "Plural Strategy",
+      "name": "Strategy Consulting Intern",
+      "tracker": "us-finance",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://www.pluralstrategy.com/job/strategy-consulting-intern-4/?gh_jid=8208516003&utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2027&gh_src=Trackr",
+      "trackr_url": "https://app.the-trackr.com/us-finance-2027/summer-internships",
+      "opening_date": "2026-11-25T00:00:00.000Z",
+      "closing_date": "2027-01-04T00:00:00.000Z",
+      "opened_at": "2026-11-25T09:10:46.273Z"
+    },
     {
       "id": "4peqfyxa43",
       "company": "Mubadala Capital",
@@ -3885,19 +3898,6 @@
       "url": "https://www.linkedin.com/jobs/view/4479501818/?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
       "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
       "opening_date": "2026-10-14T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-09T12:40:49.631Z"
-    },
-    {
-      "id": "9lhui2t7au",
-      "company": "HF Equity",
-      "name": "Praktikant (Mensch*) im Value-Creation-Team I ab 2027",
-      "tracker": "germany-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://www.linkedin.com/jobs/view/4486848649/?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
-      "opening_date": "2026-11-03T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-11-09T12:40:49.631Z"
     }
