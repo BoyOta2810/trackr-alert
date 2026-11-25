@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-25T23:30:49.290Z",
+  "updated_at": "2026-11-25T23:35:48.291Z",
   "items": [
+    {
+      "id": "k2v2ec1upq",
+      "company": "Mansfield Energy",
+      "name": "Intern, Trading - Summer 2027",
+      "tracker": "us-finance",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://portal.dynamicsats.com/JobListing/94b0f36c-1730-4f72-95af-317a3f5c0c20?utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/us-finance-2027/summer-internships",
+      "opening_date": "2026-11-25T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-25T23:35:48.291Z"
+    },
     {
       "id": "nztcqdm5i2",
       "company": "AJ Bell",
@@ -3885,19 +3898,6 @@
       "url": "https://aem-unternehmerkapital-gmbh-1.jobs.personio.de/job/2777811?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
       "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
       "opening_date": "2026-09-02T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-09T13:30:49.083Z"
-    },
-    {
-      "id": "00qqkko47h",
-      "company": " Finvia",
-      "name": "Praktikant Investment Strategy & Research",
-      "tracker": "germany-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://www.finvia.fo/ueber-finvia/karriere?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
-      "opening_date": "2026-11-08T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-11-09T13:30:49.083Z"
     }
