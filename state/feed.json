@@ -1,6 +1,71 @@
 {
-  "updated_at": "2026-11-25T10:50:55.693Z",
+  "updated_at": "2026-11-25T16:21:03.637Z",
   "items": [
+    {
+      "id": "y0lotvord1",
+      "company": "Levl",
+      "name": "Graduate Solution Engineer",
+      "tracker": "uk-tech",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://app.the-trackr.com/job/d43ba006-b1c5-4f59-ad6b-b0d8148c41bd?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/graduate-programmes",
+      "opening_date": "2026-11-25T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-25T16:21:03.637Z"
+    },
+    {
+      "id": "ja12m1b2ru",
+      "company": "First Wealth",
+      "name": "Summer Internship 2027",
+      "tracker": "uk-finance",
+      "type": "pre-university",
+      "season": "2027",
+      "url": "https://app.the-trackr.com/job/1a984cd8-03f7-47a5-8eba-e8f172e0f37b?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/pre-university",
+      "opening_date": "2026-11-25T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-25T16:21:03.637Z"
+    },
+    {
+      "id": "maac6syegw",
+      "company": "First Wealth",
+      "name": "Summer Internship 2027",
+      "tracker": "uk-finance",
+      "type": "spring-weeks",
+      "season": "2027",
+      "url": "https://app.the-trackr.com/job/1a984cd8-03f7-47a5-8eba-e8f172e0f37b?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/spring-weeks",
+      "opening_date": "2026-11-25T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-25T16:21:03.637Z"
+    },
+    {
+      "id": "zbyismcu8o",
+      "company": "Plural Strategy",
+      "name": "Strategy Consulting Intern",
+      "tracker": "uk-finance",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://www.pluralstrategy.com/job/strategy-consulting-intern-5/?gh_jid=8209088003&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027&gh_src=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/summer-internships",
+      "opening_date": "2026-11-25T00:00:00.000Z",
+      "closing_date": "2027-01-21T00:00:00.000Z",
+      "opened_at": "2026-11-25T16:21:03.637Z"
+    },
+    {
+      "id": "kmpvb19l8n",
+      "company": "First Wealth",
+      "name": "Summer Internship 2027",
+      "tracker": "uk-finance",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://app.the-trackr.com/job/1a984cd8-03f7-47a5-8eba-e8f172e0f37b?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/summer-internships",
+      "opening_date": "2026-11-25T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-25T16:21:03.637Z"
+    },
     {
       "id": "4qfyri46ro",
       "company": "Santander",
@@ -3835,71 +3900,6 @@
       "opening_date": "2026-08-26T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-11-09T13:20:51.450Z"
-    },
-    {
-      "id": "68ig44tr3g",
-      "company": " RCP Invest",
-      "name": "Intern Private Equity",
-      "tracker": "germany-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://jobapplication.hrworks.de/de?companyId=f7c42eb&id=3dadfd&utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
-      "opening_date": "2026-09-13T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-09T13:15:48.876Z"
-    },
-    {
-      "id": "xn0y543f3k",
-      "company": "reia capital",
-      "name": "Praktikant(in) ab Juli 2027",
-      "tracker": "germany-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://www.reia.capital/stellenangebote.php?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
-      "opening_date": "2026-09-27T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-09T13:10:48.152Z"
-    },
-    {
-      "id": "8xvfpi890s",
-      "company": "Quantum Capital Partners",
-      "name": "Praktikant/in im Bereich Private Equity",
-      "tracker": "germany-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://quantum.capital/?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027#karriere",
-      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
-      "opening_date": "2026-09-27T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-09T13:05:46.416Z"
-    },
-    {
-      "id": "pcadpdjduj",
-      "company": "Mercurius",
-      "name": "Working student / intern",
-      "tracker": "germany-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://mercurius.de/private-equity/karriere?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
-      "opening_date": "2026-10-11T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-09T13:00:49.233Z"
-    },
-    {
-      "id": "56qa7udi82",
-      "company": "Peakside Capital",
-      "name": "Real Estate Private Equity Internship",
-      "tracker": "germany-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://lnkd.in/p/eEEJQWGE?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
-      "opening_date": "2026-10-31T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-09T12:50:47.450Z"
     }
   ]
 }
