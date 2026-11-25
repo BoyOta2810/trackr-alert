@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-24T15:56:01.235Z",
+  "updated_at": "2026-11-25T09:05:57.743Z",
   "items": [
+    {
+      "id": "4peqfyxa43",
+      "company": "Mubadala Capital",
+      "name": "Credit Investments Off-Cycle Internship (January 2027)",
+      "tracker": "uk-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://www.linkedin.com/jobs/view/4493646711/?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/off-cycle-internships",
+      "opening_date": "2026-11-25T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-25T09:05:57.743Z"
+    },
     {
       "id": "2zj9c4u37k",
       "company": "Capgemini",
@@ -3885,19 +3898,6 @@
       "url": "https://www.linkedin.com/jobs/view/4486848649/?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
       "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
       "opening_date": "2026-11-03T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-09T12:40:49.631Z"
-    },
-    {
-      "id": "25wbp3rx20",
-      "company": "HF Equity",
-      "name": "AI Praktikant (Mensch*) I Private Equity",
-      "tracker": "germany-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://www.linkedin.com/jobs/view/4479509570/?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
-      "opening_date": "2026-10-14T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-11-09T12:40:49.631Z"
     }
