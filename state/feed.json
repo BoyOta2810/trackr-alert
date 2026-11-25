@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-25T09:10:46.273Z",
+  "updated_at": "2026-11-25T10:50:55.693Z",
   "items": [
+    {
+      "id": "4qfyri46ro",
+      "company": "Santander",
+      "name": "2028 Investment Banking Summer Analyst",
+      "tracker": "us-finance",
+      "type": "summer-internships",
+      "season": "2028",
+      "url": "https://santander.wd3.myworkdayjobs.com/en-US/SantanderCareers?q=2028+Investment+Banking+Summer+Analyst&Source=Source_LinkedIn&locationCountry=bc33aa3152ec42d4995f4791a106ed09&workerSubType=c26ab0efcb8401233f6601097836b01a&utm_source=Trackr&utm_medium=tracker&utm_campaign=US_Finance_2028&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/us-finance-2028/summer-internships",
+      "opening_date": "2026-11-24T00:00:00.000Z",
+      "closing_date": "2026-12-20T00:00:00.000Z",
+      "opened_at": "2026-11-25T10:50:55.693Z"
+    },
+    {
+      "id": "zbcteivr5d",
+      "company": "SmartestEnergy",
+      "name": "Graduate Trading Scheme",
+      "tracker": "uk-finance",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://smartestenergy.teamtailor.com/jobs/8793442-graduate-trading-scheme?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/graduate-programmes",
+      "opening_date": "2026-11-25T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-25T10:50:55.693Z"
+    },
     {
       "id": "3yxchr7cjg",
       "company": "Plural Strategy",
@@ -3874,32 +3900,6 @@
       "opening_date": "2026-10-31T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-11-09T12:50:47.450Z"
-    },
-    {
-      "id": "3r2bpgemm2",
-      "company": "Axcel",
-      "name": "Investment Internship - Frankfurt | Q3/Q4 2027",
-      "tracker": "germany-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://axcel.teamtailor.com/jobs/8626320-investment-internship-frankfurt-q3-q4-2027?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
-      "opening_date": "2026-10-27T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-09T12:50:47.450Z"
-    },
-    {
-      "id": "dyl1qqmcyj",
-      "company": "HF Equity",
-      "name": " Praktikant (Mensch*) im Investmentteam",
-      "tracker": "germany-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://www.linkedin.com/jobs/view/4479501818/?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
-      "opening_date": "2026-10-14T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-09T12:40:49.631Z"
     }
   ]
 }
