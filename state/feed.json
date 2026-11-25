@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-25T16:21:03.637Z",
+  "updated_at": "2026-11-25T23:25:44.586Z",
   "items": [
+    {
+      "id": "me8iw6hx79",
+      "company": "Aon",
+      "name": "Apprenticeship Programme 2027",
+      "tracker": "uk-finance",
+      "type": "pre-university",
+      "season": "2027",
+      "url": "https://jobs.aon.com/jobs?keywords=apprenticeship&sortBy=relevance&page=1&location=GB&stretch=10&stretchUnit=MILES&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027&categories=Apprentices+%26+Trainees",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/pre-university",
+      "opening_date": "2026-11-25T00:00:00.000Z",
+      "closing_date": "2027-01-25T00:00:00.000Z",
+      "opened_at": "2026-11-25T23:25:44.586Z"
+    },
     {
       "id": "y0lotvord1",
       "company": "Levl",
@@ -3887,19 +3900,6 @@
       "opening_date": "2026-10-19T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-11-09T13:25:48.061Z"
-    },
-    {
-      "id": "d8fb6lemfl",
-      "company": " Icelake",
-      "name": "Private Equity Intern",
-      "tracker": "germany-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://icelake.com/careers/?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
-      "opening_date": "2026-08-26T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-09T13:20:51.450Z"
     }
   ]
 }
