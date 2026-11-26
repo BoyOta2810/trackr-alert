@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-26T14:55:51.489Z",
+  "updated_at": "2026-11-26T15:10:55.086Z",
   "items": [
+    {
+      "id": "tuz7jb7al5",
+      "company": "Pinterest",
+      "name": "Software Engineering Intern 2027",
+      "tracker": "uk-tech",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://www.pinterestcareers.com/jobs/8138034/software-engineering-intern-2027-dublin/?gh_jid=8138034&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027&gh_src=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/summer-internships",
+      "opening_date": "2026-11-26T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-26T15:10:55.086Z"
+    },
+    {
+      "id": "055vp26wcd",
+      "company": "Pinterest",
+      "name": "Machine Learning Intern 2027",
+      "tracker": "uk-tech",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://www.pinterestcareers.com/jobs/8244922/machine-learning-intern-2027-dublin/?gh_jid=8244922&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027&gh_src=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/summer-internships",
+      "opening_date": "2026-11-26T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-26T15:10:55.086Z"
+    },
     {
       "id": "eqjmrbv2uq",
       "company": "Olive Asset Management",
@@ -3874,32 +3900,6 @@
       "opening_date": "2026-11-09T00:00:00.000Z",
       "closing_date": "2026-12-06T00:00:00.000Z",
       "opened_at": "2026-11-09T14:15:51.754Z"
-    },
-    {
-      "id": "kj1m9pnp93",
-      "company": "IK Partners",
-      "name": "Off-Cycle Analyst Intern",
-      "tracker": "uk-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://ikpartners.recruitee.com/o/off-cycle-analyst-intern-london-3?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027&source=Trackr",
-      "trackr_url": "https://app.the-trackr.com/uk-finance/off-cycle-internships",
-      "opening_date": "2026-11-09T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-09T14:15:51.754Z"
-    },
-    {
-      "id": "29xrwgiq3l",
-      "company": "FCF Fox Corporate Finance",
-      "name": "Praktikant im Investment Banking",
-      "tracker": "germany-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://join.com/companies/fcffoxcorporatefinance/16882050-praktikant-im-investment-banking-m-w-d-attraktive-verguetung-in-hoehe-von-brutto-eur3-500-pro-monat?pid=e65242534431eadcb0c9&utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
-      "opening_date": "2026-10-07T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-09T14:10:56.627Z"
     }
   ]
 }
