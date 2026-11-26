@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-26T14:40:46.601Z",
+  "updated_at": "2026-11-26T14:55:51.489Z",
   "items": [
+    {
+      "id": "eqjmrbv2uq",
+      "company": "Olive Asset Management",
+      "name": "Risk Management Intern",
+      "tracker": "hong-kong-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://www.linkedin.com/jobs/view/4494968908/?utm_source=Trackr&utm_medium=tracker&utm_campaign=Hong_Kong_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/hong-kong-finance/off-cycle-internships",
+      "opening_date": "2026-11-26T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-26T14:55:51.489Z"
+    },
     {
       "id": "rnn8tzdz0c",
       "company": "Man Group",
@@ -3887,19 +3900,6 @@
       "opening_date": "2026-10-07T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-11-09T14:10:56.627Z"
-    },
-    {
-      "id": "vzc6t5jn9u",
-      "company": "Alvarez & Marsal",
-      "name": "Intern, Digital Investigations - Frankfurt",
-      "tracker": "germany-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://careers.alvarezandmarsal.com/jobs/18371277-intern-m-slash-f-slash-d-digital-investigations-frankfurt?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
-      "opening_date": "2026-10-28T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-09T14:05:50.128Z"
     }
   ]
 }
