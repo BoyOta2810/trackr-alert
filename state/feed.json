@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-26T15:25:51.471Z",
+  "updated_at": "2026-11-26T16:50:44.816Z",
   "items": [
+    {
+      "id": "otm1vvt381",
+      "company": "Verisk",
+      "name": "2027 Summer Internship Program - Integration Analyst Intern",
+      "tracker": "uk-tech",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://fa-ewmy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4213?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027&iis=Trackr&sType=Trackr",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/summer-internships",
+      "opening_date": "2026-11-26T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-26T16:50:44.816Z"
+    },
     {
       "id": "dp49nuryhl",
       "company": "Hatch",
@@ -3887,19 +3900,6 @@
       "opening_date": "2026-10-07T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-11-09T15:20:45.752Z"
-    },
-    {
-      "id": "8i3mkzmamq",
-      "company": "National Grid",
-      "name": "Cyber Security Summer Internship",
-      "tracker": "uk-tech",
-      "type": "summer-internships",
-      "season": "2027",
-      "url": "https://jobs.nationalgrid.com/uk/jobs/13324/cyber-security-summer-internship-warwick?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-tech/summer-internships",
-      "opening_date": "2026-11-09T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-09T14:50:47.209Z"
     }
   ]
 }
