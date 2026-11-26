@@ -1,6 +1,32 @@
 {
-  "updated_at": "2026-11-26T14:25:55.206Z",
+  "updated_at": "2026-11-26T14:30:43.978Z",
   "items": [
+    {
+      "id": "mn3wbt1tpo",
+      "company": "Harbour Energy",
+      "name": "Graduate - Strategy, Commercial, Business Development and M&A",
+      "tracker": "uk-finance",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://careers.harbourenergy.com/job/London-Graduate-Strategy%2C-Commercial%2C-Business-Development-and-M&A-SW1W-9SZ/1377305255/?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/graduate-programmes",
+      "opening_date": "2026-11-26T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-26T14:30:43.978Z"
+    },
+    {
+      "id": "99qtijo59v",
+      "company": "Harbour Energy",
+      "name": "Finance Graduate",
+      "tracker": "uk-finance",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://careers.harbourenergy.com/job/London-Finance-Graduate-SW1W-9SZ/1377299855/?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/graduate-programmes",
+      "opening_date": "2026-11-26T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-26T14:30:43.978Z"
+    },
     {
       "id": "psg9lpbeev",
       "company": "Financière de Courcelles",
@@ -3874,32 +3900,6 @@
       "opening_date": "2026-10-28T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-11-09T14:05:50.128Z"
-    },
-    {
-      "id": "vuif6x5yak",
-      "company": "ox8 Corporate Finance",
-      "name": "Intern – M&A / Corporate Finance",
-      "tracker": "germany-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://ox8-cf.teamtailor.com/jobs/6113898-intern-m-a-corporate-finance-m-w-d?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
-      "opening_date": "2026-10-14T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-09T14:00:54.666Z"
-    },
-    {
-      "id": "moatgjfwfk",
-      "company": "Kroll",
-      "name": "Intern, Investment Banking",
-      "tracker": "germany-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://careers.kroll.com/en/job/munchen/intern-investment-banking/21015033?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
-      "opening_date": "2026-10-16T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-09T14:00:54.666Z"
     }
   ]
 }
