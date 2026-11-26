@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-26T14:10:51.126Z",
+  "updated_at": "2026-11-26T14:20:55.741Z",
   "items": [
+    {
+      "id": "7jhoxxgnlx",
+      "company": "Molson Coors",
+      "name": "Data Insights Apprentice",
+      "tracker": "uk-tech",
+      "type": "pre-university",
+      "season": "2027",
+      "url": "https://careers.molsoncoors.com/gb/en/job/MQXMOLUS40190EXTERNALENGB/Data-Insights-Apprentice?utm_source=Trackr&utm_medium=tracker&src=Trackr&utm_campaign=UK_Tech_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/pre-university",
+      "opening_date": "2026-11-26T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-26T14:20:55.741Z"
+    },
     {
       "id": "yytzcyyd29",
       "company": "Nationwide",
@@ -3887,19 +3900,6 @@
       "opening_date": "2026-10-22T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-11-09T13:50:46.195Z"
-    },
-    {
-      "id": "npkqnz955d",
-      "company": "Loy & Co.",
-      "name": "Praktikum M&A – ab Januar 2028 für 6 Monate",
-      "tracker": "germany-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://www.loy-cf.de/ueber-uns/karriere/praktikant-ma-corporate-finance/?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
-      "opening_date": "2026-11-04T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-09T13:45:48.883Z"
     }
   ]
 }
