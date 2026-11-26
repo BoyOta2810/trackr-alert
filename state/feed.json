@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-26T15:20:44.366Z",
+  "updated_at": "2026-11-26T15:25:51.471Z",
   "items": [
+    {
+      "id": "dp49nuryhl",
+      "company": "Hatch",
+      "name": "Graduate Programme",
+      "tracker": "uk-engineering",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://jobs.hatch.com/search/?createNewAlert=false&q=&locationsearch=gb&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Engineering_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-engineering/graduate-programmes",
+      "opening_date": "2026-11-11T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-26T15:25:51.471Z"
+    },
     {
       "id": "gbic6599ce",
       "company": "DESNZ",
@@ -3887,19 +3900,6 @@
       "opening_date": "2026-11-09T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-11-09T14:50:47.209Z"
-    },
-    {
-      "id": "5h1pssmfuf",
-      "company": "Bending Spoons",
-      "name": "First Venture",
-      "tracker": "uk-finance",
-      "type": "spring-weeks",
-      "season": "2027",
-      "url": "https://firstventure.bendingspoons.com/?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-finance/spring-weeks",
-      "opening_date": "2026-11-09T00:00:00.000Z",
-      "closing_date": "2026-12-13T00:00:00.000Z",
-      "opened_at": "2026-11-09T14:45:47.134Z"
     }
   ]
 }
