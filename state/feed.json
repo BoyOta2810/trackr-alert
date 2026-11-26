@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-26T15:10:55.086Z",
+  "updated_at": "2026-11-26T15:16:01.069Z",
   "items": [
+    {
+      "id": "y0d678vwlg",
+      "company": "Xeinadin",
+      "name": "Graduate Audit Trainee",
+      "tracker": "uk-finance",
+      "type": "graduate-programmes",
+      "season": "2027",
+      "url": "https://xeinadin.my.salesforce-sites.com/recruit/fRecruit__ApplyJob?vacancyNo=VN2565&portal=Xeinadin+Candidate+Portal&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/graduate-programmes",
+      "opening_date": "2026-11-26T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-26T15:16:01.069Z"
+    },
     {
       "id": "tuz7jb7al5",
       "company": "Pinterest",
@@ -3886,19 +3899,6 @@
       "trackr_url": "https://app.the-trackr.com/uk-tech/graduate-programmes",
       "opening_date": "2026-11-09T00:00:00.000Z",
       "closing_date": "2026-12-07T00:00:00.000Z",
-      "opened_at": "2026-11-09T14:15:51.754Z"
-    },
-    {
-      "id": "v9gypxsbxu",
-      "company": "Sky",
-      "name": "Finance Apprenticeship",
-      "tracker": "uk-finance",
-      "type": "pre-university",
-      "season": "2027",
-      "url": "https://apply.skyearlycareers.targetconnect.com/finance-apprenticeship-2027/925/viewdetails?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-finance/pre-university",
-      "opening_date": "2026-11-09T00:00:00.000Z",
-      "closing_date": "2026-12-06T00:00:00.000Z",
       "opened_at": "2026-11-09T14:15:51.754Z"
     }
   ]
