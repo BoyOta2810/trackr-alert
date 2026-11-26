@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-26T15:16:01.069Z",
+  "updated_at": "2026-11-26T15:20:44.366Z",
   "items": [
+    {
+      "id": "gbic6599ce",
+      "company": "DESNZ",
+      "name": "Energy Statistics Placement Student",
+      "tracker": "uk-tech",
+      "type": "industrial-placements",
+      "season": "2027",
+      "url": "https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=2022928&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/industrial-placements",
+      "opening_date": "2026-11-26T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-26T15:20:44.366Z"
+    },
     {
       "id": "y0d678vwlg",
       "company": "Xeinadin",
@@ -3887,19 +3900,6 @@
       "opening_date": "2026-11-09T00:00:00.000Z",
       "closing_date": "2026-12-13T00:00:00.000Z",
       "opened_at": "2026-11-09T14:45:47.134Z"
-    },
-    {
-      "id": "sor1wedus4",
-      "company": "Johnston Carmichael",
-      "name": "IT Graduate 2027",
-      "tracker": "uk-tech",
-      "type": "graduate-programmes",
-      "season": "2027",
-      "url": "https://careers.johnstoncarmichael.com/Department/Early%20Careers?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
-      "trackr_url": "https://app.the-trackr.com/uk-tech/graduate-programmes",
-      "opening_date": "2026-11-09T00:00:00.000Z",
-      "closing_date": "2026-12-07T00:00:00.000Z",
-      "opened_at": "2026-11-09T14:15:51.754Z"
     }
   ]
 }
