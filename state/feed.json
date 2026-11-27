@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-26T16:50:44.816Z",
+  "updated_at": "2026-11-27T10:10:59.062Z",
   "items": [
+    {
+      "id": "hem5ewma73",
+      "company": "BlockTech",
+      "name": "AI Quantitative Researcher | Internship | '27",
+      "tracker": "uk-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://jobs.ashbyhq.com/blocktech/03898c10-0579-4c9f-bad4-825a7bc8e8c9?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/off-cycle-internships",
+      "opening_date": "2026-11-27T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-27T10:10:59.062Z"
+    },
     {
       "id": "otm1vvt381",
       "company": "Verisk",
@@ -3887,19 +3900,6 @@
       "opening_date": "2026-09-24T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-11-09T15:25:50.614Z"
-    },
-    {
-      "id": "4lnok9aquo",
-      "company": "Saxenhammer",
-      "name": "M&A Intern",
-      "tracker": "germany-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://join.com/companies/saxenhammer-co1?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
-      "opening_date": "2026-10-07T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-09T15:20:45.752Z"
     }
   ]
 }
