@@ -1,6 +1,45 @@
 {
-  "updated_at": "2026-11-27T13:25:55.795Z",
+  "updated_at": "2026-11-27T14:45:47.491Z",
   "items": [
+    {
+      "id": "yescz5v0ts",
+      "company": "EDF Trading",
+      "name": "Intraday Trading Intern, European Power Market Research",
+      "tracker": "france-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://edftrading.wd1.myworkdayjobs.com/en-US/EDFTrading/job/Intraday-Trading-Intern--European-Power-Market-Research_JR1001546?utm_source=Trackr&utm_medium=tracker&utm_campaign=France_Finance_2027&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/france-finance/off-cycle-internships",
+      "opening_date": "2026-11-27T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-27T14:45:47.491Z"
+    },
+    {
+      "id": "vpjnwk6gqg",
+      "company": "EDF Trading",
+      "name": "Optimisation and Trading Analyst Intern (Short-Term Power Markets)",
+      "tracker": "france-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://edftrading.wd1.myworkdayjobs.com/en-US/EDFTrading/job/Optimisation-and-Trading-Analyst-Intern--Short-Term-Power-Markets-_JR1001554?utm_source=Trackr&utm_medium=tracker&utm_campaign=France_Finance_2027&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/france-finance/off-cycle-internships",
+      "opening_date": "2026-11-27T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-27T14:45:47.491Z"
+    },
+    {
+      "id": "omkavpqm3o",
+      "company": "EDF Trading",
+      "name": "Short-Term Analyst Intern",
+      "tracker": "france-finance",
+      "type": "off-cycle-internships",
+      "season": "2027",
+      "url": "https://edftrading.wd1.myworkdayjobs.com/en-US/EDFTrading/job/Short-Term-Analyst-Intern_JR1001545?utm_source=Trackr&utm_medium=tracker&utm_campaign=France_Finance_2027&source=Trackr",
+      "trackr_url": "https://app.the-trackr.com/france-finance/off-cycle-internships",
+      "opening_date": "2026-11-27T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-27T14:45:47.491Z"
+    },
     {
       "id": "3qmn725nd4",
       "company": "Standard Chartered",
@@ -3861,45 +3900,6 @@
       "opening_date": "2026-08-16T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-11-09T15:40:46.272Z"
-    },
-    {
-      "id": "bn30dydks4",
-      "company": "Roots Advisory",
-      "name": "Investment Banking (M&A) Praktikant:in",
-      "tracker": "germany-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://www.roots-advisory.de/career/q2-x7t4m9v2p8k?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
-      "opening_date": "2026-08-27T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-09T15:35:45.543Z"
-    },
-    {
-      "id": "576hl9myyb",
-      "company": "Network Corporate Finance",
-      "name": "Praktikant – M&A",
-      "tracker": "germany-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://www.ncf.de/karriere/?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
-      "opening_date": "2026-08-31T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-09T15:35:45.543Z"
-    },
-    {
-      "id": "6hlyauqpkp",
-      "company": "Livingstone Partners",
-      "name": "Praktikant Mergers & Acquisitions",
-      "tracker": "germany-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://livingstonepartners.com/position/praktikant-m-w-d-mergers-acquisitions/?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
-      "opening_date": "2026-09-01T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-09T15:30:49.690Z"
     }
   ]
 }
