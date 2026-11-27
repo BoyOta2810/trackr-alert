@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-27T10:10:59.062Z",
+  "updated_at": "2026-11-27T13:25:55.795Z",
   "items": [
+    {
+      "id": "3qmn725nd4",
+      "company": "Standard Chartered",
+      "name": "Audit Internship Programme 2027",
+      "tracker": "uk-finance",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://jobs.standardchartered.com/job/Audit-Internship-Programme-UK-2027/66325-en_GB?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-finance/summer-internships",
+      "opening_date": "2026-11-27T00:00:00.000Z",
+      "closing_date": "2026-12-31T00:00:00.000Z",
+      "opened_at": "2026-11-27T13:25:55.795Z"
+    },
     {
       "id": "hem5ewma73",
       "company": "BlockTech",
@@ -3887,19 +3900,6 @@
       "opening_date": "2026-09-01T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-11-09T15:30:49.690Z"
-    },
-    {
-      "id": "ewt3kkmdz5",
-      "company": "Pava Partners",
-      "name": "Praktikant (m/w/d) - M&A/Investment Banking",
-      "tracker": "germany-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://pava.eu/karriere/stellenangebote/?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
-      "opening_date": "2026-09-24T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-09T15:25:50.614Z"
     }
   ]
 }
