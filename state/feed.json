@@ -1,6 +1,19 @@
 {
-  "updated_at": "2026-11-27T14:45:47.491Z",
+  "updated_at": "2026-11-28T13:00:47.134Z",
   "items": [
+    {
+      "id": "1p8thp0dhe",
+      "company": "Apple",
+      "name": "Software Engineer Internship, Apple Services",
+      "tracker": "uk-tech",
+      "type": "summer-internships",
+      "season": "2027",
+      "url": "https://jobs.apple.com/en-gb/details/200696753-2114/software-engineer-interview-apple-services-london-uk?team=SFTWR&utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Tech_2027",
+      "trackr_url": "https://app.the-trackr.com/uk-tech/summer-internships",
+      "opening_date": "2026-11-27T00:00:00.000Z",
+      "closing_date": null,
+      "opened_at": "2026-11-28T13:00:47.134Z"
+    },
     {
       "id": "yescz5v0ts",
       "company": "EDF Trading",
@@ -3885,19 +3898,6 @@
       "url": "https://www.wm-cf.com/praktikum-m-w-d/?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
       "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
       "opening_date": "2026-08-18T00:00:00.000Z",
-      "closing_date": null,
-      "opened_at": "2026-11-09T15:40:46.272Z"
-    },
-    {
-      "id": "bx9dkl34ob",
-      "company": " ABACUS Corporate Finance",
-      "name": "Working student",
-      "tracker": "germany-finance",
-      "type": "off-cycle-internships",
-      "season": "2027",
-      "url": "https://www.abacus-cf.com/en/careers/?utm_source=Trackr&utm_medium=tracker&utm_campaign=Germany_Finance_2027",
-      "trackr_url": "https://app.the-trackr.com/germany-finance/off-cycle-internships",
-      "opening_date": "2026-08-16T00:00:00.000Z",
       "closing_date": null,
       "opened_at": "2026-11-09T15:40:46.272Z"
     }
